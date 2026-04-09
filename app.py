@@ -762,7 +762,6 @@ with col_dl1:
 
 with col_dl2:
     from fpdf import FPDF
-    import tempfile, os
 
     pdf = FPDF(orientation="P", unit="mm", format="A4")
     pdf.set_auto_page_break(auto=True, margin=15)
@@ -871,21 +870,15 @@ with col_dl2:
 
     pdf.ln(4)
 
-    with tempfile.TemporaryDirectory() as tmpdir:
-        img_path = os.path.join(tmpdir, "chart.png")
-        fig.update_layout(paper_bgcolor="#FFFFFF", plot_bgcolor="#FAFAFA",
-                          font=dict(color="#333"),
-                          xaxis=dict(tickfont=dict(color="#666"), linecolor="#DDD", gridcolor="#EEE"),
-                          yaxis=dict(tickfont=dict(color="#666"), linecolor="#DDD", gridcolor="#EEE"))
-        fig.write_image(img_path, width=900, height=450, scale=2)
-
-        pdf.set_font("Arial", "B", 12)
-        pdf.set_text_color(51, 51, 51)
-        pdf.cell(0, 8, "Evolução do Patrimônio", new_x="LMARGIN", new_y="NEXT")
-        pdf.set_draw_color(191, 155, 48)
-        pdf.line(pdf.get_x(), pdf.get_y(), pdf.get_x() + 50, pdf.get_y())
-        pdf.ln(2)
-        pdf.image(img_path, x=10, w=190)
+    pdf.set_font("Arial", "B", 12)
+    pdf.set_text_color(51, 51, 51)
+    pdf.cell(0, 8, "Evolução do Patrimônio", new_x="LMARGIN", new_y="NEXT")
+    pdf.set_draw_color(191, 155, 48)
+    pdf.line(pdf.get_x(), pdf.get_y(), pdf.get_x() + 50, pdf.get_y())
+    pdf.ln(3)
+    pdf.set_font("Arial", "", 8)
+    pdf.set_text_color(102, 102, 102)
+    pdf.cell(0, 5, "Gráfico interativo disponível no relatório HTML.", new_x="LMARGIN", new_y="NEXT")
 
     pdf.add_page()
     pdf.set_font("Arial", "B", 12)

@@ -925,7 +925,6 @@ with col_dl1:
 
 with col_dl2:
     from fpdf import FPDF
-    import tempfile, os
 
     pdf = FPDF(orientation="P", unit="mm", format="A4")
     pdf.set_auto_page_break(auto=True, margin=15)
@@ -1041,45 +1040,17 @@ with col_dl2:
     pdf.cell(0, 5, f"Comparativo: {melhor} vence | Imóvel: {fmt(patrimonio_liquido[-1])} | Mercado: {fmt(alt_final)} | Diferença: {fmt(abs(diferenca))}", new_x="LMARGIN", new_y="NEXT")
     pdf.ln(6)
 
-    # Gráficos como imagens
-    with tempfile.TemporaryDirectory() as tmpdir:
-        img1_path = os.path.join(tmpdir, "chart1.png")
-        img2_path = os.path.join(tmpdir, "chart2.png")
-
-        fig1.update_layout(
-            paper_bgcolor="#FFFFFF", plot_bgcolor="#FAFAFA",
-            font=dict(color="#333"),
-            xaxis=dict(tickfont=dict(color="#666"), linecolor="#DDD", gridcolor="#EEE"),
-            yaxis=dict(tickfont=dict(color="#666"), linecolor="#DDD", gridcolor="#EEE"),
-        )
-        fig2.update_layout(
-            paper_bgcolor="#FFFFFF", plot_bgcolor="#FAFAFA",
-            font=dict(color="#333"),
-            xaxis=dict(tickfont=dict(color="#666"), linecolor="#DDD", gridcolor="#EEE"),
-            yaxis=dict(tickfont=dict(color="#666"), linecolor="#DDD", gridcolor="#EEE"),
-        )
-
-        fig1.write_image(img1_path, width=900, height=380, scale=2)
-        fig2.write_image(img2_path, width=900, height=400, scale=2)
-
-        pdf.set_font("Arial", "B", 12)
-        pdf.set_text_color(51, 51, 51)
-        pdf.cell(0, 8, "Fluxo de Caixa Acumulado", new_x="LMARGIN", new_y="NEXT")
-        pdf.set_draw_color(191, 155, 48)
-        pdf.line(pdf.get_x(), pdf.get_y(), pdf.get_x() + 55, pdf.get_y())
-        pdf.ln(2)
-        pdf.image(img1_path, x=10, w=190)
-        pdf.ln(4)
-
-        pdf.add_page()
-        pdf.set_font("Arial", "B", 12)
-        pdf.set_text_color(51, 51, 51)
-        pdf.cell(0, 8, "Patrimônio: Imóvel vs Mercado Financeiro", new_x="LMARGIN", new_y="NEXT")
-        pdf.set_draw_color(191, 155, 48)
-        pdf.line(pdf.get_x(), pdf.get_y(), pdf.get_x() + 75, pdf.get_y())
-        pdf.ln(2)
-        pdf.image(img2_path, x=10, w=190)
-        pdf.ln(6)
+    # Gráficos - nota no PDF
+    pdf.set_font("Arial", "B", 12)
+    pdf.set_text_color(51, 51, 51)
+    pdf.cell(0, 8, "Gráficos", new_x="LMARGIN", new_y="NEXT")
+    pdf.set_draw_color(191, 155, 48)
+    pdf.line(pdf.get_x(), pdf.get_y(), pdf.get_x() + 30, pdf.get_y())
+    pdf.ln(3)
+    pdf.set_font("Arial", "", 8)
+    pdf.set_text_color(102, 102, 102)
+    pdf.cell(0, 5, "Gráficos interativos disponíveis no relatório HTML.", new_x="LMARGIN", new_y="NEXT")
+    pdf.ln(4)
 
     # Tabela
     pdf.set_font("Arial", "B", 12)
