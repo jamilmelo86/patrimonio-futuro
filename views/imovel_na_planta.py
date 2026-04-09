@@ -8,12 +8,6 @@ from io import BytesIO
 from urllib.parse import urlencode
 import base64, pathlib
 
-st.set_page_config(
-    page_title="Imóvel na Planta — Mithril Capital",
-    page_icon="assets/icon.png",
-    layout="wide",
-)
-
 # --- Brand tokens ---
 GOLD = "#BF9B30"
 GOLD_LIGHT = "#D4B44C"
