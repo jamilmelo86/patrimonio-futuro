@@ -1,0 +1,25 @@
+---
+import { SITE } from "../consts";
+// Slot de anúncio. Enquanto SITE.adsenseClient estiver vazio, mostra só um
+// placeholder. Ao configurar o AdSense, preencha adsenseClient e o `slot`.
+interface Props {
+  slot?: string;
+}
+const { slot = "" } = Astro.props;
+const ativo = SITE.adsenseClient !== "" && slot !== "";
+---
+{ativo ? (
+  <ins
+    class="adsbygoogle"
+    style="display:block"
+    data-ad-client={SITE.adsenseClient}
+    data-ad-slot={slot}
+    data-ad-format="auto"
+    data-full-width-responsive="true"
+  ></ins>
+  <script is:inline>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+) : (
+  <div class="ad-slot">espaço reservado para anúncio</div>
+)}

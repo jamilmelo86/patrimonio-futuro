@@ -1,0 +1,19 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { SITE } from "../consts";
+---
+<BaseLayout title="Contato" description={`Fale com a equipe do ${SITE.name}.`}>
+  <article class="artigo">
+    <h1>Contato</h1>
+    <div class="conteudo">
+      <p>Adoramos receber sugestões de boas notícias, correções e propostas de parceria.</p>
+      <p>
+        E-mail: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+      </p>
+      {SITE.social.instagram && (
+        <p>Instagram: <a href={`https://instagram.com/${SITE.social.instagram}`} rel="noopener">@{SITE.social.instagram}</a></p>
+      )}
+      <p>Respondemos o mais rápido que conseguimos. Obrigado por espalhar coisa boa! ☀️</p>
+    </div>
+  </article>
+</BaseLayout>

@@ -1,0 +1,58 @@
+# Painel de curadoria (Decap CMS).
+#
+# BACKEND — escolha UMA opção:
+#   (A) Netlify Identity + Git Gateway (mais fácil, sem código):
+#       deixe como está abaixo e ative "Identity" + "Git Gateway" no painel da Netlify.
+#   (B) GitHub direto (sem Netlify): troque o bloco `backend` por:
+#         backend:
+#           name: github
+#           repo: jamilmelo86/patrimonio-futuro
+#           branch: master
+#       e configure o OAuth (veja o README).
+backend:
+  name: git-gateway
+  branch: master
+
+# Idioma da interface
+locale: "pt"
+
+# Onde ficam as imagens enviadas pelo painel
+media_folder: "portal/site/public/uploads"
+public_folder: "/uploads"
+
+# Mostra rascunhos e permite fluxo de aprovação
+publish_mode: editorial_workflow
+
+collections:
+  - name: "noticias"
+    label: "Notícias"
+    label_singular: "Notícia"
+    folder: "portal/site/src/content/posts"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: titulo
+    summary: "{{titulo}}  ·  {{#if draft}}🟡 RASCUNHO{{else}}🟢 publicado{{/if}}"
+    fields:
+      - { name: "titulo", label: "Título", widget: "string" }
+      - { name: "resumo", label: "Chamada (resumo curto)", widget: "text" }
+      - name: "categoria"
+        label: "Categoria"
+        widget: "select"
+        options:
+          - { label: "Ciência", value: "ciencia" }
+          - { label: "Solidariedade", value: "solidariedade" }
+          - { label: "Meio Ambiente", value: "meio-ambiente" }
+          - { label: "Saúde", value: "saude" }
+          - { label: "Animais", value: "animais" }
+          - { label: "Superação", value: "superacao" }
+          - { label: "Tecnologia do Bem", value: "tecnologia" }
+          - { label: "Mundo", value: "mundo" }
+      - { name: "data", label: "Data", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { name: "fonteNome", label: "Nome da fonte", widget: "string", hint: "Ex.: G1, Positive News" }
+      - { name: "fonteUrl", label: "Link da fonte (obrigatório)", widget: "string" }
+      - { name: "imagem", label: "Imagem de capa (URL ou /uploads/...)", widget: "string", required: false }
+      - { name: "creditoImagem", label: "Crédito da imagem", widget: "string", required: false }
+      - { name: "tags", label: "Tags", widget: "list", required: false }
+      - { name: "destaque", label: "Destacar na home?", widget: "boolean", default: false }
+      - { name: "draft", label: "Rascunho (desmarque para publicar)", widget: "boolean", default: true }
+      - { name: "body", label: "Texto (resumo original — nunca copie a fonte)", widget: "markdown" }

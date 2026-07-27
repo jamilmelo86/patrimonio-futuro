@@ -1,0 +1,34 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { SITE } from "../consts";
+---
+<BaseLayout title="Sobre" description={`Sobre o ${SITE.name}: por que existimos e como trabalhamos.`}>
+  <article class="artigo">
+    <h1>Sobre o {SITE.name}</h1>
+    <div class="conteudo">
+      <p>
+        O <strong>{SITE.name}</strong> nasceu de uma ideia simples: a maior parte dos portais foca
+        no que dá errado. Nós fazemos o contrário. Reunimos, todos os dias, histórias de ciência,
+        solidariedade, meio ambiente, saúde, superação e tecnologia do bem — do Brasil e do mundo.
+      </p>
+      <h2>Como escolhemos as notícias</h2>
+      <p>
+        Acompanhamos veículos de imprensa e fontes confiáveis. Uma curadoria (com apoio de
+        tecnologia) seleciona os melhores fatos positivos e escreve um <strong>resumo original</strong>
+        em português. Nada de copiar matéria: o que você lê aqui é conteúdo próprio, e todo texto
+        traz um <strong>link para a fonte original</strong> para você conferir e se aprofundar.
+      </p>
+      <h2>Nosso compromisso</h2>
+      <ul>
+        <li>Creditar sempre a fonte original, com link.</li>
+        <li>Priorizar fatos verificáveis, não boatos.</li>
+        <li>Escrever de forma clara, leve e honesta.</li>
+        <li>Corrigir rápido qualquer erro que aparecer.</li>
+      </ul>
+      <p>
+        Encontrou algo para corrigir ou quer sugerir uma boa notícia?
+        Fale com a gente na <a href="/contato/">página de contato</a>.
+      </p>
+    </div>
+  </article>
+</BaseLayout>

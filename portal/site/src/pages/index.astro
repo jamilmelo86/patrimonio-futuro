@@ -1,0 +1,68 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PostCard from "../components/PostCard.astro";
+import AdSlot from "../components/AdSlot.astro";
+import NewsletterSignup from "../components/NewsletterSignup.astro";
+import { SITE, CATEGORIAS } from "../consts";
+
+// Só publicados (draft:false), mais recentes primeiro.
+const posts = (await getCollection("posts", ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.data.valueOf() - a.data.data.valueOf(),
+);
+
+const destaque = posts.find((p) => p.data.destaque) ?? posts[0];
+const ultimas = posts.filter((p) => p.id !== destaque?.id).slice(0, 12);
+---
+<BaseLayout>
+  <section class="hero">
+    <div class="container">
+      <h1>{SITE.tagline} ☀️</h1>
+      <p>{SITE.description}</p>
+    </div>
+  </section>
+
+  <div class="container">
+    {posts.length === 0 ? (
+      <p style="text-align:center;padding:48px 0;color:var(--tinta-suave)">
+        Ainda não há notícias publicadas. Em breve, muitas boas novas por aqui!
+      </p>
+    ) : (
+      <>
+        {destaque && (
+          <>
+            <div class="secao-titulo"><h2>Destaque</h2></div>
+            <div class="grid" style="grid-template-columns:1fr">
+              <PostCard post={destaque} />
+            </div>
+          </>
+        )}
+
+        <AdSlot />
+
+        <div class="secao-titulo">
+          <h2>Últimas boas notícias</h2>
+          <a href="/rss.xml">RSS</a>
+        </div>
+        <div class="grid">
+          {ultimas.map((post) => <PostCard post={post} />)}
+        </div>
+
+        <NewsletterSignup />
+
+        <div class="secao-titulo"><h2>Explore por categoria</h2></div>
+        <div class="grid">
+          {CATEGORIAS.map((c) => (
+            <a class="card" href={`/categoria/${c.slug}/`} style="text-decoration:none">
+              <div class="corpo">
+                <div style="font-size:2rem">{c.emoji}</div>
+                <h3 style="margin:0">{c.nome}</h3>
+                <p class="resumo">{c.descricao}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      </>
+    )}
+  </div>
+</BaseLayout>

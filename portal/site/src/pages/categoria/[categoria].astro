@@ -1,0 +1,39 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PostCard from "../../components/PostCard.astro";
+import NewsletterSignup from "../../components/NewsletterSignup.astro";
+import { CATEGORIAS, categoriaPorSlug } from "../../consts";
+
+export async function getStaticPaths() {
+  return CATEGORIAS.map((c) => ({ params: { categoria: c.slug } }));
+}
+
+const { categoria } = Astro.params;
+const cat = categoriaPorSlug(categoria);
+
+const posts = (
+  await getCollection("posts", ({ data }) => !data.draft && data.categoria === categoria)
+).sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf());
+---
+<BaseLayout title={cat?.nome} description={cat?.descricao}>
+  <section class="hero">
+    <div class="container">
+      <h1>{cat?.emoji} {cat?.nome}</h1>
+      <p>{cat?.descricao}</p>
+    </div>
+  </section>
+
+  <div class="container">
+    {posts.length === 0 ? (
+      <p style="text-align:center;padding:48px 0;color:var(--tinta-suave)">
+        Ainda não há notícias nesta categoria. Volte em breve!
+      </p>
+    ) : (
+      <div class="grid" style="margin-top:32px">
+        {posts.map((post) => <PostCard post={post} />)}
+      </div>
+    )}
+    <NewsletterSignup />
+  </div>
+</BaseLayout>

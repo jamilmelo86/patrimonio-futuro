@@ -1,0 +1,48 @@
+name: Ingestão diária de boas notícias
+
+# Roda todo dia às 09:00 UTC (06:00 em Brasília) e também sob demanda.
+# OBS: o GitHub só executa cron a partir da branch padrão do repositório.
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  gerar-rascunhos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependências
+        working-directory: portal/pipeline
+        run: pip install -r requirements.txt
+
+      - name: Gerar rascunhos
+        working-directory: portal/pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GUARDIAN_API_KEY: ${{ secrets.GUARDIAN_API_KEY }}
+          NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
+          MAX_DRAFTS: "8"
+        run: python gerar_rascunhos.py
+
+      - name: Commitar novos rascunhos
+        run: |
+          git config user.name "robô-boas-noticias"
+          git config user.email "actions@github.com"
+          git add portal/site/src/content/posts portal/pipeline/_estado
+          if git diff --staged --quiet; then
+            echo "Nenhum rascunho novo hoje."
+          else
+            git commit -m "Rascunhos automáticos de boas notícias ($(date +%F))"
+            git push
+          fi

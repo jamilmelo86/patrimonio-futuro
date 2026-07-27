@@ -1,0 +1,44 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { SITE } from "../consts";
+---
+<BaseLayout title="Política de Privacidade" description="Como o site trata dados, cookies e anúncios.">
+  <article class="artigo">
+    <h1>Política de Privacidade</h1>
+    <div class="conteudo">
+      <p><em>Última atualização: {new Date().toLocaleDateString("pt-BR")}</em></p>
+
+      <p>
+        Esta política explica como o <strong>{SITE.name}</strong> ("nós") trata informações ao usar
+        o site. Ao navegar, você concorda com as práticas descritas abaixo. Seguimos a Lei Geral de
+        Proteção de Dados (LGPD, Lei nº 13.709/2018).
+      </p>
+
+      <h2>Dados que coletamos</h2>
+      <ul>
+        <li><strong>Newsletter:</strong> se você assinar, guardamos seu e-mail apenas para enviar as boas notícias. Você pode se descadastrar a qualquer momento pelo link no rodapé de cada e-mail.</li>
+        <li><strong>Dados de navegação:</strong> podemos usar ferramentas de estatística (ex.: análise de acessos) que coletam dados anônimos, como páginas visitadas e tipo de dispositivo.</li>
+      </ul>
+
+      <h2>Cookies e anúncios</h2>
+      <p>
+        Podemos exibir anúncios de terceiros, incluindo o <strong>Google AdSense</strong>. Fornecedores
+        terceiros, como o Google, usam cookies para exibir anúncios com base em visitas anteriores a
+        este e a outros sites. Você pode desativar a publicidade personalizada nas
+        <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener">Configurações de anúncios do Google</a>.
+      </p>
+
+      <h2>Links externos</h2>
+      <p>
+        Cada notícia traz o link para a fonte original. Não somos responsáveis pelas práticas de
+        privacidade de sites de terceiros.
+      </p>
+
+      <h2>Seus direitos</h2>
+      <p>
+        Você pode solicitar acesso, correção ou exclusão dos seus dados a qualquer momento pelo
+        e-mail <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
+      </p>
+    </div>
+  </article>
+</BaseLayout>

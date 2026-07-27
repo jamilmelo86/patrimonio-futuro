@@ -1,0 +1,30 @@
+---
+import { categoriaPorSlug } from "../consts";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  post: CollectionEntry<"posts">;
+}
+const { post } = Astro.props;
+const { titulo, resumo, categoria, data, imagem } = post.data;
+const cat = categoriaPorSlug(categoria);
+const dataFmt = data.toLocaleDateString("pt-BR", { day: "2-digit", month: "short", year: "numeric" });
+const href = `/noticia/${post.id}/`;
+---
+<article class="card">
+  <a href={href} aria-label={titulo}>
+    {imagem ? (
+      <img class="capa" src={imagem} alt={titulo} loading="lazy" />
+    ) : (
+      <div class="capa capa-emoji">{cat?.emoji ?? "📰"}</div>
+    )}
+  </a>
+  <div class="corpo">
+    <a class="tag-categoria" href={`/categoria/${categoria}/`}>
+      {cat?.emoji} {cat?.nome}
+    </a>
+    <h3><a href={href}>{titulo}</a></h3>
+    <p class="resumo">{resumo}</p>
+    <div class="meta">{dataFmt}</div>
+  </div>
+</article>

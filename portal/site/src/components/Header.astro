@@ -1,0 +1,18 @@
+---
+import { SITE, CATEGORIAS } from "../consts";
+// Mostra as primeiras categorias no menu; o resto fica no rodapé.
+const principais = CATEGORIAS.slice(0, 5);
+---
+<header class="site-header">
+  <div class="container">
+    <a class="marca" href="/">
+      <span class="sol">☀️</span> {SITE.name}
+    </a>
+    <nav class="nav" aria-label="Categorias">
+      {principais.map((c) => (
+        <a href={`/categoria/${c.slug}/`}>{c.nome}</a>
+      ))}
+      <a href="/sobre/">Sobre</a>
+    </nav>
+  </div>
+</header>

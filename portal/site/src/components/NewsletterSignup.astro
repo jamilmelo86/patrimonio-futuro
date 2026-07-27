@@ -1,0 +1,14 @@
+---
+// Captura de e-mail. Troque o `action` pelo endpoint do seu provedor
+// (MailerLite, Beehiiv, Substack etc.). Por enquanto não envia para lugar nenhum.
+const action = "#";
+---
+<section class="newsletter">
+  <h2>Receba uma dose de boas notícias 💌</h2>
+  <p>As melhores histórias da semana no seu e-mail. Sem spam, sem tragédia.</p>
+  <form action={action} method="post">
+    <input type="email" name="email" placeholder="seu@email.com" required aria-label="Seu e-mail" />
+    <button class="btn" type="submit">Quero receber</button>
+  </form>
+  <small>Ao assinar, você concorda com nossa <a href="/privacidade/" style="color:#fff;text-decoration:underline">Política de Privacidade</a>.</small>
+</section>

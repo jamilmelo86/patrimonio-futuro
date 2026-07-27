@@ -1,0 +1,20 @@
+---
+import { SITE, CATEGORIAS } from "../consts";
+const ano = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="container">
+    <div>
+      <strong>{SITE.name}</strong> — {SITE.tagline}.<br />
+      <span>© {ano} · Todo o conteúdo credita a fonte original.</span><br />
+      <a href="/sobre/">Sobre</a> · <a href="/contato/">Contato</a> ·
+      <a href="/privacidade/">Privacidade</a> · <a href="/rss.xml">RSS</a>
+    </div>
+    <div class="cats">
+      <strong>Categorias</strong><br />
+      {CATEGORIAS.map((c) => (
+        <a href={`/categoria/${c.slug}/`}>{c.nome}</a>
+      ))}
+    </div>
+  </div>
+</footer>

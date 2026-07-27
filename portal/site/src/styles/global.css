@@ -1,0 +1,349 @@
+:root {
+  --amarelo: #f5b400;
+  --amarelo-claro: #fff6da;
+  --verde: #1f9d64;
+  --verde-escuro: #157048;
+  --tinta: #1f2430;
+  --tinta-suave: #55607a;
+  --linha: #e8eaf0;
+  --fundo: #ffffff;
+  --fundo-suave: #f7f8fb;
+  --sombra: 0 6px 24px rgba(31, 36, 48, 0.08);
+  --raio: 14px;
+  --largura: 1120px;
+  --fonte: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--fonte);
+  color: var(--tinta);
+  background: var(--fundo);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--verde-escuro);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--largura);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+  color: var(--tinta);
+  margin: 0 0 0.5em;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--verde);
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 999px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+.btn:hover {
+  background: var(--verde-escuro);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.tag-categoria {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--amarelo-claro);
+  color: #8a6400;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.tag-categoria:hover {
+  text-decoration: none;
+  filter: brightness(0.97);
+}
+
+/* ---------- Cabeçalho ---------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--linha);
+}
+.site-header .container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-height: 68px;
+  flex-wrap: wrap;
+}
+.marca {
+  font-weight: 800;
+  font-size: 1.35rem;
+  color: var(--tinta);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.marca:hover {
+  text-decoration: none;
+}
+.marca .sol {
+  color: var(--amarelo);
+}
+.nav {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-left: auto;
+  align-items: center;
+}
+.nav a {
+  color: var(--tinta-suave);
+  font-weight: 500;
+  font-size: 0.92rem;
+}
+.nav a:hover {
+  color: var(--verde-escuro);
+  text-decoration: none;
+}
+
+/* ---------- Cards ---------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+}
+.card {
+  background: var(--fundo);
+  border: 1px solid var(--linha);
+  border-radius: var(--raio);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--sombra);
+}
+.card .capa {
+  aspect-ratio: 16 / 9;
+  background: linear-gradient(135deg, var(--amarelo-claro), #eafaf0);
+  object-fit: cover;
+  width: 100%;
+}
+.card .capa-emoji {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+.card .corpo {
+  padding: 16px 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+.card h3 {
+  font-size: 1.12rem;
+  margin: 0;
+}
+.card h3 a {
+  color: var(--tinta);
+}
+.card h3 a:hover {
+  color: var(--verde-escuro);
+  text-decoration: none;
+}
+.card .resumo {
+  color: var(--tinta-suave);
+  font-size: 0.94rem;
+  margin: 0;
+}
+.card .meta {
+  margin-top: auto;
+  font-size: 0.8rem;
+  color: var(--tinta-suave);
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  background: linear-gradient(135deg, var(--amarelo-claro) 0%, #eafaf0 100%);
+  padding: 54px 0;
+  text-align: center;
+}
+.hero h1 {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+}
+.hero p {
+  color: var(--tinta-suave);
+  font-size: 1.1rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.secao-titulo {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 40px 0 18px;
+  gap: 12px;
+}
+.secao-titulo h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* ---------- Artigo ---------- */
+.artigo {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 20px 12px;
+}
+.artigo h1 {
+  font-size: clamp(1.6rem, 3.5vw, 2.3rem);
+}
+.artigo .conteudo {
+  font-size: 1.08rem;
+  color: #2a3040;
+}
+.artigo .conteudo p {
+  margin: 0 0 1.1em;
+}
+.fonte-box {
+  margin: 28px 0;
+  padding: 16px 18px;
+  background: var(--fundo-suave);
+  border-left: 4px solid var(--verde);
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+.fonte-box strong {
+  color: var(--tinta);
+}
+
+/* ---------- Anúncio ---------- */
+.ad-slot {
+  margin: 28px auto;
+  max-width: 100%;
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed var(--linha);
+  border-radius: 10px;
+  color: #aab;
+  font-size: 0.8rem;
+  background: var(--fundo-suave);
+}
+
+/* ---------- Newsletter ---------- */
+.newsletter {
+  background: var(--verde-escuro);
+  color: #fff;
+  border-radius: var(--raio);
+  padding: 32px 28px;
+  text-align: center;
+  margin: 40px 0;
+}
+.newsletter h2 {
+  color: #fff;
+  margin-bottom: 6px;
+}
+.newsletter p {
+  color: #d6f0e2;
+  margin: 0 0 18px;
+}
+.newsletter form {
+  display: flex;
+  gap: 10px;
+  max-width: 460px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.newsletter input[type="email"] {
+  flex: 1;
+  min-width: 220px;
+  padding: 12px 16px;
+  border-radius: 999px;
+  border: none;
+  font-size: 1rem;
+}
+.newsletter .btn {
+  background: var(--amarelo);
+  color: var(--tinta);
+}
+.newsletter .btn:hover {
+  background: #ffca2c;
+}
+.newsletter small {
+  display: block;
+  margin-top: 12px;
+  color: #a9d8c2;
+}
+
+/* ---------- Rodapé ---------- */
+.site-footer {
+  background: var(--fundo-suave);
+  border-top: 1px solid var(--linha);
+  margin-top: 56px;
+  padding: 36px 0;
+  color: var(--tinta-suave);
+  font-size: 0.9rem;
+}
+.site-footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: space-between;
+}
+.site-footer a {
+  color: var(--tinta-suave);
+}
+.site-footer .cats a {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+@media (max-width: 640px) {
+  .nav {
+    gap: 10px;
+    font-size: 0.85rem;
+  }
+  .hero {
+    padding: 38px 0;
+  }
+}
