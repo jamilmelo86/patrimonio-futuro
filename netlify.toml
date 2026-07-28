@@ -1,0 +1,24 @@
+# Configuração de deploy do site "O Lado Bom" (Astro) no Netlify.
+# O site fica na subpasta portal/site; o resto do repositório é ignorado no build.
+
+[build]
+  base = "portal/site"
+  command = "npm run build"
+  publish = "dist"          # relativo à "base" -> portal/site/dist
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Atalho amigável: /rss -> /rss.xml
+[[redirects]]
+  from = "/rss"
+  to = "/rss.xml"
+  status = 301
+
+# Cabeçalhos básicos de segurança
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"

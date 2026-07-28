@@ -89,6 +89,9 @@ As imagens 1080×1080 saem em `pipeline/_cards/`. Publique no Instagram com "lin
 
 ## 6) Publicar na internet (deploy)
 
+📘 **Guia clicável completo:** veja [`DEPLOY.md`](./DEPLOY.md). O `netlify.toml` na raiz
+do repositório já configura tudo — é só conectar o repo no Netlify.
+
 Recomendado: **Netlify** ou **Vercel** (plano gratuito).
 
 - **Base directory:** `portal/site`
