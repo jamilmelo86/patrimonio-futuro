@@ -21,7 +21,7 @@ export const SITE = {
     youtube: "",
   },
   /** ID do AdSense (ca-pub-XXXX). Vazio = anúncios desligados. */
-  adsenseClient: "",
+  adsenseClient: "ca-pub-1125789866460980",
 } as const;
 
 export type Categoria = {
