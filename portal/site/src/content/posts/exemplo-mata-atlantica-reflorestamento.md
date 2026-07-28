@@ -6,7 +6,6 @@ data: 2026-07-20
 fonteNome: "SOS Mata Atlântica"
 fonteUrl: "https://www.sosma.org.br/"
 tags: ["reflorestamento", "brasil", "natureza"]
-destaque: true
 draft: false
 ---
 
