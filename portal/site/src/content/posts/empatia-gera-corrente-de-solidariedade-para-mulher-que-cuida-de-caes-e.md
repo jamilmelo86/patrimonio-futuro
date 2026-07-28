@@ -1,12 +1,21 @@
 ---
-titulo: "Empatia gera corrente de solidariedade para mulher que cuida de cães em situação de rua"
-resumo: "Jovem se emociona com dedicação de mulher que protege 10 cães nas ruas de SP e mobiliza centenas em ato de generosidade."
-categoria: "solidariedade"
+titulo: Empatia gera corrente de solidariedade para mulher que cuida de cães em
+  situação de rua
+resumo: Jovem se emociona com dedicação de mulher que protege 10 cães nas ruas
+  de SP e mobiliza centenas em ato de generosidade.
+categoria: solidariedade
 data: 2026-07-27
-fonteNome: "Só Notícia Boa"
-fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/27/jovem-emociona-mulher-cuida-cachorros-rua-mobiliza-corrente-do-bem-video"
-tags: ["empatia", "solidariedade", "pessoas em situação de rua", "bem-estar animal", "corrente do bem", "São Paulo"]
-draft: true
+fonteNome: Só Notícia Boa
+fonteUrl: https://www.sonoticiaboa.com.br/2026/07/27/jovem-emociona-mulher-cuida-cachorros-rua-mobiliza-corrente-do-bem-video
+tags:
+  - empatia
+  - solidariedade
+  - pessoas em situação de rua
+  - bem-estar animal
+  - corrente do bem
+  - São Paulo
+destaque: true
+draft: false
 ---
 
 Uma história tocante de empatia e solidariedade começou quando Catherine conheceu Mônica, uma mulher em situação de rua que dedica sua vida ao cuidado de dez cães em São Paulo. Movida pela dedicação e coragem dessa mulher, Catherine decidiu documentar essa realidade e compartilhar a história, buscando mobilizar pessoas ao seu redor para ajudar.
