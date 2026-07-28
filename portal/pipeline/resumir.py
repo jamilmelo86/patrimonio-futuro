@@ -34,8 +34,14 @@ português do Brasil, claro e otimista, SEM copiar frases da fonte.
 Regras:
 - NUNCA copie trechos literais; reescreva com suas próprias palavras.
 - Seja factual: não invente números, nomes ou fatos que não estejam na referência.
-- Se a referência não for claramente uma boa notícia (ou for trágica/negativa),
-  marque "eh_boa_noticia": false.
+- Publique SOMENTE se for um FATO ou EVENTO jornalístico real e recente. Marque
+  "eh_boa_noticia": false (vetar) se for: notícia trágica/negativa; opinião ou
+  editorial; texto de autoajuda, motivacional, religioso ou filosófico; horóscopo;
+  receita; lista/curiosidades genéricas ("X dicas", "X frases", "X coisas que...");
+  publicidade ou divulgação de produto/curso/serviço; resenha; ou fofoca/entretenimento
+  de celebridade sem um fato concreto e relevante.
+- Escolha a categoria que MELHOR descreve o fato central. Se a matéria não encaixar
+  bem em nenhuma editoria, prefira vetar em vez de forçar uma categoria errada.
 - O corpo deve ter de 4 a 6 parágrafos (aproximadamente 250 a 380 palavras),
   explicando o que aconteceu, o contexto, por que importa e o impacto. Nada de
   resumo raso: desenvolva a história com clareza.

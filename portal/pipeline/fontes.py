@@ -41,9 +41,20 @@ FEEDS_RSS: list[dict] = [
     {"nome": "Razões para Acreditar", "url": "https://razoesparaacreditar.com/feed/", "idioma": "pt"},
     {"nome": "Catraca Livre", "url": "https://catracalivre.com.br/feed/", "idioma": "pt"},
     {"nome": "Hypeness", "url": "https://www.hypeness.com.br/feed/", "idioma": "pt"},
+    {"nome": "CicloVivo", "url": "https://ciclovivo.com.br/feed/", "idioma": "pt"},
     {"nome": "Positive News", "url": "https://www.positive.news/feed/", "idioma": "en"},
     {"nome": "Good News Network", "url": "https://www.goodnewsnetwork.org/feed/", "idioma": "en"},
 ]
+
+# Não trazer notícia velha (dias). Ajustável via MAX_IDADE_DIAS.
+MAX_IDADE_DIAS = int(os.getenv("MAX_IDADE_DIAS", "45"))
+
+
+def _muito_antigo(pub: datetime) -> bool:
+    try:
+        return (datetime.now(timezone.utc) - pub).days > MAX_IDADE_DIAS
+    except (TypeError, ValueError):
+        return False
 
 
 def _parse_data(entry) -> datetime | None:
@@ -83,6 +94,9 @@ def coletar_rss(limite_por_feed: int = 15) -> list[Artigo]:
             print(f"[fontes] erro ao ler {feed['nome']}: {exc}")
             continue
         for entry in data.entries[:limite_por_feed]:
+            pub = _parse_data(entry)
+            if pub and _muito_antigo(pub):
+                continue  # notícia velha demais
             resumo = getattr(entry, "summary", "") or ""
             artigos.append(
                 Artigo(
@@ -90,7 +104,7 @@ def coletar_rss(limite_por_feed: int = 15) -> list[Artigo]:
                     url=getattr(entry, "link", "").strip(),
                     fonte_nome=feed["nome"],
                     trecho=resumo,
-                    publicado=_parse_data(entry),
+                    publicado=pub,
                     idioma=feed["idioma"],
                     imagem=_imagem_do_entry(entry),
                     tags_origem=[t.get("term", "") for t in getattr(entry, "tags", []) or []],

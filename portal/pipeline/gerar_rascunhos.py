@@ -29,6 +29,7 @@ from filtro import (
     carregar_ja_vistos,
     filtrar_novos,
     salvar_ja_vistos,
+    titulos_ja_publicados,
     urls_ja_publicadas,
 )
 
@@ -36,6 +37,8 @@ RAIZ = Path(__file__).resolve().parent
 CONTENT_DIR = Path(os.getenv("CONTENT_DIR", RAIZ.parent / "site" / "src" / "content" / "posts"))
 LEDGER = RAIZ / "_estado" / "ja_vistos.json"
 MAX_DRAFTS = int(os.getenv("MAX_DRAFTS", "8"))
+# Máximo de rascunhos por editoria numa mesma execução (mantém o dia variado).
+MAX_POR_CATEGORIA = int(os.getenv("MAX_POR_CATEGORIA", "3"))
 
 # Por padrão NÃO reaproveitamos a imagem da fonte: evita questão de direitos
 # autorais e URLs inválidas (ex.: embed de vídeo). Fica o placeholder colorido da
@@ -106,29 +109,47 @@ def main() -> None:
     print(f"[pipeline] destino: {CONTENT_DIR}")
     ja_vistos = carregar_ja_vistos(LEDGER)
     publicados = urls_ja_publicadas(CONTENT_DIR)
+    titulos_pub = titulos_ja_publicados(CONTENT_DIR)
 
     brutos = fontes.coletar_tudo()
     print(f"[pipeline] {len(brutos)} artigos coletados no total")
 
-    candidatos = filtrar_novos(brutos, ja_vistos, publicados)
-    print(f"[pipeline] {len(candidatos)} candidatos novos após filtro de positividade")
+    candidatos = filtrar_novos(brutos, ja_vistos, publicados, titulos_pub)
+    print(f"[pipeline] {len(candidatos)} candidatos após filtro (positividade, dedup de URL e título)")
 
     criados = 0
+    tentativas = 0
+    limite_tentativas = MAX_DRAFTS * 3  # não gastar IA à toa
+    por_categoria: dict[str, int] = {}
+
     for artigo in candidatos:
-        if criados >= MAX_DRAFTS:
+        if criados >= MAX_DRAFTS or tentativas >= limite_tentativas:
             break
-        ja_vistos.add(artigo.url.split("?")[0].rstrip("/").lower())
+        tentativas += 1
+        chave = artigo.url.split("?")[0].rstrip("/").lower()
+
         dados = resumir.reescrever(artigo)
         if dados is None:
-            print(f"[pipeline]  ✗ vetado pela IA: {artigo.titulo[:60]}")
+            ja_vistos.add(chave)  # vetado pela IA: não reprocessar
+            print(f"[pipeline]  ✗ vetado (não é boa notícia): {artigo.titulo[:60]}")
             continue
+
+        cat = dados.get("categoria", "mundo")
+        if por_categoria.get(cat, 0) >= MAX_POR_CATEGORIA:
+            # editoria já cheia nesta execução — adia para a próxima (não marca visto)
+            print(f"[pipeline]  ↷ adiado (editoria '{cat}' cheia): {artigo.titulo[:50]}")
+            continue
+
+        ja_vistos.add(chave)
         caminho = gravar_rascunho(dados, artigo)
+        por_categoria[cat] = por_categoria.get(cat, 0) + 1
         criados += 1
         marca = " (esqueleto)" if dados.get("_fallback") else ""
-        print(f"[pipeline]  ✓ rascunho{marca}: {caminho.name}")
+        print(f"[pipeline]  ✓ rascunho{marca} [{cat}]: {caminho.name}")
 
     salvar_ja_vistos(LEDGER, ja_vistos)
-    print(f"[pipeline] concluído: {criados} rascunho(s) criado(s). Revise antes de publicar!")
+    resumo_cat = ", ".join(f"{k}:{v}" for k, v in sorted(por_categoria.items())) or "nenhuma"
+    print(f"[pipeline] concluído: {criados} rascunho(s) por editoria ({resumo_cat}). Revise antes de publicar!")
 
 
 if __name__ == "__main__":
