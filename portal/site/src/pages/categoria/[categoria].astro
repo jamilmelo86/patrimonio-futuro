@@ -17,20 +17,19 @@ const posts = (
 ).sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf());
 ---
 <BaseLayout title={cat?.nome} description={cat?.descricao}>
-  <section class="hero">
-    <div class="container">
+  <div class="container">
+    <div class="pagina-topo">
+      <span class="eyebrow">Editoria</span>
       <h1>{cat?.emoji} {cat?.nome}</h1>
       <p>{cat?.descricao}</p>
     </div>
-  </section>
 
-  <div class="container">
     {posts.length === 0 ? (
-      <p style="text-align:center;padding:48px 0;color:var(--tinta-suave)">
-        Ainda não há notícias nesta categoria. Volte em breve!
+      <p style="text-align:center;padding:56px 0;color:var(--muted)">
+        Ainda não há notícias nesta editoria. Volte em breve!
       </p>
     ) : (
-      <div class="grid" style="margin-top:32px">
+      <div class="grid">
         {posts.map((post) => <PostCard post={post} />)}
       </div>
     )}

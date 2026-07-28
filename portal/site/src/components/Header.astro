@@ -1,18 +1,32 @@
 ---
 import { SITE, CATEGORIAS } from "../consts";
-// Mostra as primeiras categorias no menu; o resto fica no rodapé.
-const principais = CATEGORIAS.slice(0, 5);
+const principais = CATEGORIAS.slice(0, 6);
+const hoje = new Date().toLocaleDateString("pt-BR", {
+  weekday: "long",
+  day: "2-digit",
+  month: "long",
+  year: "numeric",
+});
 ---
 <header class="site-header">
-  <div class="container">
-    <a class="marca" href="/">
-      <span class="sol">☀️</span> {SITE.name}
-    </a>
-    <nav class="nav" aria-label="Categorias">
-      {principais.map((c) => (
-        <a href={`/categoria/${c.slug}/`}>{c.nome}</a>
-      ))}
-      <a href="/sobre/">Sobre</a>
-    </nav>
+  <div class="masthead-top">
+    <div class="container">
+      <span class="data">{hoje}</span>
+      <span>Boas notícias, todos os dias</span>
+    </div>
   </div>
+
+  <div class="masthead-main">
+    <div class="container">
+      <a class="marca" href="/">
+        <span class="sol">☀</span> {SITE.name}
+      </a>
+      <div class="masthead-tag">{SITE.tagline}</div>
+    </div>
+  </div>
+
+  <nav class="nav" aria-label="Categorias">
+    {principais.map((c) => <a href={`/categoria/${c.slug}/`}>{c.nome}</a>)}
+    <a href="/sobre/">Sobre</a>
+  </nav>
 </header>

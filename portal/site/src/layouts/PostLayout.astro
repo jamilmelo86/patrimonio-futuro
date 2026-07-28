@@ -13,7 +13,6 @@ const { titulo, resumo, categoria, data, fonteNome, fonteUrl, imagem, creditoIma
 const cat = categoriaPorSlug(categoria);
 const dataFmt = data.toLocaleDateString("pt-BR", { day: "2-digit", month: "long", year: "numeric" });
 
-// JSON-LD schema.org NewsArticle — ajuda o Google a entender a página.
 const jsonLd = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "NewsArticle",
@@ -29,14 +28,15 @@ const jsonLd = JSON.stringify({
 ---
 <BaseLayout title={titulo} description={resumo} image={imagem} type="article" jsonLd={jsonLd}>
   <article class="artigo">
-    <a class="tag-categoria" href={`/categoria/${categoria}/`}>{cat?.emoji} {cat?.nome}</a>
+    <a class="eyebrow" href={`/categoria/${categoria}/`}>{cat?.nome}</a>
     <h1>{titulo}</h1>
-    <p class="meta" style="color:var(--tinta-suave)">{dataFmt}</p>
+    <p class="lead">{resumo}</p>
+    <p class="meta" style="color:var(--muted);font-size:0.85rem;margin:0 0 8px">{dataFmt}</p>
 
     {imagem && (
-      <figure style="margin:20px 0">
-        <img src={imagem} alt={titulo} style="border-radius:12px;width:100%" />
-        {creditoImagem && <figcaption style="font-size:0.8rem;color:var(--tinta-suave);margin-top:6px">{creditoImagem}</figcaption>}
+      <figure style="margin:0">
+        <div class="thumb"><img src={imagem} alt={titulo} /></div>
+        {creditoImagem && <figcaption class="credito-img">{creditoImagem}</figcaption>}
       </figure>
     )}
 
@@ -47,7 +47,7 @@ const jsonLd = JSON.stringify({
     <div class="fonte-box">
       <strong>Fonte:</strong>
       <a href={fonteUrl} target="_blank" rel="noopener nofollow">{fonteNome} ↗</a><br />
-      <span style="color:var(--tinta-suave);font-size:0.88rem">
+      <span style="color:var(--muted);font-size:0.88rem">
         Este é um resumo original. Leia a matéria completa no veículo de origem.
       </span>
     </div>

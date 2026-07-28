@@ -29,18 +29,20 @@ export type Categoria = {
   nome: string;
   emoji: string;
   descricao: string;
+  /** Cor suave de fundo usada no placeholder de imagem. */
+  cor: string;
 };
 
 /** Categorias editoriais do portal. O `slug` vira a URL /categoria/<slug>. */
 export const CATEGORIAS: Categoria[] = [
-  { slug: "ciencia", nome: "Ciência", emoji: "🔬", descricao: "Descobertas e avanços que melhoram a vida." },
-  { slug: "solidariedade", nome: "Solidariedade", emoji: "🤝", descricao: "Gente ajudando gente pelo Brasil e pelo mundo." },
-  { slug: "meio-ambiente", nome: "Meio Ambiente", emoji: "🌱", descricao: "Natureza se recuperando e boas práticas verdes." },
-  { slug: "saude", nome: "Saúde", emoji: "❤️", descricao: "Tratamentos, curas e conquistas da medicina." },
-  { slug: "animais", nome: "Animais", emoji: "🐾", descricao: "Resgates, proteção e histórias fofas." },
-  { slug: "superacao", nome: "Superação", emoji: "⭐", descricao: "Pessoas que venceram desafios e inspiram." },
-  { slug: "tecnologia", nome: "Tecnologia do Bem", emoji: "💡", descricao: "Inovação usada para o bem comum." },
-  { slug: "mundo", nome: "Mundo", emoji: "🌍", descricao: "Boas notícias que vêm de fora, traduzidas." },
+  { slug: "ciencia", nome: "Ciência", emoji: "🔬", descricao: "Descobertas e avanços que melhoram a vida.", cor: "#e6effb" },
+  { slug: "solidariedade", nome: "Solidariedade", emoji: "🤝", descricao: "Gente ajudando gente pelo Brasil e pelo mundo.", cor: "#fdeede" },
+  { slug: "meio-ambiente", nome: "Meio Ambiente", emoji: "🌱", descricao: "Natureza se recuperando e boas práticas verdes.", cor: "#e6f5ea" },
+  { slug: "saude", nome: "Saúde", emoji: "❤️", descricao: "Tratamentos, curas e conquistas da medicina.", cor: "#fdeaea" },
+  { slug: "animais", nome: "Animais", emoji: "🐾", descricao: "Resgates, proteção e histórias fofas.", cor: "#fbf0dd" },
+  { slug: "superacao", nome: "Superação", emoji: "⭐", descricao: "Pessoas que venceram desafios e inspiram.", cor: "#efeafb" },
+  { slug: "tecnologia", nome: "Tecnologia do Bem", emoji: "💡", descricao: "Inovação usada para o bem comum.", cor: "#e2f4f2" },
+  { slug: "mundo", nome: "Mundo", emoji: "🌍", descricao: "Boas notícias que vêm de fora, traduzidas.", cor: "#e8f0fb" },
 ];
 
 export const CATEGORIA_SLUGS = CATEGORIAS.map((c) => c.slug);

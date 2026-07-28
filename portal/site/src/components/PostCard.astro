@@ -1,5 +1,5 @@
 ---
-import { categoriaPorSlug } from "../consts";
+import { categoriaPorSlug, SITE } from "../consts";
 import type { CollectionEntry } from "astro:content";
 
 interface Props {
@@ -12,17 +12,18 @@ const dataFmt = data.toLocaleDateString("pt-BR", { day: "2-digit", month: "short
 const href = `/noticia/${post.id}/`;
 ---
 <article class="card">
-  <a href={href} aria-label={titulo}>
+  <a href={href} class="thumb" aria-label={titulo}>
     {imagem ? (
-      <img class="capa" src={imagem} alt={titulo} loading="lazy" />
+      <img src={imagem} alt={titulo} loading="lazy" />
     ) : (
-      <div class="capa capa-emoji">{cat?.emoji ?? "📰"}</div>
+      <div class="thumb-ph" style={`--ph:${cat?.cor ?? "#fdf2d6"}`}>
+        <span class="emoji">{cat?.emoji ?? "📰"}</span>
+        <span class="brand-mark">{SITE.name}</span>
+      </div>
     )}
   </a>
   <div class="corpo">
-    <a class="tag-categoria" href={`/categoria/${categoria}/`}>
-      {cat?.emoji} {cat?.nome}
-    </a>
+    <a class="eyebrow" href={`/categoria/${categoria}/`}>{cat?.nome}</a>
     <h3><a href={href}>{titulo}</a></h3>
     <p class="resumo">{resumo}</p>
     <div class="meta">{dataFmt}</div>

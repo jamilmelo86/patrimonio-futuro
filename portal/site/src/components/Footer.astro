@@ -5,16 +5,17 @@ const ano = new Date().getFullYear();
 <footer class="site-footer">
   <div class="container">
     <div>
-      <strong>{SITE.name}</strong> — {SITE.tagline}.<br />
-      <span>© {ano} · Todo o conteúdo credita a fonte original.</span><br />
-      <a href="/sobre/">Sobre</a> · <a href="/contato/">Contato</a> ·
-      <a href="/privacidade/">Privacidade</a> · <a href="/rss.xml">RSS</a>
+      <div class="marca-rodape">☀ {SITE.name}</div>
+      <p style="margin:8px 0 0;max-width:340px">{SITE.tagline}. Todo o conteúdo credita e leva à fonte original.</p>
+      <p style="margin:10px 0 0">© {ano} {SITE.name}</p>
+      <p style="margin:6px 0 0">
+        <a href="/sobre/">Sobre</a> · <a href="/contato/">Contato</a> ·
+        <a href="/privacidade/">Privacidade</a> · <a href="/rss.xml">RSS</a>
+      </p>
     </div>
     <div class="cats">
-      <strong>Categorias</strong><br />
-      {CATEGORIAS.map((c) => (
-        <a href={`/categoria/${c.slug}/`}>{c.nome}</a>
-      ))}
+      <strong style="color:var(--ink);display:block;margin-bottom:10px">Editorias</strong>
+      {CATEGORIAS.map((c) => <a href={`/categoria/${c.slug}/`}>{c.nome}</a>)}
     </div>
   </div>
 </footer>

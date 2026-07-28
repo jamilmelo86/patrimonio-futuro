@@ -4,45 +4,57 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import PostCard from "../components/PostCard.astro";
 import AdSlot from "../components/AdSlot.astro";
 import NewsletterSignup from "../components/NewsletterSignup.astro";
-import { SITE, CATEGORIAS } from "../consts";
+import { SITE, CATEGORIAS, categoriaPorSlug } from "../consts";
 
-// Só publicados (draft:false), mais recentes primeiro.
 const posts = (await getCollection("posts", ({ data }) => !data.draft)).sort(
   (a, b) => b.data.data.valueOf() - a.data.data.valueOf(),
 );
 
 const destaque = posts.find((p) => p.data.destaque) ?? posts[0];
 const ultimas = posts.filter((p) => p.id !== destaque?.id).slice(0, 12);
+
+const catDestaque = destaque ? categoriaPorSlug(destaque.data.categoria) : undefined;
+const dataDestaque = destaque
+  ? destaque.data.data.toLocaleDateString("pt-BR", { day: "2-digit", month: "long", year: "numeric" })
+  : "";
 ---
 <BaseLayout>
-  <section class="hero">
-    <div class="container">
-      <h1>{SITE.tagline} ☀️</h1>
-      <p>{SITE.description}</p>
-    </div>
-  </section>
-
   <div class="container">
     {posts.length === 0 ? (
-      <p style="text-align:center;padding:48px 0;color:var(--tinta-suave)">
+      <p style="text-align:center;padding:64px 0;color:var(--muted)">
         Ainda não há notícias publicadas. Em breve, muitas boas novas por aqui!
       </p>
     ) : (
       <>
         {destaque && (
-          <>
-            <div class="secao-titulo"><h2>Destaque</h2></div>
-            <div class="grid" style="grid-template-columns:1fr">
-              <PostCard post={destaque} />
+          <section class="destaque">
+            <a href={`/noticia/${destaque.id}/`} class="thumb">
+              {destaque.data.imagem ? (
+                <img src={destaque.data.imagem} alt={destaque.data.titulo} />
+              ) : (
+                <div class="thumb-ph" style={`--ph:${catDestaque?.cor ?? "#fdf2d6"}`}>
+                  <span class="emoji" style="font-size:4rem">{catDestaque?.emoji}</span>
+                  <span class="brand-mark">{SITE.name}</span>
+                </div>
+              )}
+            </a>
+            <div>
+              <a class="eyebrow" href={`/categoria/${destaque.data.categoria}/`}>
+                {catDestaque?.nome} · Destaque
+              </a>
+              <h2><a href={`/noticia/${destaque.id}/`}>{destaque.data.titulo}</a></h2>
+              <p class="resumo">{destaque.data.resumo}</p>
+              <p class="meta">{dataDestaque}</p>
+              <a class="btn" href={`/noticia/${destaque.id}/`}>Ler a história</a>
             </div>
-          </>
+          </section>
         )}
 
         <AdSlot />
 
         <div class="secao-titulo">
           <h2>Últimas boas notícias</h2>
-          <a href="/rss.xml">RSS</a>
+          <a href="/rss.xml">Assinar RSS</a>
         </div>
         <div class="grid">
           {ultimas.map((post) => <PostCard post={post} />)}
@@ -50,15 +62,14 @@ const ultimas = posts.filter((p) => p.id !== destaque?.id).slice(0, 12);
 
         <NewsletterSignup />
 
-        <div class="secao-titulo"><h2>Explore por categoria</h2></div>
-        <div class="grid">
+        <div class="secao-titulo">
+          <h2>Explore por editoria</h2>
+        </div>
+        <div class="cat-grid">
           {CATEGORIAS.map((c) => (
-            <a class="card" href={`/categoria/${c.slug}/`} style="text-decoration:none">
-              <div class="corpo">
-                <div style="font-size:2rem">{c.emoji}</div>
-                <h3 style="margin:0">{c.nome}</h3>
-                <p class="resumo">{c.descricao}</p>
-              </div>
+            <a class="cat-card" href={`/categoria/${c.slug}/`}>
+              <span class="emoji">{c.emoji}</span>
+              <span><strong>{c.nome}</strong><span>{c.descricao}</span></span>
             </a>
           ))}
         </div>
