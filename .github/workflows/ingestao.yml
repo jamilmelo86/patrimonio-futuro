@@ -1,10 +1,11 @@
 name: Ingestão diária de boas notícias
 
-# Roda todo dia às 09:00 UTC (06:00 em Brasília) e também sob demanda.
+# Roda 3x por dia — 09:00, 15:00 e 21:00 UTC (06:00, 12:00 e 18:00 em Brasília) —
+# e também sob demanda. Gera RASCUNHOS para você aprovar no painel /admin.
 # OBS: o GitHub só executa cron a partir da branch padrão do repositório.
 on:
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "0 9,15,21 * * *"
   workflow_dispatch: {}
 
 permissions:

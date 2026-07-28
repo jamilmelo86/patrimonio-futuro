@@ -36,15 +36,17 @@ Regras:
 - Seja factual: não invente números, nomes ou fatos que não estejam na referência.
 - Se a referência não for claramente uma boa notícia (ou for trágica/negativa),
   marque "eh_boa_noticia": false.
-- O corpo deve ter de 2 a 4 parágrafos curtos.
-- Não inclua a fonte no corpo (o site já mostra o crédito automaticamente).
+- O corpo deve ter de 4 a 6 parágrafos (aproximadamente 250 a 380 palavras),
+  explicando o que aconteceu, o contexto, por que importa e o impacto. Nada de
+  resumo raso: desenvolva a história com clareza.
+- Não inclua a fonte no corpo (o site já mostra o crédito com o link específico).
 
 Responda SOMENTE com um objeto JSON válido, sem texto ao redor, no formato:
 {
   "eh_boa_noticia": true/false,
   "titulo": "título original em pt-BR",
   "resumo": "1 frase de chamada (máx 160 caracteres)",
-  "corpo": "2 a 4 parágrafos separados por \\n\\n",
+  "corpo": "4 a 6 parágrafos (250-380 palavras) separados por \\n\\n",
   "categoria": "um de: ciencia, solidariedade, meio-ambiente, saude, animais, superacao, tecnologia, mundo",
   "tags": ["palavra1", "palavra2"]
 }"""
@@ -95,7 +97,7 @@ def reescrever(artigo: Artigo) -> dict | None:
         cliente = anthropic.Anthropic(api_key=chave)
         resposta = cliente.messages.create(
             model=MODELO,
-            max_tokens=1200,
+            max_tokens=2000,
             system=PROMPT_SISTEMA,
             messages=[{"role": "user", "content": referencia}],
         )

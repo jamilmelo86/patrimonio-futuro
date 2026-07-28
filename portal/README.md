@@ -70,8 +70,9 @@ se reconstrói sozinho. Configure o backend em `site/public/admin/config.yml` (v
 
 ## 4) Automação diária (grátis)
 
-O arquivo `.github/workflows/ingestao.yml` (na raiz do repositório) roda o pipeline **todo dia**
-via GitHub Actions e faz commit dos novos rascunhos. Para ativar:
+O arquivo `.github/workflows/ingestao.yml` (na raiz do repositório) roda o pipeline **3x por dia**
+(06h, 12h e 18h de Brasília) via GitHub Actions e faz commit dos novos **rascunhos** — que você
+aprova no painel `/admin`. Para ativar:
 
 1. Em **Settings → Secrets and variables → Actions**, adicione `ANTHROPIC_API_KEY`
    (e, se quiser, `GUARDIAN_API_KEY` / `NEWSDATA_API_KEY`).
