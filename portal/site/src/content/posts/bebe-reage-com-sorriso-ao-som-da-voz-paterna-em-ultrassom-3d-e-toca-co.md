@@ -5,8 +5,6 @@ categoria: "superacao"
 data: 2026-07-27
 fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/27/bebe-sorri-ouvir-voz-pai-ultrassom-3d-video-emociona-milhoes"
-imagem: "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-27-at-08.50.51.jpeg"
-creditoImagem: "Imagem: Só Notícia Boa"
 tags: ["familia", "gravidez", "emocao", "tecnologia", "conexao", "paternidade"]
 draft: true
 ---

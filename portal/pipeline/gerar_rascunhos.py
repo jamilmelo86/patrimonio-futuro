@@ -37,6 +37,20 @@ CONTENT_DIR = Path(os.getenv("CONTENT_DIR", RAIZ.parent / "site" / "src" / "cont
 LEDGER = RAIZ / "_estado" / "ja_vistos.json"
 MAX_DRAFTS = int(os.getenv("MAX_DRAFTS", "8"))
 
+# Por padrão NÃO reaproveitamos a imagem da fonte: evita questão de direitos
+# autorais e URLs inválidas (ex.: embed de vídeo). Fica o placeholder colorido da
+# categoria, e você adiciona uma imagem de licença livre na revisão pelo /admin.
+# Para religar (por sua conta e risco de direitos), defina USAR_IMAGEM_FONTE=1.
+USAR_IMAGEM_FONTE = os.getenv("USAR_IMAGEM_FONTE", "") not in ("", "0", "false", "False")
+
+
+def _img_valida(url: str | None) -> bool:
+    """Aceita só URLs que aparentam ser imagens de verdade."""
+    if not url:
+        return False
+    u = url.lower().split("?")[0]
+    return u.startswith("http") and u.endswith((".jpg", ".jpeg", ".png", ".webp", ".gif"))
+
 
 def slugify(texto: str) -> str:
     texto = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode()
@@ -64,7 +78,7 @@ def montar_markdown(dados: dict, artigo: fontes.Artigo) -> str:
         f"fonteNome: {_yaml_str(artigo.fonte_nome)}",
         f"fonteUrl: {_yaml_str(artigo.url)}",
     ]
-    if artigo.imagem:
+    if USAR_IMAGEM_FONTE and _img_valida(artigo.imagem):
         linhas.append(f"imagem: {_yaml_str(artigo.imagem)}")
         linhas.append(f"creditoImagem: {_yaml_str('Imagem: ' + artigo.fonte_nome)}")
     linhas.append(f"tags: {tags_yaml}")

@@ -5,8 +5,6 @@ categoria: "solidariedade"
 data: 2026-07-27
 fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/27/jovem-emociona-mulher-cuida-cachorros-rua-mobiliza-corrente-do-bem-video"
-imagem: "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-27-at-11.50.06.jpeg"
-creditoImagem: "Imagem: Só Notícia Boa"
 tags: ["empatia", "solidariedade", "pessoas em situação de rua", "bem-estar animal", "corrente do bem", "São Paulo"]
 draft: true
 ---

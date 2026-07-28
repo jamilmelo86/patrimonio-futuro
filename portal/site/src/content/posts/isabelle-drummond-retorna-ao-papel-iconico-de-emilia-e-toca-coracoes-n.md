@@ -5,8 +5,6 @@ categoria: "superacao"
 data: 2026-07-27
 fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/27/isabelle-drummond-emilia-emociona-fas-estreia-sitio-globoplay-video"
-imagem: "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-27-at-12.07.24.jpeg"
-creditoImagem: "Imagem: Só Notícia Boa"
 tags: ["Isabelle Drummond", "Emília", "Sítio do Picapau Amarelo", "Globoplay", "nostalgia", "clássicos infantis"]
 draft: true
 ---

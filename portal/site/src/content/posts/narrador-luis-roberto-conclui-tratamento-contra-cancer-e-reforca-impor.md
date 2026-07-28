@@ -5,8 +5,6 @@ categoria: "saude"
 data: 2026-07-28
 fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/28/narrador-luis-roberto-fim-tratamento-cancer-campanha-julho-verde-video"
-imagem: "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/07/elke-2026-07-28T115100.127.jpg"
-creditoImagem: "Imagem: Só Notícia Boa"
 tags: ["câncer", "prevenção", "Julho Verde", "Luis Roberto", "saúde pública", "conscientização"]
 draft: true
 ---

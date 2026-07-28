@@ -5,8 +5,6 @@ categoria: "ciencia"
 data: 2026-07-28
 fonteNome: "Catraca Livre"
 fonteUrl: "https://catracalivre.com.br/noticias/pesquisadores-descobrem-que-bacterias-de-uma-antiga-mina-de-uranio-podem-imobilizar-ate-96-do-material-radioativo-dissolvido-abrindo-uma-possivel-via-para-o-tratamento-de-agua-contaminada/"
-imagem: "https://catracalivre.com.br/wp-content/uploads/2026/07/flasks-with-contaminated-and-cle-202607281333-2.jpeg"
-creditoImagem: "Imagem: Catraca Livre"
 tags: ["bactérias", "urânio", "descontaminação", "água", "meio-ambiente", "pesquisa"]
 draft: true
 ---

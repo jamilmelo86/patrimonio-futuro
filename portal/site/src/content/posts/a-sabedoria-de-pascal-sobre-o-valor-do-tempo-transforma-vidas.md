@@ -5,8 +5,6 @@ categoria: "superacao"
 data: 2026-07-28
 fonteNome: "Catraca Livre"
 fonteUrl: "https://catracalivre.com.br/noticias/blaise-pascal-filosofo-frances-despertamos-para-a-vida-quando-entendemos-que-o-tempo-perdido-jamais-nos-sera-devolvido/"
-imagem: "https://www.youtube.com/embed/nqHcLXTcPO8"
-creditoImagem: "Imagem: Catraca Livre"
 tags: ["filosofia", "tempo", "procrastinação", "sabedoria", "Blaise Pascal", "desenvolvimento pessoal", "reflexão", "qualidade de vida"]
 draft: true
 ---

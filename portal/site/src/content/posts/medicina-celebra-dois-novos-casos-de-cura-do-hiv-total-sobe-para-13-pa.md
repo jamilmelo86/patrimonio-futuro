@@ -5,8 +5,6 @@ categoria: "saude"
 data: 2026-07-28
 fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/28/hiv-mais-2-casos-cura-anunciados-medicina-comemora-13-total"
-imagem: "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-28-at-10.21.35.jpeg"
-creditoImagem: "Imagem: Só Notícia Boa"
 tags: ["HIV", "cura", "medicina", "pesquisa", "avanço científico", "remissão"]
 draft: true
 ---
