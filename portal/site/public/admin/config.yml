@@ -11,7 +11,7 @@
 #       e configure o OAuth (veja o README).
 backend:
   name: git-gateway
-  branch: master
+  branch: claude/positive-news-portal-6h25uf
 
 # Idioma da interface
 locale: "pt"
