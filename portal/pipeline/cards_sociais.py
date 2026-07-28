@@ -24,7 +24,7 @@ except ImportError:
 RAIZ = Path(__file__).resolve().parent
 CONTENT_DIR = RAIZ.parent / "site" / "src" / "content" / "posts"
 SAIDA = RAIZ / "_cards"
-MARCA = "Lado Bom"
+MARCA = "O Lado Bom"
 
 AMARELO = (245, 180, 0)
 AMARELO_CLARO = (255, 246, 218)

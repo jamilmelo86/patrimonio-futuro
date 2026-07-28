@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ladobom.com.br/sitemap-index.xml
+Sitemap: https://oladobom.com.br/sitemap-index.xml

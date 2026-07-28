@@ -1,11 +1,12 @@
-# Lado Bom — Portal de Notícias Positivas
+# O Lado Bom — Portal de Notícias Positivas
 
 Um portal de **boas notícias** do Brasil e do mundo: um robô varre fontes confiáveis todos os
 dias, escreve **resumos originais em português** (nunca copia a matéria) e deixa **rascunhos** para
 você revisar e publicar. Sempre com **link para a fonte original**.
 
-> **Nome/domínio são placeholders** ("Lado Bom" / `ladobom.com.br`). Troque tudo num só lugar:
-> `site/src/consts.ts` (e `site/astro.config.mjs` → campo `site`).
+> **Nome:** O Lado Bom · **Domínio:** `oladobom.com.br` (disponível para registro).
+> Para trocar o nome/domínio, edite num só lugar: `site/src/consts.ts`
+> (e `site/astro.config.mjs` → campo `site`).
 
 ## Como funciona (visão rápida)
 

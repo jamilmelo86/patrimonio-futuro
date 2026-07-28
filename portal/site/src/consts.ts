@@ -1,19 +1,19 @@
 // Configuração central do site. Altere aqui o nome, domínio e categorias.
 
 export const SITE = {
-  /** Nome da marca (placeholder — troque quando definir o nome final). */
-  name: "Lado Bom",
+  /** Nome da marca. */
+  name: "O Lado Bom",
   /** Slogan curto exibido no cabeçalho e nas meta tags. */
   tagline: "Só as boas notícias do Brasil e do mundo",
   /** Descrição para SEO / redes sociais. */
   description:
     "Um portal de notícias positivas: histórias de ciência, solidariedade, meio ambiente, saúde e superação — sempre com a fonte original.",
   /** URL final do site em produção (usada em sitemap, RSS e Open Graph). */
-  url: "https://ladobom.com.br",
+  url: "https://oladobom.com.br",
   /** Idioma padrão. */
   lang: "pt-BR",
   /** E-mail de contato exibido nas páginas institucionais. */
-  email: "contato@ladobom.com.br",
+  email: "contato@oladobom.com.br",
   /** Handles de redes sociais (deixe vazio para ocultar). */
   social: {
     instagram: "",
