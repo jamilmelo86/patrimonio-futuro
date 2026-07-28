@@ -1,12 +1,21 @@
 ---
-titulo: "Bactérias de mina de urânio oferecem esperança para descontaminação de água radioativa"
-resumo: "Cientistas encontram solução biológica promissora para remover urânio de águas contaminadas."
-categoria: "ciencia"
+titulo: Bactérias de mina de urânio oferecem esperança para descontaminação de
+  água radioativa
+resumo: Cientistas encontram solução biológica promissora para remover urânio de
+  águas contaminadas.
+categoria: ciencia
 data: 2026-07-28
-fonteNome: "Catraca Livre"
-fonteUrl: "https://catracalivre.com.br/noticias/pesquisadores-descobrem-que-bacterias-de-uma-antiga-mina-de-uranio-podem-imobilizar-ate-96-do-material-radioativo-dissolvido-abrindo-uma-possivel-via-para-o-tratamento-de-agua-contaminada/"
-tags: ["bactérias", "urânio", "descontaminação", "água", "meio-ambiente", "pesquisa"]
-draft: true
+fonteNome: Catraca Livre
+fonteUrl: https://catracalivre.com.br/noticias/pesquisadores-descobrem-que-bacterias-de-uma-antiga-mina-de-uranio-podem-imobilizar-ate-96-do-material-radioativo-dissolvido-abrindo-uma-possivel-via-para-o-tratamento-de-agua-contaminada/
+tags:
+  - bactérias
+  - urânio
+  - descontaminação
+  - água
+  - meio-ambiente
+  - pesquisa
+destaque: true
+draft: false
 ---
 
 Um achado significativo no campo da remediação ambiental mostra que microrganismos presentes em uma antiga mina de urânio possuem uma capacidade impressionante: conseguem reter até 96% do urânio dissolvido em água. Essa descoberta abre perspectivas reais para o tratamento de ambientes contaminados por material radioativo, um desafio que afeta comunidades em diversos países ao redor do mundo.
