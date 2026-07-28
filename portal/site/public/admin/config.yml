@@ -31,7 +31,7 @@ collections:
     create: true
     slug: "{{slug}}"
     identifier_field: titulo
-    summary: "{{titulo}}  ·  {{#if draft}}🟡 RASCUNHO{{else}}🟢 publicado{{/if}}"
+    summary: "{{titulo}}  ·  {{draft | ternary('🟡 RASCUNHO','🟢 publicado')}}"
     fields:
       - { name: "titulo", label: "Título", widget: "string" }
       - { name: "resumo", label: "Chamada (resumo curto)", widget: "text" }
