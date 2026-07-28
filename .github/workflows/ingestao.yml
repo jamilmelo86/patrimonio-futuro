@@ -1,7 +1,7 @@
 name: Ingestão diária de boas notícias
 
 # Roda 3x por dia — 09:00, 15:00 e 21:00 UTC (06:00, 12:00 e 18:00 em Brasília) —
-# e também sob demanda. Gera RASCUNHOS para você aprovar no painel /admin.
+# e também sob demanda. PUBLICA automaticamente (com critério rigoroso da IA).
 # OBS: o GitHub só executa cron a partir da branch padrão do repositório.
 on:
   schedule:
@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 jobs:
-  gerar-rascunhos:
+  publicar-noticias:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -27,23 +27,25 @@ jobs:
         working-directory: portal/pipeline
         run: pip install -r requirements.txt
 
-      - name: Gerar rascunhos
+      - name: Gerar e publicar notícias
         working-directory: portal/pipeline
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GUARDIAN_API_KEY: ${{ secrets.GUARDIAN_API_KEY }}
           NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
           MAX_DRAFTS: "8"
+          PUBLICAR_AUTOMATICO: "1"
+          LIMIAR_CONFIANCA: "0.72"
         run: python gerar_rascunhos.py
 
-      - name: Commitar novos rascunhos
+      - name: Commitar publicações
         run: |
-          git config user.name "robô-boas-noticias"
+          git config user.name "robo-boas-noticias"
           git config user.email "actions@github.com"
           git add portal/site/src/content/posts portal/pipeline/_estado
           if git diff --staged --quiet; then
-            echo "Nenhum rascunho novo hoje."
+            echo "Nada novo para publicar."
           else
-            git commit -m "Rascunhos automáticos de boas notícias ($(date +%F))"
+            git commit -m "Publicações automáticas de boas notícias ($(date +%F))"
             git push
           fi

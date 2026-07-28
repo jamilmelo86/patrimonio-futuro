@@ -70,9 +70,15 @@ se reconstrói sozinho. Configure o backend em `site/public/admin/config.yml` (v
 
 ## 4) Automação diária (grátis)
 
-O arquivo `.github/workflows/ingestao.yml` (na raiz do repositório) roda o pipeline **3x por dia**
-(06h, 12h e 18h de Brasília) via GitHub Actions e faz commit dos novos **rascunhos** — que você
-aprova no painel `/admin`. Para ativar:
+Dois robôs cuidam do conteúdo via GitHub Actions (na raiz, `.github/workflows/`):
+
+- **Coletor** (`ingestao.yml`) — roda **3x/dia** (06h/12h/18h BRT). Busca, escreve e **publica
+  automaticamente** as boas notícias, com **critério rigoroso** da IA (só publica com confiança
+  alta; veta opinião, autoajuda, propaganda, fofoca, etc.).
+- **Revisor** (`revisao.yml`) — roda **a cada 2 dias**. Relê as publicações, corrige português e
+  qualidade e **despublica** o que estiver fraco ou duvidoso (registro em `pipeline/_estado/`).
+
+Para voltar ao modo com aprovação manual, defina `PUBLICAR_AUTOMATICO=0`. Para ativar os robôs:
 
 1. Em **Settings → Secrets and variables → Actions**, adicione `ANTHROPIC_API_KEY`
    (e, se quiser, `GUARDIAN_API_KEY` / `NEWSDATA_API_KEY`).

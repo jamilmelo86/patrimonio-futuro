@@ -39,6 +39,9 @@ LEDGER = RAIZ / "_estado" / "ja_vistos.json"
 MAX_DRAFTS = int(os.getenv("MAX_DRAFTS", "8"))
 # Máximo de rascunhos por editoria numa mesma execução (mantém o dia variado).
 MAX_POR_CATEGORIA = int(os.getenv("MAX_POR_CATEGORIA", "3"))
+# Publicar direto (draft:false) ou gerar rascunhos p/ revisão (draft:true)?
+# Padrão: publicação automática. Defina PUBLICAR_AUTOMATICO=0 para voltar a rascunhos.
+PUBLICAR_AUTOMATICO = os.getenv("PUBLICAR_AUTOMATICO", "1") not in ("", "0", "false", "False")
 
 # Por padrão NÃO reaproveitamos a imagem da fonte: evita questão de direitos
 # autorais e URLs inválidas (ex.: embed de vídeo). Fica o placeholder colorido da
@@ -85,7 +88,7 @@ def montar_markdown(dados: dict, artigo: fontes.Artigo) -> str:
         linhas.append(f"imagem: {_yaml_str(artigo.imagem)}")
         linhas.append(f"creditoImagem: {_yaml_str('Imagem: ' + artigo.fonte_nome)}")
     linhas.append(f"tags: {tags_yaml}")
-    linhas.append("draft: true")
+    linhas.append("draft: false" if PUBLICAR_AUTOMATICO else "draft: true")
     linhas.append("---")
     linhas.append("")
     linhas.append(dados["corpo"].strip())
@@ -145,11 +148,13 @@ def main() -> None:
         por_categoria[cat] = por_categoria.get(cat, 0) + 1
         criados += 1
         marca = " (esqueleto)" if dados.get("_fallback") else ""
-        print(f"[pipeline]  ✓ rascunho{marca} [{cat}]: {caminho.name}")
+        rotulo = "publicado" if PUBLICAR_AUTOMATICO else "rascunho"
+        print(f"[pipeline]  ✓ {rotulo}{marca} [{cat}]: {caminho.name}")
 
     salvar_ja_vistos(LEDGER, ja_vistos)
     resumo_cat = ", ".join(f"{k}:{v}" for k, v in sorted(por_categoria.items())) or "nenhuma"
-    print(f"[pipeline] concluído: {criados} rascunho(s) por editoria ({resumo_cat}). Revise antes de publicar!")
+    acao = "publicado(s) automaticamente" if PUBLICAR_AUTOMATICO else "rascunho(s) criado(s)"
+    print(f"[pipeline] concluído: {criados} {acao} por editoria ({resumo_cat}).")
 
 
 if __name__ == "__main__":

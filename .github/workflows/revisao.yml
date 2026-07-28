@@ -1,0 +1,46 @@
+name: Revisão a cada 2 dias
+
+# Robô revisor: relê as notícias publicadas, corrige texto/qualidade e despublica
+# as fracas. Roda às 03:00 UTC a cada 2 dias (e sob demanda).
+on:
+  schedule:
+    - cron: "0 3 */2 * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependências
+        working-directory: portal/pipeline
+        run: pip install -r requirements.txt
+
+      - name: Revisar publicações
+        working-directory: portal/pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MAX_REVISAR: "12"
+        run: python revisar.py
+
+      - name: Commitar correções
+        run: |
+          git config user.name "robo-revisor"
+          git config user.email "actions@github.com"
+          git add portal/site/src/content/posts portal/pipeline/_estado
+          if git diff --staged --quiet; then
+            echo "Nenhuma correção necessária."
+          else
+            git commit -m "Revisão automática de qualidade ($(date +%F))"
+            git push
+          fi
