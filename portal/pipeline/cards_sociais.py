@@ -25,6 +25,20 @@ RAIZ = Path(__file__).resolve().parent
 CONTENT_DIR = RAIZ.parent / "site" / "src" / "content" / "posts"
 SAIDA = RAIZ / "_cards"
 MARCA = "O Lado Bom"
+SITE_URL = "oladobom.com.br"
+ARROBA = "@oladobom"
+
+# slug -> (nome, emoji) para o rótulo de categoria no card
+CATEGORIAS = {
+    "ciencia": ("Ciência", "🔬"),
+    "solidariedade": ("Solidariedade", "🤝"),
+    "meio-ambiente": ("Meio Ambiente", "🌱"),
+    "saude": ("Saúde", "❤️"),
+    "animais": ("Animais", "🐾"),
+    "superacao": ("Superação", "⭐"),
+    "tecnologia": ("Tecnologia do Bem", "💡"),
+    "mundo": ("Mundo", "🌍"),
+}
 
 AMARELO = (245, 180, 0)
 AMARELO_CLARO = (255, 246, 218)
@@ -66,27 +80,36 @@ def gerar_card(md: Path) -> Path | None:
 
     titulo = dados.get("titulo", md.stem)
     fonte_nome = dados.get("fonteNome", "")
+    cat_nome, _cat_emoji = CATEGORIAS.get(dados.get("categoria", ""), ("Boa notícia", ""))
 
     img = Image.new("RGB", (1080, 1080), AMARELO_CLARO)
     d = ImageDraw.Draw(img)
 
-    # faixa superior verde-clara + sol
+    # faixa superior verde-clara + sol + marca
     d.rectangle([0, 0, 1080, 190], fill=VERDE_CLARO)
-    d.ellipse([70, 70, 150, 150], fill=AMARELO)
-    d.text((175, 92), MARCA, font=_fonte(52, negrito=True), fill=TINTA)
+    d.ellipse([70, 74, 146, 150], fill=AMARELO)
+    d.text((172, 92), MARCA, font=_fonte(52, negrito=True), fill=TINTA)
+    d.text((174, 148), ARROBA, font=_fonte(26), fill=VERDE)
 
-    # título (quebra de linha)
-    fonte_titulo = _fonte(66, negrito=True)
+    # rótulo da categoria (uppercase, dourado)
+    d.text((80, 250), cat_nome.upper(), font=_fonte(30, negrito=True), fill=(180, 132, 0))
+
+    # título centralizado verticalmente na área de conteúdo
+    fonte_titulo = _fonte(64, negrito=True)
     linhas = textwrap.wrap(titulo, width=24)[:6]
-    y = 300
+    bloco_altura = len(linhas) * 82
+    y = 320 + max(0, (520 - bloco_altura) // 2)
     for linha in linhas:
         d.text((80, y), linha, font=fonte_titulo, fill=TINTA)
-        y += 86
+        y += 82
 
-    # crédito da fonte no rodapé
+    # rodapé verde: fonte à esquerda, site à direita
     d.rectangle([0, 980, 1080, 1080], fill=VERDE)
     credito = f"Fonte: {fonte_nome}" if fonte_nome else "Boa notícia do dia"
-    d.text((80, 1012), credito, font=_fonte(34), fill=(255, 255, 255))
+    d.text((80, 1014), credito, font=_fonte(30), fill=(255, 255, 255))
+    url_font = _fonte(30, negrito=True)
+    largura_url = d.textlength(SITE_URL, font=url_font)
+    d.text((1000 - largura_url, 1014), SITE_URL, font=url_font, fill=(255, 255, 255))
 
     SAIDA.mkdir(parents=True, exist_ok=True)
     destino = SAIDA / f"{md.stem}.png"
