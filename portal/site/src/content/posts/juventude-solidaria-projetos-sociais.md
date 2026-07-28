@@ -9,8 +9,12 @@ tags: ["voluntariado", "juventude", "brasil"]
 draft: false
 ---
 
-Boa vontade não falta à juventude brasileira — e agora ela ganhou um empurrão. Estão abertas as inscrições da Juventude Solidária, plataforma criada pela Secretaria Nacional da Juventude em parceria com os ministérios da Educação e do Desenvolvimento e Assistência Social.
+Boa vontade não falta à juventude brasileira — o que às vezes falta é um empurrão para transformar a vontade de ajudar em ação concreta. É essa lacuna que a plataforma Juventude Solidária quer preencher, com inscrições abertas para jovens de todo o país.
 
-A proposta é apoiar jovens de 16 a 29 anos que queiram colocar projetos sociais em prática, especialmente em territórios mais vulneráveis. A ideia é estimular a cidadania ativa, o voluntariado e a participação social — conectando quem quer ajudar a quem precisa de ajuda.
+A iniciativa é fruto de uma parceria entre a Secretaria Nacional da Juventude e os ministérios ligados à educação e ao desenvolvimento e assistência social. A proposta é apoiar pessoas de 16 a 29 anos que queiram colocar em prática projetos sociais nas suas próprias comunidades.
 
-Para quem sempre teve vontade de fazer a diferença na própria comunidade, é a deixa para começar.
+O foco está especialmente nos territórios mais vulneráveis, onde a atuação de jovens engajados pode fazer diferença real no dia a dia das pessoas. A plataforma funciona como uma ponte: conecta quem tem energia e ideias a oportunidades de voluntariado e participação social.
+
+Mais do que executar ações pontuais, a ideia é estimular a chamada cidadania ativa — a noção de que cada pessoa pode ser protagonista na melhoria do lugar onde vive. Ao envolver os jovens desde cedo, o programa ajuda a formar uma cultura de solidariedade que tende a durar a vida inteira.
+
+Para quem sempre teve vontade de fazer algo pela sua rua, pela sua escola ou pelo seu bairro, mas não sabia por onde começar, é a deixa perfeita. Às vezes, o primeiro passo para mudar o mundo ao redor é simplesmente se inscrever.

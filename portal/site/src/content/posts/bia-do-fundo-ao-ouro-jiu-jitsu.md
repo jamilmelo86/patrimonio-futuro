@@ -10,8 +10,12 @@ destaque: true
 draft: false
 ---
 
-A história de Beatriz Rodrigues, a Bia, de Indaial (SC), é uma aula de persistência. Em 2023, na sua estreia no Campeonato Brasileiro de Jiu-Jitsu Kids, ela foi eliminada logo na primeira luta. Em vez de desistir, voltou. E voltou de novo.
+A história de Beatriz Rodrigues, a Bia, de Indaial (SC), é uma verdadeira aula de persistência. Em 2023, na sua estreia no Campeonato Brasileiro de Jiu-Jitsu Kids, ela foi eliminada logo na primeira luta, contra a então campeã. Para muita criança, seria o fim da linha. Para Bia, foi só o começo.
 
-No ano seguinte chegou à semifinal e ficou com o bronze. Em 2025, alcançou pela primeira vez a final e levou a prata. Até que, em 2026, aos 10 anos, fez uma campanha impecável: venceu a estreia por 6 a 0, finalizou a semifinal com um armlock e conquistou o ouro na decisão. Foram quatro Campeonatos Brasileiros seguidos, cada derrota virando aprendizado.
+Em vez de desistir, ela voltou no ano seguinte — e voltou melhor. Em 2024, chegou à semifinal e conquistou o bronze. Em 2025, avançou mais um degrau: alcançou a final pela primeira vez e ficou com a prata, tão perto do topo que dava para sentir o gosto.
 
-Diagnosticada com autismo, Bia treina desde o fim de 2021 com o professor Paulo Moraes. A trajetória dela mostra que o pódio mais bonito costuma ser o que se constrói degrau por degrau.
+A consagração veio em 2026. Aos 10 anos, Bia fez uma campanha impecável no Brasileiro: venceu a luta de estreia por 6 a 0, finalizou a semifinal com um armlock e superou a adversária na decisão por 2 a 0. Foram quatro Campeonatos Brasileiros disputados em sequência, cada derrota anterior virando aprendizado e combustível para a seguinte.
+
+Por trás do resultado há uma rotina de dedicação. Diagnosticada com autismo, Bia treina desde o fim de 2021 com o professor Paulo Moraes, em Indaial. O esporte se tornou um espaço de disciplina, foco e confiança — e o tatame, o lugar onde ela mostra, a cada luta, o quanto evoluiu.
+
+A trajetória dela carrega uma lição que vale para dentro e para fora do tatame: o pódio mais bonito costuma ser aquele que se constrói degrau por degrau, sem pressa e sem desistir. Da eliminação na estreia ao lugar mais alto, Bia provou que insistir vale a pena.

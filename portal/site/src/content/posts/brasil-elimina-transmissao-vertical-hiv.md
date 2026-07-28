@@ -9,8 +9,14 @@ tags: ["sus", "hiv", "saúde pública"]
 draft: false
 ---
 
-O Brasil recebeu da Organização Mundial da Saúde a certificação por ter eliminado a transmissão vertical do HIV — aquela que acontece da mãe para o bebê durante a gravidez, o parto ou a amamentação. É o país mais populoso das Américas a chegar a esse patamar, resultado de décadas de trabalho do Sistema Único de Saúde no pré-natal, no diagnóstico e no tratamento gratuito.
+O Brasil recebeu da Organização Mundial da Saúde (OMS) a certificação por ter eliminado a transmissão vertical do HIV — aquela que pode acontecer da mãe para o bebê durante a gravidez, o parto ou a amamentação. É uma conquista histórica: o país se torna o mais populoso das Américas a chegar a esse patamar.
 
-O impacto vai além das fronteiras brasileiras. Segundo estimativas da OMS, o esforço coletivo pela eliminação da transmissão vertical evitou mais de 50 mil infecções por HIV em crianças nas Américas ao longo da última década.
+Eliminar a transmissão vertical não significa que o HIV deixou de existir no país, mas sim que o sistema de saúde conseguiu reduzir a praticamente zero o número de bebês que nascem com o vírus por transmissão da mãe. Isso só é possível com um cuidado que começa cedo: pré-natal acessível, testagem rápida das gestantes e tratamento antirretroviral gratuito para quem precisa.
 
-E o compromisso continua: o país assumiu a meta de eliminar até 2030 outras quatro infecções que passam de mãe para filho — hepatite B, sífilis, doença de Chagas e HTLV. O dossiê brasileiro para a certificação da hepatite B foi concluído em 2026.
+Por trás do resultado estão décadas de trabalho do Sistema Único de Saúde. Protocolos bem definidos, distribuição gratuita de medicamentos e acompanhamento das gestantes soropositivas transformaram uma realidade que, no passado, condenava muitos recém-nascidos a começar a vida com o vírus.
+
+O impacto ultrapassa as fronteiras brasileiras. Segundo estimativas da OMS, o esforço coletivo pela eliminação da transmissão vertical evitou mais de 50 mil infecções por HIV em crianças em todo o continente americano ao longo da última década.
+
+E o compromisso não para por aqui. O Brasil assumiu a meta de eliminar até 2030 outras quatro infecções que também passam de mãe para filho: hepatite B, sífilis, doença de Chagas e o vírus HTLV. O dossiê brasileiro para a certificação da hepatite B foi concluído em 2026, sinal de que o país segue avançando nessa agenda.
+
+Histórias como essa mostram o que a saúde pública é capaz de fazer quando há continuidade e investimento: transformar metas ambiciosas em vidas protegidas desde o primeiro dia.
