@@ -6,7 +6,7 @@ data: 2026-07-30
 fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/30/professor-mais-jovem-mundo-18-anos-guinness-book"
 tags: ["educação", "recorde mundial", "programação", "jovem prodígio", "universidade"]
-draft: false
+draft: true
 ---
 
 Nathan Thomas, um jovem norte-americano de apenas 18 anos e 346 dias, acaba de fazer história ao se tornar o professor universitário mais jovem do mundo, conquistando oficialmente um lugar no Guinness Book, o prestigiado livro dos recordes mundiais.

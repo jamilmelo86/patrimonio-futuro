@@ -6,7 +6,7 @@ data: 2026-07-29
 fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/29/brasileira-guinness-paciente-mais-idosa-cirurgia-femur-114-anos"
 tags: ["cirurgia", "idosos", "recordes", "Brasil", "recuperação"]
-draft: false
+draft: true
 ---
 
 Uma mulher brasileira de 114 anos surpreendeu médicos e familiares ao se submeter a uma cirurgia de fêmur com sucesso e recuperação extraordinariamente rápida. Dona Antônia demonstrou uma força e uma vitalidade notáveis ao conseguir ficar de pé já no dia seguinte ao procedimento, desafiando as expectativas comuns sobre fragilidade na idade avançada.
