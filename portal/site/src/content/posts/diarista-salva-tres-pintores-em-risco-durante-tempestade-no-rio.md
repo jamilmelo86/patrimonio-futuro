@@ -6,7 +6,7 @@ data: 2026-07-31
 fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/31/diarista-salva-3-pintores-pendurados-andaime-ventania-rio-video"
 tags: ["heroísmo", "resgate", "Rio de Janeiro", "solidariedade humana", "coragem"]
-draft: false
+draft: true
 ---
 
 Uma diarista chamada Isabela protagonizou um ato de coragem quando se deparou com uma situação de extremo perigo envolvendo três pintores que trabalhavam em um andaime no sexto andar de um prédio no Rio de Janeiro. Durante uma forte ventania que atingiu a cidade na quarta-feira, a estrutura começou a balançar violentamente, colocando as vidas dos profissionais em risco iminente.

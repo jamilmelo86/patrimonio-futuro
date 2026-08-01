@@ -1,20 +1,18 @@
 ---
-titulo: "Aos 93 anos, Ary Fontoura inspira com rotina de exercícios e mensagem de motivação"
-resumo: "Ator compartilha vídeo na academia mostrando treino aos 93 anos e incentiva pessoas a começar sua jornada fitness."
+titulo: "Aos 93 anos, Ary Fontoura compartilha vídeo de treino na academia"
+resumo: "Ator compartilha vídeo treinando na academia aos 93 anos e incentiva pessoas a adotarem hábitos saudáveis."
 categoria: "superacao"
 data: 2026-07-31
 fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/31/aos-93-anos-ary-fontoura-rotina-treinos-incentiva-voce-consegue-dar-primeiro-passo-video"
-tags: ["inspiração", "saúde", "atividade física", "terceira idade", "qualidade de vida", "motivação"]
+tags: ["Ary Fontoura", "atividade física", "longevidade", "terceira idade", "academia"]
 draft: false
 ---
 
-O ator Ary Fontoura, aos 93 anos, surpreendeu ao compartilhar um vídeo de sua rotina de exercícios na academia, demonstrando disposição e força que inspiram muitas pessoas. Na gravação, ele exibe parte de seu preparo físico, revelando que mantém uma vida ativa e comprometida com a saúde mesmo na terceira idade avançada.
+O ator Ary Fontoura, aos 93 anos, compartilhou um vídeo em suas redes sociais mostrando sua rotina de exercícios na academia. Na gravação, o ator aparece durante seu treino, demonstrando sua disposição e força.
 
-Além de mostrar na prática seu condicionamento, Fontoura deixou uma mensagem poderosa para jovens e adultos de todas as idades. Ele incentiva que as pessoas deem o primeiro passo em direção a uma vida mais saudável, reforçando que se consegue treinar aos 93 anos, qualquer pessoa tem capacidade de começar sua própria jornada de bem-estar.
+Além de exibir seu condicionamento físico, Fontoura deixou uma mensagem para seguidores, incentivando pessoas de todas as idades a iniciarem sua própria jornada em busca de uma vida mais saudável e ativa. O ator reforçou que, se consegue treinar aos 93 anos, qualquer pessoa tem capacidade de começar.
 
-A iniciativa do ator vai além do simples compartilhamento de um vídeo. Ela representa um exemplo concreto de que idade não é barreira para manter a qualidade de vida, a disposição e o vigor. Em um momento em que muitas pessoas usam a idade como desculpa para sedentarismo, sua atitude desafia esses preconceitos e mostra que dedicação e movimento constante são acessíveis em qualquer fase da vida.
+O vídeo gerou repercussão nas redes sociais, com muitos seguidores comentando sobre o exemplo do ator. Diversos seguidores destacaram a importância de manter a atividade física em qualquer fase da vida.
 
-A mensagem de Fontoura encontrou receptividade entre seguidores nas redes sociais, gerando inspiração e discussões sobre a importância da atividade física contínua. Seu exemplo prático serviu como combustível motivacional para aqueles que hesitam em começar exercícios ou que acreditam estar "fora do tempo" para mudanças de hábito.
-
-O episódio reforça uma verdade importante: longevidade acompanhada de qualidade de vida depende de escolhas consistentes. Com seu vídeo e mensagem genuína, o ator contribui para mudar narrativas sobre envelhecimento, mostrando que aos 93 anos ainda é possível ser ativo, forte e inspirador.
+Ary Fontoura é conhecido por sua carreira longevidade no cinema e na televisão brasileira. Com mais de sete décadas de atuação, continua ativo em seus projetos profissionais, mantendo também hábitos saudáveis que refletem em seu bem-estar.
