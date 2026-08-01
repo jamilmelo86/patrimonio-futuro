@@ -36,14 +36,14 @@ class Artigo:
 # --------------------------------------------------------------------------
 # Fontes RSS (gratuitas) — Brasil + internacionais de boas notícias
 # --------------------------------------------------------------------------
+# Fontes INTERNACIONAIS de boas notícias (em inglês). O robô traduz e adapta
+# para o português do Brasil. Foco no exterior — sem portais brasileiros.
 FEEDS_RSS: list[dict] = [
-    {"nome": "Só Notícia Boa", "url": "https://www.sonoticiaboa.com.br/feed/", "idioma": "pt"},
-    {"nome": "Razões para Acreditar", "url": "https://razoesparaacreditar.com/feed/", "idioma": "pt"},
-    {"nome": "Catraca Livre", "url": "https://catracalivre.com.br/feed/", "idioma": "pt"},
-    {"nome": "Hypeness", "url": "https://www.hypeness.com.br/feed/", "idioma": "pt"},
-    {"nome": "CicloVivo", "url": "https://ciclovivo.com.br/feed/", "idioma": "pt"},
     {"nome": "Positive News", "url": "https://www.positive.news/feed/", "idioma": "en"},
     {"nome": "Good News Network", "url": "https://www.goodnewsnetwork.org/feed/", "idioma": "en"},
+    {"nome": "Reasons to be Cheerful", "url": "https://reasonstobecheerful.world/feed/", "idioma": "en"},
+    {"nome": "The Guardian (The Upside)", "url": "https://www.theguardian.com/world/series/the-upside/rss", "idioma": "en"},
+    {"nome": "Optimist Daily", "url": "https://www.optimistdaily.com/feed/", "idioma": "en"},
 ]
 
 # Não trazer notícia velha (dias). Ajustável via MAX_IDADE_DIAS.
@@ -170,9 +170,8 @@ def coletar_newsdata(limite: int = 10) -> list[Artigo]:
             "https://newsdata.io/api/1/news",
             params={
                 "apikey": chave,
-                "language": "pt",
-                "q": "solidariedade OR doação OR resgate OR conquista OR descoberta OR premiado",
-                "country": "br",
+                "language": "en",
+                "q": "breakthrough OR rescued OR record OR restored OR donated OR milestone OR cure",
             },
             timeout=20,
         )
@@ -190,7 +189,7 @@ def coletar_newsdata(limite: int = 10) -> list[Artigo]:
                 url=r.get("link", ""),
                 fonte_nome=r.get("source_id", "NewsData"),
                 trecho=r.get("description") or "",
-                idioma="pt",
+                idioma="en",
                 imagem=r.get("image_url"),
             )
         )
