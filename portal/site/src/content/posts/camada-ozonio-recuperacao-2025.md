@@ -1,14 +1,17 @@
 ---
-titulo: "Buraco na camada de ozônio foi um dos menores em 2025 e confirma recuperação"
-resumo: "Segundo a OMM, o buraco de 2025 foi o quinto menor desde 1992 e fechou mais cedo, reforçando a tendência de recuperação."
-categoria: "meio-ambiente"
+titulo: Buraco na camada de ozônio foi um dos menores em 2025 e confirma recuperação
+resumo: Segundo a OMM, o buraco de 2025 foi o quinto menor desde 1992 e fechou mais cedo, reforçando a tendência de recuperação.
+categoria: meio-ambiente
 data: 2025-12-12
-fonteNome: "Organização Meteorológica Mundial (OMM)"
-fonteUrl: "https://wmo.int/media/news/small-and-short-lived-2025-ozone-hole-confirms-long-term-recovery-trend"
-tags: ["ozonio", "clima", "protocolo-montreal"]
+fonteNome: Organização Meteorológica Mundial (OMM)
+fonteUrl: https://wmo.int/media/news/small-and-short-lived-2025-ozone-hole-confirms-long-term-recovery-trend
+tags:
+- ozonio
+- clima
+- protocolo-montreal
 draft: false
-imagem: "https://images-assets.nasa.gov/image/sl4-143-4707/sl4-143-4707~small.jpg"
-creditoImagem: "Imagem: NASA/JPL-Caltech (domínio público)"
+imagem: https://wmo.int/sites/default/files/2025-12/ozone_geos5_20250909_hires.jpg
+creditoImagem: 'Foto: Organização Meteorológica Mundial (OMM) (site oficial)'
 ---
 
 Uma das maiores histórias de sucesso ambiental do planeta ganhou mais um capítulo animador. A Organização Meteorológica Mundial informou, em dezembro de 2025, que o buraco na camada de ozônio sobre a Antártida foi pequeno e durou pouco naquele ano, reforçando a tendência de longo prazo de recuperação do escudo natural que protege a Terra da radiação solar.

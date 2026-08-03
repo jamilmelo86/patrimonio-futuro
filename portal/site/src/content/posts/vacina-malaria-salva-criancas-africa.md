@@ -1,14 +1,17 @@
 ---
-titulo: "Vacina contra a malária já evita mortes de crianças na África, confirma OMS"
-resumo: "Estudo publicado na Lancet mostra que a imunização impediu uma em cada oito mortes infantis em três países africanos."
-categoria: "saude"
+titulo: Vacina contra a malária já evita mortes de crianças na África, confirma OMS
+resumo: Estudo publicado na Lancet mostra que a imunização impediu uma em cada oito mortes infantis em três países africanos.
+categoria: saude
 data: 2026-05-08
-fonteNome: "Organização Mundial da Saúde (OMS)"
-fonteUrl: "https://www.who.int/news/item/08-05-2026-new-evidence-confirms-malaria-vaccine-saves-child-lives-and-will-have-high-impact-in-wider-rollout"
-tags: ["malaria", "vacina", "africa"]
+fonteNome: Organização Mundial da Saúde (OMS)
+fonteUrl: https://www.who.int/news/item/08-05-2026-new-evidence-confirms-malaria-vaccine-saves-child-lives-and-will-have-high-impact-in-wider-rollout
+tags:
+- malaria
+- vacina
+- africa
 draft: false
-imagem: "https://live.staticflickr.com/4042/4553746920_9b977ffb15_b.jpg"
-creditoImagem: "Foto: US Army Africa (BY) via Openverse"
+imagem: https://cdn.who.int/media/images/default-source/topics/diseases-and-conditions/malaria/202309_who_ghana-malaria.tmb-1200v.jpg?sfvrsn=d19198c4_1
+creditoImagem: 'Foto: Organização Mundial da Saúde (OMS) (site oficial)'
 ---
 
 Uma das doenças que mais matam crianças pequenas no mundo começou a recuar graças à vacinação. A Organização Mundial da Saúde anunciou, em maio de 2026, novas evidências de que a vacina contra a malária está de fato salvando vidas na África, com base em uma avaliação rigorosa publicada na revista científica The Lancet.

@@ -221,7 +221,11 @@ def main() -> None:
         # Backfill de imagem de licença livre, se ainda não houver (e não despublicado)
         if acao != "despublicar" and "imagem" not in campos:
             consulta = dados.get("busca_imagem_en") or _valor_str(campos, "titulo")
-            url, credito = imagens.buscar_imagem(consulta, _valor_str(campos, "categoria"))
+            url, credito = imagens.buscar_imagem(
+                consulta, _valor_str(campos, "categoria"),
+                fonte_url=_valor_str(campos, "fonteUrl"),
+                fonte_nome=_valor_str(campos, "fonteNome"),
+            )
             if url:
                 campos["imagem"] = url
                 campos["creditoImagem"] = credito

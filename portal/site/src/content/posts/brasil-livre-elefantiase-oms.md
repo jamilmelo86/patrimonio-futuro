@@ -1,14 +1,17 @@
 ---
-titulo: "Brasil recebe da OMS o certificado de país livre da elefantíase"
-resumo: "Após décadas de ações de saúde pública, o país eliminou a filariose linfática como problema de saúde e é reconhecido pela OPAS."
-categoria: "saude"
+titulo: Brasil recebe da OMS o certificado de país livre da elefantíase
+resumo: Após décadas de ações de saúde pública, o país eliminou a filariose linfática como problema de saúde e é reconhecido pela OPAS.
+categoria: saude
 data: 2024-11-11
-fonteNome: "OPAS/OMS"
-fonteUrl: "https://www.paho.org/pt/noticias/11-11-2024-opas-reconhece-esforcos-do-brasil-para-eliminacao-da-filariose-linfatica-como"
-tags: ["filariose", "saude-publica", "oms"]
+fonteNome: OPAS/OMS
+fonteUrl: https://www.paho.org/pt/noticias/11-11-2024-opas-reconhece-esforcos-do-brasil-para-eliminacao-da-filariose-linfatica-como
+tags:
+- filariose
+- saude-publica
+- oms
 draft: false
-imagem: "https://live.staticflickr.com/8585/16068674648_383d653ccb.jpg"
-creditoImagem: "Foto: www.ilmicrofono.it (BY) via Openverse"
+imagem: https://www.paho.org/sites/default/files/styles/max_650x650/public/2024-11/bra-filarioselinfatica.jpg?itok=_BFL7hTQ
+creditoImagem: 'Foto: OPAS/OMS (site oficial)'
 ---
 
 O Brasil venceu uma batalha de saúde pública que se estendeu por décadas. Em novembro de 2024, a Organização Pan-Americana da Saúde realizou uma cerimônia em reconhecimento à certificação concedida pela Organização Mundial da Saúde, que declara o país livre da filariose linfática, doença popularmente conhecida como elefantíase.

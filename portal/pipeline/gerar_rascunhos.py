@@ -159,7 +159,8 @@ def main() -> None:
 
         ja_vistos.add(chave)
         img_url, img_credito = imagens.buscar_imagem(
-            dados.get("busca_imagem_en") or dados["titulo"], cat
+            dados.get("busca_imagem_en") or dados["titulo"], cat,
+            fonte_url=artigo.url, fonte_nome=artigo.fonte_nome,
         )
         caminho = gravar_rascunho(dados, artigo, img_url, img_credito)
         por_categoria[cat] = por_categoria.get(cat, 0) + 1

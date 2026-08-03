@@ -1,14 +1,17 @@
 ---
-titulo: "Zâmbia inicia vacinação contra malária para proteger mais de 500 mil crianças"
-resumo: "País africano tornou-se o 24º a incluir a vacina R21 na rotina de imunização, num avanço histórico contra uma doença que ainda mata milhares."
-categoria: "mundo"
+titulo: Zâmbia inicia vacinação contra malária para proteger mais de 500 mil crianças
+resumo: País africano tornou-se o 24º a incluir a vacina R21 na rotina de imunização, num avanço histórico contra uma doença que ainda mata milhares.
+categoria: mundo
 data: 2025-10-27
-fonteNome: "OMS África (WHO Regional Office for Africa)"
-fonteUrl: "https://www.afro.who.int/countries/zambia/news/zambia-launches-malaria-vaccine-protect-over-half-million-children"
-tags: ["saúde", "vacina", "África"]
+fonteNome: OMS África (WHO Regional Office for Africa)
+fonteUrl: https://www.afro.who.int/countries/zambia/news/zambia-launches-malaria-vaccine-protect-over-half-million-children
+tags:
+- saúde
+- vacina
+- África
 draft: false
-imagem: "https://live.staticflickr.com/4042/4553746920_9b977ffb15_b.jpg"
-creditoImagem: "Foto: US Army Africa (BY) via Openverse"
+imagem: https://www.afro.who.int/sites/default/files/2025-10/YTML9991.jpg
+creditoImagem: 'Foto: OMS África (WHO Regional Office for Africa) (site oficial)'
 ---
 
 A Zâmbia deu um passo importante na proteção de suas crianças ao lançar oficialmente a vacinação de rotina contra a malária. Com a iniciativa, o país da África Austral se tornou o 24º do continente a incorporar o imunizante ao calendário infantil, num esforço que deve alcançar mais de 500 mil crianças a partir dos 6 meses de idade.

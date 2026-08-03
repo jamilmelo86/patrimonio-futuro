@@ -1,12 +1,17 @@
 ---
-titulo: "Tecnologia da Unicamp com IA agiliza exames de parasitas e chega a dezenas de laboratórios"
-resumo: "Sistema criado na universidade automatiza a análise de exames de fezes e já opera em várias cidades do país."
-categoria: "tecnologia"
+titulo: Tecnologia da Unicamp com IA agiliza exames de parasitas e chega a dezenas de laboratórios
+resumo: Sistema criado na universidade automatiza a análise de exames de fezes e já opera em várias cidades do país.
+categoria: tecnologia
 data: 2024-09-30
-fonteNome: "Jornal da Unicamp"
-fonteUrl: "https://jornal.unicamp.br/noticias/2024/09/30/tecnologia-da-unicamp-para-exames-de-parasitos-intestinais-e-adotado-em-mais-de-60-laboratorios-brasileiros/"
-tags: ["saude", "inteligencia-artificial", "diagnostico"]
+fonteNome: Jornal da Unicamp
+fonteUrl: https://jornal.unicamp.br/noticias/2024/09/30/tecnologia-da-unicamp-para-exames-de-parasitos-intestinais-e-adotado-em-mais-de-60-laboratorios-brasileiros/
+tags:
+- saude
+- inteligencia-artificial
+- diagnostico
 draft: false
+imagem: https://jornal.unicamp.br/wp-content/uploads/sites/32/2024/09/Ju_20240930_Premio_inventores_PEDRO-AMATUZZI-FOTOGRAFIA-5-Capa-1.jpg
+creditoImagem: 'Foto: Jornal da Unicamp (site oficial)'
 ---
 
 Uma tecnologia desenvolvida na Universidade Estadual de Campinas está tornando os exames de parasitas intestinais mais precisos e acessíveis no Brasil. A solução combina um método aprimorado de coleta com um sistema automatizado de análise apoiado em inteligência artificial.

@@ -1,14 +1,17 @@
 ---
-titulo: "Implante cerebral com IA devolve fala quase instantânea a mulher com paralisia"
-resumo: "Tecnologia de universidades da Califórnia traduz sinais do cérebro em voz audível em menos de um segundo."
-categoria: "tecnologia"
+titulo: Implante cerebral com IA devolve fala quase instantânea a mulher com paralisia
+resumo: Tecnologia de universidades da Califórnia traduz sinais do cérebro em voz audível em menos de um segundo.
+categoria: tecnologia
 data: 2025-04-03
-fonteNome: "University of California"
-fonteUrl: "https://www.universityofcalifornia.edu/news/brain-voice-neuroprosthesis-restores-naturalistic-speech"
-tags: ["neurotecnologia", "inteligencia-artificial", "acessibilidade"]
+fonteNome: University of California
+fonteUrl: https://www.universityofcalifornia.edu/news/brain-voice-neuroprosthesis-restores-naturalistic-speech
+tags:
+- neurotecnologia
+- inteligencia-artificial
+- acessibilidade
 draft: false
-imagem: "https://live.staticflickr.com/3488/3299097094_875f5e7049_b.jpg"
-creditoImagem: "Foto: Ryan Somma (BY-SA) via Openverse"
+imagem: https://www.universityofcalifornia.edu/sites/default/files/brain-to-voice-hero-1.jpg
+creditoImagem: 'Foto: University of California (site oficial)'
 ---
 
 Pesquisadores das universidades da Califórnia em Berkeley e em San Francisco anunciaram, em abril de 2025, um avanço que aproxima a ciência de um antigo sonho: devolver a fala natural a pessoas que a perderam por causa de paralisias graves. A tecnologia foi descrita em artigo publicado na revista Nature Neuroscience.
