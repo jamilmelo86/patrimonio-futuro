@@ -64,6 +64,9 @@ Regras:
 - Não inclua a fonte no corpo (o site já mostra o crédito com o link específico).
 - Dê uma nota de CONFIANÇA de 0 a 1 (quão seguro você está de que é uma boa notícia
   real, relevante e bem escrita). Use < 0.7 quando tiver qualquer hesitação.
+- Em "busca_imagem_en", dê 2 a 4 palavras EM INGLÊS para encontrar uma FOTO
+  ilustrativa boa e genérica do tema (ex.: "sea turtle ocean", "mars rover rock",
+  "solar panels field", "volunteers planting trees"). Evite nomes próprios.
 
 Responda SOMENTE com um objeto JSON válido, sem texto ao redor, no formato:
 {
@@ -73,7 +76,8 @@ Responda SOMENTE com um objeto JSON válido, sem texto ao redor, no formato:
   "resumo": "1 frase de chamada (máx 160 caracteres)",
   "corpo": "4 a 6 parágrafos (250-380 palavras) separados por \\n\\n",
   "categoria": "um de: ciencia, solidariedade, meio-ambiente, saude, animais, superacao, tecnologia, mundo",
-  "tags": ["palavra1", "palavra2"]
+  "tags": ["palavra1", "palavra2"],
+  "busca_imagem_en": "2-4 palavras em inglês para foto ilustrativa"
 }"""
 
 

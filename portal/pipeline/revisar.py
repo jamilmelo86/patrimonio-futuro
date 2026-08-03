@@ -25,6 +25,8 @@ import os
 import re
 from pathlib import Path
 
+import imagens
+
 RAIZ = Path(__file__).resolve().parent
 CONTENT_DIR = Path(os.getenv("CONTENT_DIR", RAIZ.parent / "site" / "src" / "content" / "posts"))
 LEDGER = RAIZ / "_estado" / "revisados.json"
@@ -63,7 +65,8 @@ Responda SOMENTE com um objeto JSON válido, sem texto ao redor:
   "resumo": "chamada revisada (máx 160 caracteres)",
   "corpo": "texto revisado em 4 a 6 parágrafos separados por \\n\\n",
   "categoria": "um de: ciencia, solidariedade, meio-ambiente, saude, animais, superacao, tecnologia, mundo",
-  "tags": ["palavra1", "palavra2"]
+  "tags": ["palavra1", "palavra2"],
+  "busca_imagem_en": "2-4 palavras em inglês para uma foto ilustrativa do tema (sem nomes próprios)"
 }"""
 
 
@@ -178,7 +181,7 @@ def main() -> None:
             ledger = {}
 
     posts = sorted(CONTENT_DIR.glob("*.md"))
-    revisados = mantidos = corrigidos = despublicados = 0
+    revisados = mantidos = corrigidos = despublicados = imagens_add = 0
 
     for md in posts:
         if revisados >= MAX_REVISAR:
@@ -201,20 +204,37 @@ def main() -> None:
             continue
 
         acao = dados.get("acao", "manter")
+        corpo_final = corpo
+        mudou = False
+
         if acao == "despublicar":
             campos["draft"] = "true"
-            escrever_post(md, campos, corpo)
             despublicados += 1
+            mudou = True
             print(f"[revisor]  ⊘ despublicado: {md.name} — {dados.get('motivo', '')[:80]}")
         elif acao == "corrigir":
             campos, novo_corpo = _aplicar_correcao(campos, dados)
-            escrever_post(md, campos, novo_corpo or corpo)
+            corpo_final = novo_corpo or corpo
             corrigidos += 1
+            mudou = True
             print(f"[revisor]  ✎ corrigido: {md.name} — {dados.get('motivo', '')[:80]}")
         else:
             mantidos += 1
 
-        # recalcula a assinatura após possível alteração
+        # Backfill de imagem de licença livre, se ainda não houver (e não despublicado)
+        if acao != "despublicar" and "imagem" not in campos:
+            consulta = dados.get("busca_imagem_en") or _valor_str(campos, "titulo")
+            url, credito = imagens.buscar_imagem(consulta, _valor_str(campos, "categoria"))
+            if url:
+                campos["imagem"] = _yaml_str(url)
+                campos["creditoImagem"] = _yaml_str(credito)
+                mudou = True
+                imagens_add += 1
+                print(f"[revisor]  🖼 imagem adicionada: {md.name}")
+
+        if mudou:
+            escrever_post(md, campos, corpo_final)
+
         lido2 = ler_post(md)
         if lido2:
             c2, corpo2 = lido2
@@ -224,7 +244,8 @@ def main() -> None:
     LEDGER.write_text(json.dumps(ledger, ensure_ascii=False, indent=0), encoding="utf-8")
     print(
         f"[revisor] concluído: {revisados} revisados "
-        f"({mantidos} mantidos, {corrigidos} corrigidos, {despublicados} despublicados)."
+        f"({mantidos} mantidos, {corrigidos} corrigidos, {despublicados} despublicados, "
+        f"{imagens_add} imagens adicionadas)."
     )
 
 

@@ -24,6 +24,7 @@ from datetime import date, datetime
 from pathlib import Path
 
 import fontes
+import imagens
 import resumir
 from filtro import (
     carregar_ja_vistos,
@@ -70,7 +71,12 @@ def _yaml_str(valor: str) -> str:
     return '"' + valor.replace("\\", "\\\\").replace('"', '\\"').replace("\n", " ").strip() + '"'
 
 
-def montar_markdown(dados: dict, artigo: fontes.Artigo) -> str:
+def montar_markdown(
+    dados: dict,
+    artigo: fontes.Artigo,
+    imagem_url: str | None = None,
+    imagem_credito: str | None = None,
+) -> str:
     dia = (artigo.publicado or datetime.now()).date() if isinstance(artigo.publicado, datetime) else date.today()
     tags = dados.get("tags") or []
     tags_yaml = "[" + ", ".join(_yaml_str(str(t)) for t in tags if t) + "]"
@@ -84,7 +90,10 @@ def montar_markdown(dados: dict, artigo: fontes.Artigo) -> str:
         f"fonteNome: {_yaml_str(artigo.fonte_nome)}",
         f"fonteUrl: {_yaml_str(artigo.url)}",
     ]
-    if USAR_IMAGEM_FONTE and _img_valida(artigo.imagem):
+    if imagem_url:  # imagem de licença livre (NASA/Pexels/Openverse)
+        linhas.append(f"imagem: {_yaml_str(imagem_url)}")
+        linhas.append(f"creditoImagem: {_yaml_str(imagem_credito or 'Imagem de licença livre')}")
+    elif USAR_IMAGEM_FONTE and _img_valida(artigo.imagem):
         linhas.append(f"imagem: {_yaml_str(artigo.imagem)}")
         linhas.append(f"creditoImagem: {_yaml_str('Imagem: ' + artigo.fonte_nome)}")
     linhas.append(f"tags: {tags_yaml}")
@@ -96,7 +105,12 @@ def montar_markdown(dados: dict, artigo: fontes.Artigo) -> str:
     return "\n".join(linhas)
 
 
-def gravar_rascunho(dados: dict, artigo: fontes.Artigo) -> Path:
+def gravar_rascunho(
+    dados: dict,
+    artigo: fontes.Artigo,
+    imagem_url: str | None = None,
+    imagem_credito: str | None = None,
+) -> Path:
     CONTENT_DIR.mkdir(parents=True, exist_ok=True)
     base = slugify(dados["titulo"])
     caminho = CONTENT_DIR / f"{base}.md"
@@ -104,7 +118,7 @@ def gravar_rascunho(dados: dict, artigo: fontes.Artigo) -> Path:
     while caminho.exists():
         caminho = CONTENT_DIR / f"{base}-{n}.md"
         n += 1
-    caminho.write_text(montar_markdown(dados, artigo), encoding="utf-8")
+    caminho.write_text(montar_markdown(dados, artigo, imagem_url, imagem_credito), encoding="utf-8")
     return caminho
 
 
@@ -144,7 +158,10 @@ def main() -> None:
             continue
 
         ja_vistos.add(chave)
-        caminho = gravar_rascunho(dados, artigo)
+        img_url, img_credito = imagens.buscar_imagem(
+            dados.get("busca_imagem_en") or dados["titulo"], cat
+        )
+        caminho = gravar_rascunho(dados, artigo, img_url, img_credito)
         por_categoria[cat] = por_categoria.get(cat, 0) + 1
         criados += 1
         marca = " (esqueleto)" if dados.get("_fallback") else ""
