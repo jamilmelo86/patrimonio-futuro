@@ -6,8 +6,8 @@ data: 2026-08-02
 fonteNome: "Good News Network"
 fonteUrl: "https://www.goodnewsnetwork.org/mars-rover-discovers-mysterious-field-of-honeycomb-textures-on-red-planet/"
 tags: ["Marte", "NASA", "Curiosity", "exploração espacial", "geologia marciana"]
-imagem: "https://images-assets.nasa.gov/image/PIA16564/PIA16564~orig.jpg"
-creditoImagem: "Imagem ilustrativa: NASA/JPL-Caltech (domínio público)"
+imagem: "https://images-assets.nasa.gov/image/PIA26558/PIA26558~small.jpg"
+creditoImagem: "Foto: NASA/JPL-Caltech — padrões boxwork registrados pelo rover Curiosity (domínio público)"
 draft: false
 ---
 
