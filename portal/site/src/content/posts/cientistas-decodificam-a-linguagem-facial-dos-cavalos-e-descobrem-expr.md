@@ -7,6 +7,8 @@ fonteNome: "Catraca Livre"
 fonteUrl: "https://catracalivre.com.br/noticias/cavalos-falam-com-o-rosto-cientistas-decifram-movimentos-que-indicam-brincadeira-atencao-e-ameaca/"
 tags: ["cavalos", "comportamento animal", "comunicação", "pesquisa científica", "bem-estar animal"]
 draft: false
+imagem: "https://live.staticflickr.com/2001/2398054256_4db78c8925_b.jpg"
+creditoImagem: "Foto: visualpanic (BY) via Openverse"
 ---
 
 Um estudo científico analisou o comportamento de 36 cavalos para desvendar o significado por trás de suas expressões faciais. A pesquisa demonstrou que esses animais comunicam emoções e estados emocionais através de movimentos coordenados envolvendo orelhas, focinho e cabeça, criando um verdadeiro sistema de linguagem não verbal.

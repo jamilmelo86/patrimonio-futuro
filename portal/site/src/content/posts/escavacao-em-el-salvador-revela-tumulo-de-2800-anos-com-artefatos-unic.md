@@ -7,6 +7,8 @@ fonteNome: "Catraca Livre"
 fonteUrl: "https://catracalivre.com.br/noticias/arqueologos-descobrem-tumulo-de-2-800-anos-em-el-salvador-com-objeto-em-forma-de-embarcacao-e-figura-de-tartaruga-marinha/"
 tags: ["arqueologia", "El Salvador", "descoberta", "história antiga", "patrimônio cultural"]
 draft: false
+imagem: "https://upload.wikimedia.org/wikipedia/commons/2/25/Archaeological_excavation_site_of_the_Ubeidiya_prehistoric_site_in_2021%2C_picture_taken_by_Omry_Barzilai.jpg"
+creditoImagem: "Foto: עומרי ברזילי - Omry Barzilai (BY-SA) via Openverse"
 ---
 
 Uma descoberta arqueológica significativa foi anunciada em El Salvador: escavações revelaram um túmulo com aproximadamente 2.800 anos de idade contendo restos humanos e artefatos de cerâmica de grande valor histórico. O sepulcro abriga os restos de um indivíduo enterrado em posição de bruços, circundado por objetos que fornecem pistas sobre rituais funerários e crenças da população que habitava a região na antiguidade.

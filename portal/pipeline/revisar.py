@@ -25,6 +25,8 @@ import os
 import re
 from pathlib import Path
 
+import yaml
+
 import imagens
 
 RAIZ = Path(__file__).resolve().parent
@@ -73,38 +75,33 @@ Responda SOMENTE com um objeto JSON válido, sem texto ao redor:
 # --------------------------------------------------------------------------
 # Leitura / escrita do arquivo Markdown (preservando o frontmatter)
 # --------------------------------------------------------------------------
-def _yaml_str(valor: str) -> str:
-    return '"' + valor.replace("\\", "\\\\").replace('"', '\\"').replace("\n", " ").strip() + '"'
-
-
-def ler_post(md: Path) -> tuple[dict[str, str], str] | None:
-    """Devolve (frontmatter como dict ordenado de chave->valor bruto, corpo)."""
+def ler_post(md: Path) -> tuple[dict, str] | None:
+    """Devolve (frontmatter como dict, corpo). Usa PyYAML — lida com YAML de
+    várias linhas (títulos longos, listas de tags em bloco) sem quebrar."""
     texto = md.read_text(encoding="utf-8")
     m = re.match(r"^---\n(.*?)\n---\n?(.*)$", texto, re.DOTALL)
     if not m:
         return None
-    campos: dict[str, str] = {}
-    for linha in m.group(1).splitlines():
-        if ":" in linha and not linha.startswith(" "):
-            chave, _, valor = linha.partition(":")
-            campos[chave.strip()] = valor.strip()
+    try:
+        campos = yaml.safe_load(m.group(1)) or {}
+    except yaml.YAMLError:
+        return None
+    if not isinstance(campos, dict):
+        return None
     return campos, m.group(2).strip()
 
 
-def escrever_post(md: Path, campos: dict[str, str], corpo: str) -> None:
-    linhas = ["---"]
-    for chave, valor in campos.items():
-        linhas.append(f"{chave}: {valor}")
-    linhas.append("---")
-    linhas.append("")
-    linhas.append(corpo.strip())
-    linhas.append("")
-    md.write_text("\n".join(linhas), encoding="utf-8")
+def escrever_post(md: Path, campos: dict, corpo: str) -> None:
+    fm = yaml.safe_dump(
+        campos, allow_unicode=True, sort_keys=False, default_flow_style=False, width=4096
+    ).strip()
+    md.write_text(f"---\n{fm}\n---\n\n{corpo.strip()}\n", encoding="utf-8")
 
 
-def _valor_str(campos: dict[str, str], chave: str) -> str:
-    """Valor de um campo de texto sem as aspas do YAML."""
-    return campos.get(chave, "").strip().strip('"')
+def _valor_str(campos: dict, chave: str) -> str:
+    """Valor de um campo como texto simples."""
+    v = campos.get(chave, "")
+    return str(v) if v is not None else ""
 
 
 def _hash(*partes: str) -> str:
@@ -156,13 +153,13 @@ def revisar_ia(campos: dict[str, str], corpo: str) -> dict | None:
 
 def _aplicar_correcao(campos: dict[str, str], dados: dict) -> tuple[dict[str, str], str]:
     if dados.get("titulo"):
-        campos["titulo"] = _yaml_str(dados["titulo"])
+        campos["titulo"] = dados["titulo"]
     if dados.get("resumo"):
-        campos["resumo"] = _yaml_str(dados["resumo"])
+        campos["resumo"] = dados["resumo"]
     if dados.get("categoria") in CATEGORIAS_VALIDAS:
-        campos["categoria"] = _yaml_str(dados["categoria"])
+        campos["categoria"] = dados["categoria"]
     if isinstance(dados.get("tags"), list) and dados["tags"]:
-        campos["tags"] = "[" + ", ".join(_yaml_str(str(t)) for t in dados["tags"] if t) + "]"
+        campos["tags"] = [str(t) for t in dados["tags"] if t]
     corpo = dados.get("corpo") or ""
     return campos, corpo
 
@@ -190,7 +187,7 @@ def main() -> None:
         if not lido:
             continue
         campos, corpo = lido
-        if campos.get("draft", "false").strip().strip('"') == "true":
+        if campos.get("draft") is True:
             continue  # só revisa o que está publicado
 
         assinatura = _hash(_valor_str(campos, "titulo"), corpo)
@@ -208,7 +205,7 @@ def main() -> None:
         mudou = False
 
         if acao == "despublicar":
-            campos["draft"] = "true"
+            campos["draft"] = True
             despublicados += 1
             mudou = True
             print(f"[revisor]  ⊘ despublicado: {md.name} — {dados.get('motivo', '')[:80]}")
@@ -226,8 +223,8 @@ def main() -> None:
             consulta = dados.get("busca_imagem_en") or _valor_str(campos, "titulo")
             url, credito = imagens.buscar_imagem(consulta, _valor_str(campos, "categoria"))
             if url:
-                campos["imagem"] = _yaml_str(url)
-                campos["creditoImagem"] = _yaml_str(credito)
+                campos["imagem"] = url
+                campos["creditoImagem"] = credito
                 mudou = True
                 imagens_add += 1
                 print(f"[revisor]  🖼 imagem adicionada: {md.name}")

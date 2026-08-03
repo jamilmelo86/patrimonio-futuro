@@ -16,6 +16,8 @@ tags:
   - São Paulo
 destaque: true
 draft: false
+imagem: "https://live.staticflickr.com/220/521555201_1a5f799251_m.jpg"
+creditoImagem: "Foto: rikkis_refuge (BY) via Openverse"
 ---
 
 Uma história tocante de empatia e solidariedade começou quando Catherine conheceu Mônica, uma mulher em situação de rua que dedica sua vida ao cuidado de dez cães em São Paulo. Movida pela dedicação e coragem dessa mulher, Catherine decidiu documentar essa realidade e compartilhar a história, buscando mobilizar pessoas ao seu redor para ajudar.

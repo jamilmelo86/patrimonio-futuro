@@ -7,6 +7,8 @@ fonteNome: "The Conversation Brasil"
 fonteUrl: "https://theconversation.com/de-volta-a-floresta-resgate-reabilitacao-e-reintroducao-de-animais-silvestres-tambem-e-estrategia-de-conservacao-280694"
 tags: ["fauna", "conservação", "aves"]
 draft: false
+imagem: "https://live.staticflickr.com/3198/3146442153_94c704b426_b.jpg"
+creditoImagem: "Foto: ferran pestaña (BY-SA) via Openverse"
 ---
 
 Devolver um animal silvestre à floresta é o final feliz de uma corrente que começa bem antes. Ela nasce no resgate — muitas vezes de animais vítimas do tráfico ou de maus-tratos —, passa por um período de reabilitação e cuidados, e só termina quando o bicho está pronto para viver por conta própria de novo. É exatamente esse ciclo que o Instituto de Pesquisa da Biodiversidade (IPBio) vem cumprindo.

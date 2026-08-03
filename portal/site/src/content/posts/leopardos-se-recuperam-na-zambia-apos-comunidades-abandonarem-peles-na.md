@@ -7,6 +7,8 @@ fonteNome: "Positive News"
 fonteUrl: "https://www.positive.news/environment/leopards-recover-in-zambia-as-communities-swap-skins-for-synthetics/"
 tags: ["leopardos", "conservação", "Zâmbia", "sustentabilidade", "vida selvagem", "comunidades locais"]
 draft: false
+imagem: "https://live.staticflickr.com/7406/10829578893_83b2fa49f8_b.jpg"
+creditoImagem: "Foto: Mitchell Fitzsimmons (BY) via Openverse"
 ---
 
 Pesquisadores documentaram uma recuperação significativa da população de leopardos na região ocidental da Zâmbia, resultado direto de uma mudança cultural importante entre as comunidades locais. O fator-chave foi a adoção de peles sintéticas em substituição às peles naturais de leopardo, que historicamente eram utilizadas em trajes e rituais tradicionais.

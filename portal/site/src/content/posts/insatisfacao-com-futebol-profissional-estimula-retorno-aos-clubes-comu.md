@@ -7,6 +7,8 @@ fonteNome: "Positive News"
 fonteUrl: "https://www.positive.news/society/finding-their-grassroots/"
 tags: ["futebol", "comunidade", "inclusão social", "movimento local"]
 draft: false
+imagem: "https://live.staticflickr.com/8547/8878950165_8678490683_b.jpg"
+creditoImagem: "Foto: 遠望jupiter (BY-SA) via Openverse"
 ---
 
 Um movimento crescente contra o futebol de elite tem gerado renovado entusiasmo pelos clubes comunitários, instituições que democratizam o acesso à prática desportiva e fortalecem os laços entre moradores. Enquanto o futebol profissional de grandes ligas enfrenta críticas relacionadas a custos elevados, comercialização excessiva e distanciamento dos torcedores, as agremiações locais oferecem uma alternativa mais próxima e acessível.

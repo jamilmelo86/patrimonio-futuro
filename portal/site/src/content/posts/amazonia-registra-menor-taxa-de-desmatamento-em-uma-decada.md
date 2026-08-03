@@ -7,6 +7,8 @@ fonteNome: "CicloVivo"
 fonteUrl: "https://ciclovivo.com.br/planeta/meio-ambiente/desmatamento-na-amazonia-atinge-menor-nivel-em-dez-anos/"
 tags: ["Amazônia", "desmatamento", "preservação", "Cerrado", "sustentabilidade"]
 draft: false
+imagem: "https://live.staticflickr.com/5270/5641584266_4e5080ca16_b.jpg"
+creditoImagem: "Foto: CIAT International Center for Tropical Agriculture (BY-SA) via Openverse"
 ---
 
 A Amazônia brasileira alcançou um marco positivo ao registrar a menor taxa de desmatamento em dez anos. A redução representa um avanço significativo nos esforços de proteção da maior floresta tropical do planeta, que enfrenta há décadas pressões de atividades predatórias.

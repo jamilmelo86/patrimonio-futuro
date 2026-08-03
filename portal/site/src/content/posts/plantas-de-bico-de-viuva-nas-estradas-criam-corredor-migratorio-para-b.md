@@ -7,6 +7,8 @@ fonteNome: "Optimist Daily"
 fonteUrl: "https://www.optimistdaily.com/2026/07/roadside-milkweed-is-giving-monarchs-a-new-migration-highway/"
 tags: ["borboleta-monarca", "conservação", "habitat", "biodiversidade", "Flórida", "meio-ambiente"]
 draft: false
+imagem: "https://live.staticflickr.com/552/19985937875_e56ebcf475_b.jpg"
+creditoImagem: "Foto: Tatiana12 (BY) via Openverse"
 ---
 
 Uma iniciativa inovadora está transformando as margens das estradas em refúgios vitais para as borboletas-monarca. Pesquisadores plantaram nove mil mudas de bico-de-viúva (milkweed) ao longo de rodovias em seis condados do norte da Flórida, com planos de adicionar mais seis mil plantas até 2029. A estratégia já está funcionando: borboletas têm sido avistadas regularmente nos locais onde as flores foram plantadas.

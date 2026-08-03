@@ -7,6 +7,8 @@ fonteNome: "Catraca Livre"
 fonteUrl: "https://catracalivre.com.br/noticias/na-costa-rica-uma-pastagem-degradada-foi-coberta-com-12-mil-toneladas-de-cascas-de-laranja-16-anos-depois-cientistas-encontraram-uma-floresta-exuberante/"
 tags: ["restauração ambiental", "economia circular", "Costa Rica", "resíduos agrícolas", "biodiversidade"]
 draft: false
+imagem: "https://live.staticflickr.com/4363/35897015803_be3544a5b4_b.jpg"
+creditoImagem: "Foto: JIRCAS (BY) via Openverse"
 ---
 
 Uma iniciativa inovadora na Costa Rica demonstra o potencial de técnicas simples e sustentáveis para recuperar ecossistemas danificados. Pesquisadores acompanharam um experimento no qual aproximadamente 12 mil toneladas de cascas de laranja foram depositadas sobre uma pastagem que havia perdido sua capacidade produtiva e biodiversidade. O resíduo agrícola, normalmente descartado ou subutilizado, funcionou como base para um processo natural de regeneração.

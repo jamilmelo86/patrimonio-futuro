@@ -7,6 +7,8 @@ fonteNome: "Good News Network"
 fonteUrl: "https://www.goodnewsnetwork.org/climate-friendly-heat-pumps-are-becoming-dominant-home-hvac-system-in-america/"
 tags: ["bombas de calor", "energia renovável", "sustentabilidade", "EUA", "eficiência energética"]
 draft: false
+imagem: "https://live.staticflickr.com/65535/51555221485_f8550d8f8a_b.jpg"
+creditoImagem: "Foto: Colleen Lane Photography (BY-ND) via Openverse"
 ---
 
 Os Estados Unidos estão vivenciando uma transformação significativa no setor de climatização residencial, com a tecnologia de bombas de calor conquistando uma fatia cada vez maior do mercado. A adoção desses sistemas, que utilizam energia de forma mais eficiente e amigável ao meio ambiente, cresceu de forma impressionante nos últimos anos, sinalizando uma mudança estrutural nas preferências dos consumidores e construtoras.

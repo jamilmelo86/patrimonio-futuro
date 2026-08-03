@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/28/catador-brasileiro-vira-doutor-20-anos-longe-escola-primeiro-do-mundo"
 tags: ["educação", "catador", "doutorado", "persistência", "história de vida"]
 draft: false
+imagem: "https://live.staticflickr.com/4046/4349874305_273108ee51_b.jpg"
+creditoImagem: "Foto: dfulmer (BY) via Openverse"
 ---
 
 Alex Cardoso, um homem que passou mais de vinte anos longe das salas de aula, está prestes a conquistar um título que muitos julgavam ser apenas um sonho distante. Trabalhando como catador de materiais recicláveis e sustentando sozinho três filhos, ele perseverou e agora se aproxima de sua formação como doutor, um feito que pode marcar a história do Brasil.

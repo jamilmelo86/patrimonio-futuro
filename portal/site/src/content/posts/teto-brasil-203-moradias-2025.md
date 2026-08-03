@@ -7,6 +7,8 @@ fonteNome: "TETO Brasil"
 fonteUrl: "https://br.techo.org/blog/teto-brasil-constroi-203-moradias-e-mobiliza-95-mil-voluntarios-em-2025/"
 tags: ["moradia", "voluntariado", "comunidades"]
 draft: false
+imagem: "https://live.staticflickr.com/4089/5050545620_70149f2675_b.jpg"
+creditoImagem: "Foto: Moving Mountains Trust (BY) via Openverse"
 ---
 
 A organização TETO fechou 2025 com um balanço animador: foram 203 moradias emergenciais construídas em diferentes regiões do país, número que superou a meta anual, prevista em 195 casas. O resultado é fruto do trabalho de mais de 9,5 mil voluntários que se envolveram nas ações ao longo do ano, transformando fins de semana em canteiros de solidariedade.

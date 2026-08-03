@@ -8,6 +8,8 @@ fonteUrl: "https://jiujitsubrasiloficial.com.br/2026/06/15/persistencia-evolucao
 tags: ["jiu-jitsu", "persistência", "esporte infantil", "Santa Catarina", "autismo"]
 destaque: true
 draft: false
+imagem: "https://live.staticflickr.com/3040/2566999335_bb6eef8586_b.jpg"
+creditoImagem: "Foto: parhessiastes (BY-SA) via Openverse"
 ---
 
 A história de Beatriz Rodrigues, a Bia, de Indaial (SC), é uma verdadeira aula de persistência. Em 2023, na sua estreia no Campeonato Brasileiro de Jiu-Jitsu Kids, ela foi eliminada logo na primeira luta, contra a então campeã. Para muita criança, seria o fim da linha. Para Bia, foi só o começo.

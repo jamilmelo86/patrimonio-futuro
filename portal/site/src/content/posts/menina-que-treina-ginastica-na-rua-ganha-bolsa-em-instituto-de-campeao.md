@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/29/mini-ginasta-treina-rua-convidada-diego-hypolito-instituto-video"
 tags: ["ginástica artística", "oportunidade", "talento", "Rio de Janeiro", "inspiração"]
 draft: false
+imagem: "https://live.staticflickr.com/4092/5015834832_5ab2af812d_b.jpg"
+creditoImagem: "Foto: Roman Harak (BY-SA) via Openverse"
 ---
 
 Uma menina de apenas 11 anos, moradora de Belford Roxo no Rio de Janeiro, realizou o sonho de mudar de vida através da determinação e talento. Conhecida nas redes sociais como Emanuelly Gim, ela chamou atenção ao compartilhar vídeos seus treinando ginástica artística em condições precárias: num pequeno muro de concreto, sem qualquer equipamento profissional, em frente a uma construção inacabada.

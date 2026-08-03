@@ -7,6 +7,8 @@ fonteNome: "Positive News"
 fonteUrl: "https://www.positive.news/society/did-a-tourist-tax-save-magaluf/"
 tags: ["turismo sustentável", "Magaluf", "taxa turística", "revitalização urbana", "desenvolvimento local"]
 draft: false
+imagem: "https://live.staticflickr.com/5459/9473733203_efc960d183_b.jpg"
+creditoImagem: "Foto: jase™ (BY) via Openverse"
 ---
 
 Magaluf, resort espanhol que enfrentava desafios relacionados ao turismo de massa descontrolado, implementou um imposto sobre visitantes há aproximadamente dez anos. A medida, conhecida como taxa turística, direcionou recursos para melhorar a infraestrutura local e a qualidade de vida dos residentes, transformando a dinâmica do destino turístico.

@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/29/transplante-inedito-devolve-visao-idosa-5-anos-cega-italia-primeira-mundo"
 tags: ["oftalmologia", "transplante", "cegueira", "inovação médica", "Itália"]
 draft: false
+imagem: "https://live.staticflickr.com/3564/5706699225_fb3e990e2b_b.jpg"
+creditoImagem: "Foto: US Army Africa (BY) via Openverse"
 ---
 
 Uma mulher de 67 anos que conviveu com a cegueira total durante cinco anos conseguiu recuperar a visão graças a um procedimento cirúrgico revolucionário realizado em Turim, na Itália. A operação, considerada a primeira de seu tipo no mundo, marca um avanço significativo no tratamento de casos graves de perda visual.

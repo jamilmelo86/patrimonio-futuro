@@ -7,6 +7,8 @@ fonteNome: "Good News Network"
 fonteUrl: "https://www.goodnewsnetwork.org/global-hunger-falls-below-8-for-the-first-time-since-the-pandemic/"
 tags: ["fome global", "desnutrição", "segurança alimentar", "desenvolvimento sustentável", "recuperação pós-pandemia"]
 draft: false
+imagem: "https://live.staticflickr.com/65535/51350639588_414952df46_b.jpg"
+creditoImagem: "Foto: annika.e.olsen12 (PDM) via Openverse"
 ---
 
 A comunidade internacional registra um progresso significativo na redução da fome global. Pela terceira ano seguido, os índices de desnutrição entre as populações continentais apresentam queda, marcando um avanço importante na luta contra a insegurança alimentar que afeta bilhões de pessoas.

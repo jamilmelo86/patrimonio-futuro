@@ -7,6 +7,8 @@ fonteNome: "Good News Network"
 fonteUrl: "https://www.goodnewsnetwork.org/miracle-as-all-11-onboard-survive-harrowing-seaplane-crash-and-fire-in-puget-sounds-frigid-water/"
 tags: ["resgate", "hidroavião", "sobrevivência", "Puget Sound", "Seattle"]
 draft: false
+imagem: "https://live.staticflickr.com/5608/15340198429_9e6a47ace3_b.jpg"
+creditoImagem: "Foto: tdlucas5000 (BY) via Openverse"
 ---
 
 Um hidroavião operado pela Kenmore Air sofreu um acidente enquanto voava sobre o Puget Sound, nos arredores de Seattle. A aeronave, um modelo de Havilland DHC-3 Otter, transportava dez passageiros e um piloto quando o incidente ocorreu. Além do impacto da queda, a aeronave também pegou fogo após atingir a água.

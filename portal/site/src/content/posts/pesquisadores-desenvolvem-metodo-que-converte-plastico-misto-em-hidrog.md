@@ -7,6 +7,8 @@ fonteNome: "Catraca Livre"
 fonteUrl: "https://catracalivre.com.br/noticias/cientistas-transformam-plasticos-misturados-em-hidrogenio-com-mais-de-90-de-pureza-sem-separar-o-lixo-e-prendem-o-carbono-dentro-do-reator/"
 tags: ["plástico", "reciclagem", "hidrogênio", "energia limpa", "inovação", "sustentabilidade"]
 draft: false
+imagem: "https://live.staticflickr.com/5181/5554007051_efb00bedd4_b.jpg"
+creditoImagem: "Foto: Idaho National Laboratory (BY) via Openverse"
 ---
 
 Cientistas conseguiram um avanço significativo na gestão de resíduos plásticos ao desenvolver um método que converte plásticos misturados diretamente em hidrogênio com pureza superior a 90%, sem necessidade de separação prévia do material. A descoberta representa um progresso importante tanto para a energia limpa quanto para a redução de lixo.

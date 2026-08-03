@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/30/confirmado-duda-santos-sera-daiane-dos-santos-cinema-producao-viola-davis"
 tags: ["cinema", "Daiane dos Santos", "ginástica", "Brasil", "cinebiografia"]
 draft: false
+imagem: "https://live.staticflickr.com/7171/6852692855_2bfca8cf76_b.jpg"
+creditoImagem: "Foto: Erin Costa (BY) via Openverse"
 ---
 
 A trajetória da maior ginasta do Brasil ganhará as telas de cinema. Duda Santos, atriz com 25 anos, foi confirmada no papel principal de Daiane dos Santos na cinebiografia intitulada "A Menina que Voa". O anúncio oficial partiu da própria Daiane através de suas redes sociais, gerando grande entusiasmo entre fãs e admiradores da atleta.

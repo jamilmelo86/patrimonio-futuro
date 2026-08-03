@@ -7,6 +7,8 @@ fonteNome: "IUCN (União Internacional para a Conservação da Natureza)"
 fonteUrl: "https://iucn.org/press-release/202406/iberian-lynx-rebounding-thanks-conservation-action-iucn-red-list"
 tags: ["lince-iberico", "conservacao", "especies-ameacadas"]
 draft: false
+imagem: "https://live.staticflickr.com/3284/2517352432_8935db6532_b.jpg"
+creditoImagem: "Foto: ferran pestaña (BY-SA) via Openverse"
 ---
 
 O lince-ibérico, felino de orelhas pontudas que habita a Península Ibérica, protagoniza uma das reviravoltas mais celebradas da conservação mundial. Em junho de 2024, a União Internacional para a Conservação da Natureza anunciou que o animal saiu da categoria "em perigo" e passou a ser classificado apenas como "vulnerável" na sua Lista Vermelha, sinal de que o risco imediato de extinção diminuiu de forma significativa.

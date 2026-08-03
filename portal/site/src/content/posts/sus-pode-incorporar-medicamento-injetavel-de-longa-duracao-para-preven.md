@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/29/sus-principal-medicacao-injetavel-contra-hiv-entenda"
 tags: ["HIV", "SUS", "cabotegravir", "prevenção", "medicamento injetável", "saúde pública"]
 draft: false
+imagem: "https://live.staticflickr.com/2133/2196764544_95aa75d8b3_b.jpg"
+creditoImagem: "Foto: NathanF (BY) via Openverse"
 ---
 
 O Ministério da Saúde anunciou uma iniciativa promissora para ampliar as opções de prevenção do HIV no Brasil. A pasta solicitará a inclusão do cabotegravir ao catálogo de medicamentos oferecidos pelo Sistema Único de Saúde, marcando um avanço significativo no combate à epidemia.

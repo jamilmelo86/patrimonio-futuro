@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/29/mulher-quebra-tubulacao-picareta-resgatar-filhote-preso-cano-esgoto-video"
 tags: ["resgate animal", "cachorro", "coragem", "amor aos animais", "determinação"]
 draft: false
+imagem: "https://live.staticflickr.com/3596/3373571175_943e41e067_b.jpg"
+creditoImagem: "Foto: Beverly & Pack (BY) via Openverse"
 ---
 
 Uma atitude rápida e determinada salvou a vida de um filhote de cachorro que havia se metido em apuros. Amanda Lima ouviu latidos estranhos vindo do quintal de sua casa e imediatamente foi investigar o que estava acontecendo. Ao chegar ao local, descobriu que uma de suas filhotinhas havia entrado pela tubulação de esgoto e ficado presa, impossibilitada de sair sozinha.

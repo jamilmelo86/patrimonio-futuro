@@ -7,6 +7,8 @@ fonteNome: "Tribuna de Minas"
 fonteUrl: "https://tribunademinas.com.br/noticias/regiao/15-01-2025/enem-2024-unica-aluna-de-escola-publica-com-nota-maxima-na-redacao-e-de-colegio-de-vicosa.html"
 tags: ["enem", "educacao", "escola-publica"]
 draft: false
+imagem: "https://upload.wikimedia.org/wikipedia/commons/9/9d/Students_writing_exams.jpg"
+creditoImagem: "Foto: Abdul-Hanan Chambihi (BY-SA) via Openverse"
 ---
 
 Entre milhões de estudantes que fizeram o Exame Nacional do Ensino Médio de 2024, apenas doze conseguiram a proeza de tirar a nota máxima na redação. Desse grupo pequeníssimo, uma única representante veio de uma escola pública: Samille Leão Malta, de 19 anos, aluna do Colégio de Aplicação da Universidade Federal de Viçosa, em Minas Gerais.

@@ -7,6 +7,8 @@ fonteNome: "CNN Brasil"
 fonteUrl: "https://www.cnnbrasil.com.br/nacional/censo-aereo-confirma-recuperacao-da-populacao-de-baleias-jubarte/"
 tags: ["baleia-jubarte", "conservacao", "abrolhos"]
 draft: false
+imagem: "https://live.staticflickr.com/7486/15194165793_619455e948_b.jpg"
+creditoImagem: "Foto: Christopher.Michel (BY) via Openverse"
 ---
 
 Poucas histórias de conservação marinha no Brasil são tão animadoras quanto a das baleias-jubarte. Um levantamento aéreo divulgado no fim de 2022 estimou cerca de 25 mil animais nadando pelas águas brasileiras na temporada daquele ano, um patamar muito próximo do que se acredita ter existido há dois séculos, quando a espécie ainda não havia sido dizimada pela caça.

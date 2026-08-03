@@ -7,6 +7,8 @@ fonteNome: "Good News Network"
 fonteUrl: "https://www.goodnewsnetwork.org/american-indian-schools-achieve-highest-graduation-rates-in-the-nations-history/"
 tags: ["educação", "comunidades indígenas", "sucesso acadêmico", "Estados Unidos", "conquista histórica"]
 draft: false
+imagem: "https://live.staticflickr.com/5052/5510558786_1f0f93b14b_b.jpg"
+creditoImagem: "Foto: SMBCollege (BY) via Openverse"
 ---
 
 As escolas de ensino médio administradas e/ou financiadas pelo Bureau of Indian Education (BIE) registraram um marco histórico: as maiores taxas médias de conclusão de curso já documentadas em toda a sua história. O resultado representa um avanço significativo na trajetória educacional das comunidades indígenas americanas, tradicionalmente marcadas por desafios estruturais no acesso e permanência no ensino.

@@ -7,6 +7,8 @@ fonteNome: "Reasons to be Cheerful"
 fonteUrl: "https://reasonstobecheerful.world/what-if-we-never-built-another-new-building/"
 tags: ["arquitetura sustentável", "reforma", "preservação", "sustentabilidade", "construção"]
 draft: false
+imagem: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Old_building_renovation.JPG"
+creditoImagem: "Foto: Otto Magnus (BY-SA) via Openverse"
 ---
 
 A arquiteta suíça Barbara Buser vem revolucionando a forma como pensamos sobre sustentabilidade urbana ao demonstrar, ao longo de décadas, que frequentemente a escolha mais amiga do ambiente não é erguer novos prédios, mas preservar e reimaginar os que já existem. Seu trabalho desafia a indústria da construção civil a repensar o ciclo vicioso de demolição e reconstrução que caracteriza muitas cidades modernas.

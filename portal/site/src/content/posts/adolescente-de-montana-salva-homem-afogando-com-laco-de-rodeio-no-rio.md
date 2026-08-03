@@ -7,6 +7,8 @@ fonteNome: "Good News Network"
 fonteUrl: "https://www.goodnewsnetwork.org/montana-teen-uses-rodeo-lasso-to-rescue-drowning-man-on-yellowstone-river/"
 tags: ["rodeio", "resgate", "adolescente", "Montana", "heroísmo"]
 draft: false
+imagem: "https://live.staticflickr.com/5347/9270659478_6be84817c1_b.jpg"
+creditoImagem: "Foto: Jeanne Menjoulet (BY-ND) via Openverse"
 ---
 
 Um adolescente de Montana protagonizou um resgate extraordinário no Rio Yellowstone durante o fim de semana do Dia da Independência. Jory Thomas, que passava as festividades na casa de seus avós, estava praticando suas habilidades de rodeio quando testemunhou um homem caindo nas águas do rio. Em vez de ficar paralisado, o jovem de 14 anos agiu rapidamente, utilizando seu laço para alcançar a vítima que se debatia na correnteza.

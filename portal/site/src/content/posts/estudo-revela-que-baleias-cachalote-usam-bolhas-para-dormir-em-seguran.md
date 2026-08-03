@@ -7,6 +7,8 @@ fonteNome: "Good News Network"
 fonteUrl: "https://www.goodnewsnetwork.org/blowing-bubbles-allows-sperm-whales-to-sleep-soundly-beneath-waves/"
 tags: ["baleias", "comportamento animal", "oceano", "pesquisa científica", "sono"]
 draft: false
+imagem: "https://live.staticflickr.com/2630/3795518810_524e7dba1e_b.jpg"
+creditoImagem: "Foto: Ryan Somma (BY-SA) via Openverse"
 ---
 
 Um estudo recente desvendou um comportamento fascinante das baleias-cachalote durante o sono: elas produzem bolhas de ar que as ajudam a permanecer submersas enquanto descansam. Os mamíferos marinhos precisam dessa estratégia criativa para não boiar involuntariamente enquanto cochilamm nas profundezas do oceano.

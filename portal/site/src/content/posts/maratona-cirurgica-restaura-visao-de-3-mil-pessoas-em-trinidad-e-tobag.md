@@ -7,6 +7,8 @@ fonteNome: "Good News Network"
 fonteUrl: "https://www.goodnewsnetwork.org/3000-backlogged-eye-surgeries-paid-forward-by-us-caribbean-churches-restoring-sight-for-thousands/"
 tags: ["cirurgia oftalmológica", "Trinidad e Tobago", "voluntariado", "saúde visual", "Igreja Adventista", "cegueira", "catarata"]
 draft: false
+imagem: "https://upload.wikimedia.org/wikipedia/commons/b/b3/Slit_lamp_Eye_examination_by_Ophthalmologist.jpg"
+creditoImagem: "Foto: Rakesh Ahuja, MD (BY-SA) via Openverse"
 ---
 
 Um hospital em Trinidad e Tobago foi palco de um feito impressionante: uma maratona cirúrgica de 12 dias ininterruptos que restaurou a visão de 3 mil pessoas, todas atendidas gratuitamente. O projeto foi organizado pela Igreja Adventista do Sétimo Dia, que mobilizou recursos e profissionais para realizar cirurgias de catarata e pterígio, duas condições oftalmológicas que afetam severamente a qualidade de vida.

@@ -7,6 +7,8 @@ fonteNome: "Good News Network"
 fonteUrl: "https://www.goodnewsnetwork.org/events060729/"
 tags: ["NASA", "espacial", "história", "inovação", "ciência"]
 draft: false
+imagem: "https://images-assets.nasa.gov/image/MAF_20190917_ES Join at area 47_Jnl-0514/MAF_20190917_ES Join at area 47_Jnl-0514~small.jpg"
+creditoImagem: "Imagem: NASA/JPL-Caltech (domínio público)"
 ---
 
 No dia 29 de julho de 1958, a criação da Agência Espacial Americana (NASA) representou um marco histórico na busca humana pela exploração do cosmos. O surgimento dessa instituição foi impulsionado pelo feito soviético de lançar o Sputnik, o primeiro satélite orbital da história, acendendo a chama da corrida espacial entre as superpotências da época.

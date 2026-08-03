@@ -7,6 +7,8 @@ fonteNome: "Catraca Livre"
 fonteUrl: "https://catracalivre.com.br/viagem-livre/nova-rota-da-taag-amplia-acesso-de-brasileiros-a-asia/"
 tags: ["aviação", "TAAG", "China", "Guangzhou", "turismo", "conectividade aérea", "Brasil"]
 draft: false
+imagem: "https://live.staticflickr.com/2478/3893372643_d613e40c5e_b.jpg"
+creditoImagem: "Foto: steve conry (BY) via Openverse"
 ---
 
 A companhia aérea TAAG anunciou o lançamento de uma nova rota que conecta o Brasil diretamente a Guangzhou, importante metrópole chinesa no sul do país asiático. A iniciativa representa um marco significativo para viajantes brasileiros interessados em explorar a Ásia, tornando as jornadas menos complexas e mais acessíveis.

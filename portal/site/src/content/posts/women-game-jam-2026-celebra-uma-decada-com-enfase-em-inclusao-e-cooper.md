@@ -7,6 +7,8 @@ fonteNome: "Catraca Livre"
 fonteUrl: "https://catracalivre.com.br/futuro-geek/women-game-jam-2026-chega-a-10a-edicao-com-foco-em-colaboracao-e-inclusao-na-criacao-de-jogos/"
 tags: ["jogos", "inclusão", "mulheres", "desenvolvimento", "colaboração", "diversidade"]
 draft: false
+imagem: "https://live.staticflickr.com/8527/8681272802_4bcc4cc7cb_b.jpg"
+creditoImagem: "Foto: US Mission Geneva (BY-ND) via Openverse"
 ---
 
 A Women Game Jam 2026 chega em sua edição de número dez, reafirmando seu compromisso com a diversidade e a inclusão no universo dos videogames. O evento, marcado para os dias 16 a 18 de outubro, funciona como uma maratona internacional onde participantes trabalham colaborativamente na criação de jogos em um curto espaço de tempo.

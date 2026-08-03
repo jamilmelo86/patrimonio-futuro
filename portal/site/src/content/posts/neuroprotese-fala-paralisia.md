@@ -7,6 +7,8 @@ fonteNome: "University of California"
 fonteUrl: "https://www.universityofcalifornia.edu/news/brain-voice-neuroprosthesis-restores-naturalistic-speech"
 tags: ["neurotecnologia", "inteligencia-artificial", "acessibilidade"]
 draft: false
+imagem: "https://live.staticflickr.com/3488/3299097094_875f5e7049_b.jpg"
+creditoImagem: "Foto: Ryan Somma (BY-SA) via Openverse"
 ---
 
 Pesquisadores das universidades da Califórnia em Berkeley e em San Francisco anunciaram, em abril de 2025, um avanço que aproxima a ciência de um antigo sonho: devolver a fala natural a pessoas que a perderam por causa de paralisias graves. A tecnologia foi descrita em artigo publicado na revista Nature Neuroscience.

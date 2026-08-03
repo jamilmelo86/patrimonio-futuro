@@ -7,6 +7,8 @@ fonteNome: "Samsung Newsroom Brasil"
 fonteUrl: "https://news.samsung.com/br/solve-for-tomorrow-brasil-samsung-anuncia-vencedores-de-2025"
 tags: ["educação", "juventude", "ciência"]
 draft: false
+imagem: "https://live.staticflickr.com/3801/10867847704_b6a31f4f67_b.jpg"
+creditoImagem: "Foto: TESS-India (BY-SA) via Openverse"
 ---
 
 Estudantes de escolas públicas de diferentes cantos do Brasil mostraram que talento e vontade de ajudar não dependem de laboratórios sofisticados. A 12ª edição do programa Solve for Tomorrow, que estimula jovens a resolver problemas reais de suas comunidades com ciência e tecnologia, anunciou seus vencedores, revelando projetos que unem criatividade e impacto social.

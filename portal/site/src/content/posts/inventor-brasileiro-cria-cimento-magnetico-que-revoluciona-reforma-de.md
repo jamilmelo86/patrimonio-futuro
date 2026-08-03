@@ -7,6 +7,8 @@ fonteNome: "Catraca Livre"
 fonteUrl: "https://catracalivre.com.br/noticias/jovem-de-29-anos-cria-cimento-magnetico-que-transforma-paredes-em-superficies-funcionais-sem-precisar-de-furadeira/"
 tags: ["inovação", "cimento magnético", "reforma", "construção", "design de interiores", "empreendedorismo"]
 draft: false
+imagem: "https://live.staticflickr.com/2248/2240679140_c861dc9a48_b.jpg"
+creditoImagem: "Foto: kalleboo (BY) via Openverse"
 ---
 
 Um inventor de 29 anos criou uma solução prática e inovadora para um problema comum em reformas e decoração de ambientes: o cimento magnético. O novo material funciona transformando paredes comuns em superfícies magnéticas capazes de manter objetos fixados sem a necessidade de furadeiras, pregos ou âncoras tradicionais.

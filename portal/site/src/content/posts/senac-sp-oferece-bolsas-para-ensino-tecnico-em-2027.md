@@ -7,6 +7,8 @@ fonteNome: "Catraca Livre"
 fonteUrl: "https://catracalivre.com.br/educacao/senac-sp-abre-inscricoes-para-bolsas-no-ensino-medio-tecnico-em-2027/"
 tags: ["educação", "bolsas de estudo", "ensino técnico", "oportunidades", "Senac"]
 draft: false
+imagem: "https://live.staticflickr.com/6152/6172327422_fef63e9a60_b.jpg"
+creditoImagem: "Foto: MarcinMonko (BY) via Openverse"
 ---
 
 O Senac de São Paulo divulgou a abertura de inscrições para bolsas destinadas a alunos que desejam cursar ensino médio técnico a partir de 2027. A iniciativa reforça o compromisso da instituição com a democratização do acesso à educação profissionalizante no estado.

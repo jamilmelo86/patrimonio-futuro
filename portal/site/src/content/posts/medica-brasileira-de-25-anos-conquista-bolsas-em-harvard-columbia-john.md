@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/31/medica-brasileira-conquista-bolsa-4-universidades-eua-escolhe-harvard"
 tags: ["educação", "bolsa de estudos", "Harvard", "profissional", "Brasil"]
 draft: false
+imagem: "https://live.staticflickr.com/3383/3488209743_27c08c736e_b.jpg"
+creditoImagem: "Foto: Tilemahos Efthimiadis (BY-SA) via Openverse"
 ---
 
 Bianca Cardoso Lopes, uma médica brasileira de apenas 25 anos, alcançou uma conquista acadêmica notável ao ser aprovada com bolsas de estudos em quatro das instituições mais renomadas dos Estados Unidos. As universidades que a selecionaram foram Harvard, Columbia, Johns Hopkins e Duke, todas reconhecidas internacionalmente pela excelência em pesquisa e formação profissional.

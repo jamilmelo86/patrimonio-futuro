@@ -7,6 +7,8 @@ fonteNome: "Good News Network"
 fonteUrl: "https://www.goodnewsnetwork.org/scientists-develop-enzyme-to-limit-environmental-impact-of-mine-waste-testing-underway/"
 tags: ["mineração", "meio-ambiente", "enzima", "inovação", "sustentabilidade", "resíduos"]
 draft: false
+imagem: "https://live.staticflickr.com/4002/4273968248_2a6675f910_b.jpg"
+creditoImagem: "Foto: Horia Varlan (BY) via Openverse"
 ---
 
 Pesquisadores da Universidade do Arizona estão desenvolvendo uma solução enzimática para combater um dos maiores desafios ambientais da mineração. A iniciativa surge em um momento em que o setor mineral experimenta crescimento significativo de investimentos, impulsionado pela crescente demanda por minerais essenciais à economia moderna e pelo aumento nos preços de metais preciosos.

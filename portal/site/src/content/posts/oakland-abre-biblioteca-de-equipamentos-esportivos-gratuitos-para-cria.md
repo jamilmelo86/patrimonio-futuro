@@ -7,6 +7,8 @@ fonteNome: "Optimist Daily"
 fonteUrl: "https://www.optimistdaily.com/2026/07/oakland-kids-can-now-borrow-sports-gear-for-free-at-this-special-library/"
 tags: ["acesso igualitário", "esporte infantil", "Oakland", "comunidade", "inovação social"]
 draft: false
+imagem: "https://live.staticflickr.com/8148/7463915778_8eb267f492_b.jpg"
+creditoImagem: "Foto: State Library Victoria Collections (BY) via Openverse"
 ---
 
 Oakland acaba de inaugurar uma iniciativa inovadora para tornar o esporte mais acessível às crianças da cidade: uma biblioteca especializada que empresta equipamentos esportivos gratuitamente. A proposta surge em um contexto preocupante, já que apenas 14% das crianças de Oakland praticam os 60 minutos diários de atividade física recomendados por órgãos de saúde.

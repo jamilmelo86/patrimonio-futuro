@@ -7,6 +7,8 @@ fonteNome: "Good News Network"
 fonteUrl: "https://www.goodnewsnetwork.org/its-a-record-breeding-year-for-national-bird-of-serbia-the-eastern-imperial-eagle/"
 tags: ["conservação", "águia-imperial-oriental", "Sérvia", "proteção da vida selvagem", "reprodução animal"]
 draft: false
+imagem: "https://live.staticflickr.com/4006/4535059662_e9c5b78da6_b.jpg"
+creditoImagem: "Foto: U. S. Fish and Wildlife Service - Northeast Region (PDM) via Openverse"
 ---
 
 A águia-imperial-oriental, uma das aves mais majestosas da Europa e símbolo nacional da Sérvia, alcançou um marco importante em seu programa de conservação. Os esforços de proteção contabilizaram um ano extraordinário para a espécie, com números que refletem o dedicado trabalho de especialistas em preservação ambiental na região dos Bálcãs.

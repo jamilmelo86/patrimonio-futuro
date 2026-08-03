@@ -7,6 +7,8 @@ fonteNome: "Catraca Livre"
 fonteUrl: "https://catracalivre.com.br/noticias/aprendeu-a-fazer-tijolos-ainda-crianca-e-ha-15-anos-protege-chan-chan-a-maior-cidade-de-barro-do-mundo-e-patrimonio-em-perigo-da-unesco/"
 tags: ["patrimônio cultural", "Peru", "Chan Chan", "preservação", "UNESCO", "técnicas ancestrais"]
 draft: false
+imagem: "https://live.staticflickr.com/3196/2771191845_9853c59a39.jpg"
+creditoImagem: "Foto: kayadams.com (BY) via Openverse"
 ---
 
 Chan Chan, localizada no Peru, é reconhecida pela UNESCO como a maior cidade de barro do mundo. O sítio arqueológico enfrenta desafios constantes de degradação causados por chuvas intensas e fenômenos climáticos como o El Niño, ameaçando estruturas que resistem há séculos.

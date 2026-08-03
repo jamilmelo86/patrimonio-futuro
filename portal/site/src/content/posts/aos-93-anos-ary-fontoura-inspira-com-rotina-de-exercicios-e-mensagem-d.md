@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/31/aos-93-anos-ary-fontoura-rotina-treinos-incentiva-voce-consegue-dar-primeiro-passo-video"
 tags: ["Ary Fontoura", "atividade física", "longevidade", "terceira idade", "academia"]
 draft: false
+imagem: "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2ZsNDk0ODg2MzUyMDgtaW1hZ2UuanBn.jpg"
+creditoImagem: "Foto: autor desconhecido (CC0) via Openverse"
 ---
 
 O ator Ary Fontoura, aos 93 anos, compartilhou um vídeo em suas redes sociais mostrando sua rotina de exercícios na academia. Na gravação, o ator aparece durante seu treino, demonstrando sua disposição e força.

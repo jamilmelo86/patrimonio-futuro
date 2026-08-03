@@ -7,6 +7,8 @@ fonteNome: "Agência Brasil"
 fonteUrl: "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-02/mata-atlantica-de-bioma-devastado-exemplo-de-restauracao-florestal"
 tags: ["mata-atlantica", "restauracao", "florestas"]
 draft: false
+imagem: "https://live.staticflickr.com/3108/2576931601_c5144bbaf1_b.jpg"
+creditoImagem: "Foto: de Paula FJ (BY-SA) via Openverse"
 ---
 
 Durante muito tempo, a Mata Atlântica foi lembrada apenas como o retrato da destruição ambiental brasileira. Originalmente, o bioma cobria cerca de 130 milhões de hectares ao longo da costa, mas hoje restam apenas 24% dessa vegetação, e somente uma parte é formada por florestas maduras e bem preservadas. Agora, porém, a história começa a ganhar um capítulo mais esperançoso: o de bioma-referência em restauração florestal.

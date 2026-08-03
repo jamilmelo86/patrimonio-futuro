@@ -7,6 +7,8 @@ fonteNome: "Optimist Daily"
 fonteUrl: "https://www.optimistdaily.com/2026/07/what-indias-hydrogen-train-launch-means-for-its-vast-railway-network/"
 tags: ["hidrogênio", "transporte sustentável", "ferrovias", "Índia", "energia limpa", "inovação"]
 draft: false
+imagem: "https://live.staticflickr.com/8476/8134049328_7b02676d2f_b.jpg"
+creditoImagem: "Foto: MTAPhotos (BY) via Openverse"
 ---
 
 A Índia acaba de alcançar um marco importante na transição para energias limpas: o lançamento de seu primeiro trem movido a hidrogênio. O veículo, construído integralmente no país, começou a operar no estado de Haryana e foi oficialmente inaugurado pelo primeiro-ministro Narendra Modi, consolidando o compromisso indiano com a sustentabilidade energética.

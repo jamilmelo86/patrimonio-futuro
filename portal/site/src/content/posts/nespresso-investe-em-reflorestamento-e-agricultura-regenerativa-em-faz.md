@@ -7,6 +7,8 @@ fonteNome: "CicloVivo"
 fonteUrl: "https://ciclovivo.com.br/mao-na-massa/permacultura/nespresso-vai-plantar-cerca-de-100-mil-arvores-em-fazendas-de-cafe/"
 tags: ["reflorestamento", "café", "agricultura regenerativa", "sustentabilidade", "biodiversidade"]
 draft: false
+imagem: "https://live.staticflickr.com/3556/3344271789_697ff566b2_b.jpg"
+creditoImagem: "Foto: mikefats (BY) via Openverse"
 ---
 
 A Nespresso anunciou uma iniciativa ambiciosa para transformar suas cadeias de suprimento de café através de investimentos em reflorestamento e regeneração de paisagens agrícolas. O plano inclui o plantio de aproximadamente 100 mil árvores em fazendas parceiras, contribuindo para a recuperação de ecossistemas cafeeiros degradados.

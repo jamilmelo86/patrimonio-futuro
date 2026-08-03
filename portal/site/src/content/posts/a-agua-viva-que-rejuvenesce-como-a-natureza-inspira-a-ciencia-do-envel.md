@@ -7,6 +7,8 @@ fonteNome: "Catraca Livre"
 fonteUrl: "https://catracalivre.com.br/noticias/o-animal-imortal-que-volta-a-infancia-quando-esta-ferido-faminto-ou-ameacado/"
 tags: ["água-viva", "envelhecimento", "rejuvenescimento", "biologia marinha", "genética", "medicina regenerativa"]
 draft: false
+imagem: "https://live.staticflickr.com/2906/14462083415_9ec43944cd.jpg"
+creditoImagem: "Foto: B Rosen (BY-ND) via Openverse"
 ---
 
 Uma espécie particular de água-viva desafia tudo o que sabemos sobre o envelhecimento. Quando enfrenta situações críticas — como ferimentos, fome ou ameaças — o animal ativa um processo extraordinário: literalmente retorna a um estágio juvenil de seu desenvolvimento. Esse mecanismo, conhecido como transdeferenciação, permite que o organismo reinicie seu ciclo de vida.

@@ -7,6 +7,8 @@ fonteNome: "Positive News"
 fonteUrl: "https://www.positive.news/society/the-underground-fridge-that-keeps-food-cool-even-in-a-heatwave/"
 tags: ["inovação", "sustentabilidade", "tecnologia verde", "conservação de alimentos", "eficiência energética"]
 draft: false
+imagem: "https://live.staticflickr.com/8381/28996205186_917e29eb4b_b.jpg"
+creditoImagem: "Foto: Community Archives of Belleville & Hastings County (PDM) via Openverse"
 ---
 
 Um sistema inovador de refrigeração subterrânea está revolucionando a forma como conservamos alimentos, especialmente em períodos de calor intenso. O projeto retoma conceitos ancestrais das câmaras de gelo do passado, adaptando-os à tecnologia moderna para criar uma solução sustentável e totalmente funcional.

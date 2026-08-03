@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/28/arara-inteligente-abre-torneira-sozinha-beber-agua-encanta-internet-video"
 tags: ["arara", "inteligência animal", "comportamento animal", "adaptação", "vida selvagem"]
 draft: false
+imagem: "https://live.staticflickr.com/2109/2515009456_e7c7ac28e4_b.jpg"
+creditoImagem: "Foto: country_boy_shane (BY-ND) via Openverse"
 ---
 
 Uma arara surpreendeu ao ser registrada abrindo uma torneira com o próprio bico para beber água em um sítio no interior de São Paulo. O vídeo foi capturado por Gabriella Amorim, criadora do perfil @_rotinadocampo nas redes sociais, que documenta o dia a dia em sua propriedade. A cena ganhou grande repercussão online, acumulando mais de 500 mil visualizações.

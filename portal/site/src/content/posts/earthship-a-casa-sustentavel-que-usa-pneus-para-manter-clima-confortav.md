@@ -7,6 +7,8 @@ fonteNome: "Catraca Livre"
 fonteUrl: "https://catracalivre.com.br/noticias/a-casa-construida-com-pneus-que-mantem-cerca-de-20-c-sem-aquecimento-nem-ar-condicionado-e-transforma-lixo-em-conforto/"
 tags: ["Earthship", "sustentabilidade", "construção ecológica", "reciclagem", "pneus", "energia renovável"]
 draft: false
+imagem: "https://live.staticflickr.com/3373/3288482283_1bf15e38fb_b.jpg"
+creditoImagem: "Foto: Dominic's pics (BY) via Openverse"
 ---
 
 A tecnologia Earthship representa uma inovação significativa na construção sustentável, aproveitando materiais que seriam descartados para criar habitações ecológicas. A abordagem reutiliza pneus como componente estrutural principal, integrando-os de forma inteligente ao design arquitetônico para otimizar o conforto térmico.

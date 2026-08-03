@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/27/professor-homenageia-pai-idoso-voltou-estudar-eja-vendeu-tudo-eu-estudar-video"
 tags: ["educação", "família", "EJA", "homenagem", "aprendizado"]
 draft: false
+imagem: "https://live.staticflickr.com/5497/10861113824_a4a4b2dd23.jpg"
+creditoImagem: "Foto: elycefeliz (BY) via Openverse"
 ---
 
 Um gesto de amor e gratidão marcou o dia de aniversário de um professor que resolveu celebrar, na sala de aula, a dedicação do seu pai idoso. Pertiano Sossa entrou na turma da Educação de Jovens e Adultos (EJA) com bolo e flores em mãos, surpreendendo alunos e mestres com um momento repleto de emoção e reconhecimento.

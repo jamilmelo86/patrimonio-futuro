@@ -7,6 +7,8 @@ fonteNome: "CicloVivo"
 fonteUrl: "https://ciclovivo.com.br/mao-na-massa/faca-voce-mesmo/volta-as-aulas-veja-as-orientacoes-do-procon-sobre-material-escolar/"
 tags: ["educação", "direitos do consumidor", "volta às aulas", "Procon", "transparência"]
 draft: false
+imagem: "https://live.staticflickr.com/8460/7973474692_c32365a442_b.jpg"
+creditoImagem: "Foto: Fort George G. Meade (BY) via Openverse"
 ---
 
 Com a aproximação do retorno às aulas, o Procon-SP lançou um material orientador para ajudar pais e responsáveis a entender seus direitos no momento de preparar as crianças e adolescentes para o novo semestre letivo. A iniciativa busca proteger as famílias contra práticas abusivas e cobranças indevidas que costumam ocorrer nessa época do ano.

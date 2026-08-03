@@ -7,6 +7,8 @@ fonteNome: "Good News Network"
 fonteUrl: "https://www.goodnewsnetwork.org/vanished-hornbill-species-reintroduced-4-years-ago-now-self-sustaining-again/"
 tags: ["conservação", "pássaros", "recuperação populacional", "habitats naturais", "Índia", "biodiversidade"]
 draft: false
+imagem: "https://live.staticflickr.com/1157/1473197343_b927bf016e_b.jpg"
+creditoImagem: "Foto: laszlo-photo (BY) via Openverse"
 ---
 
 Uma notícia animadora chega do estado indiano de Gujarat: os araçaris-cinzentos, pássaros que haviam desaparecido da região há mais de cinco décadas, estão retornando e conseguindo se reproduzir com sucesso. Pela quarta vez seguida, a espécie conseguiu estabelecer ninhos e gerar novos filhotes, sinalizando uma possível recuperação populacional naquela área.

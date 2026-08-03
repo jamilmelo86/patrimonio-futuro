@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/30/europa-primeira-transmissao-5g-via-satelite-internet-qualquer-lugar-planeta"
 tags: ["5G", "satélite", "conectividade", "tecnologia", "inclusão digital", "Europa"]
 draft: false
+imagem: "https://live.staticflickr.com/115/262446373_27c0a3f0e1_b.jpg"
+creditoImagem: "Foto: cogdogblog (CC0) via Openverse"
 ---
 
 A Europa conquistou um marco importante na história das telecomunicações ao realizar a primeira transmissão bem-sucedida de rede 5G através de satélite. O feito representa um avanço significativo na busca por conectividade global, especialmente para regiões que até agora permaneciam desconectadas do mundo digital.

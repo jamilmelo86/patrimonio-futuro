@@ -7,6 +7,8 @@ fonteNome: "The Sunday Independent (África do Sul)"
 fonteUrl: "https://sundayindependent.co.za/thepost/news/2026-05-04-top-of-her-class-ukzn-graduate-azraa-ebrahim-never-let-her-blindness-become-a-ceiling/"
 tags: ["educacao", "inclusao", "deficiencia-visual"]
 draft: false
+imagem: "https://live.staticflickr.com/4071/4659863429_c20db03bde_b.jpg"
+creditoImagem: "Foto: Southeastern Seminary (BY) via Openverse"
 ---
 
 Na África do Sul, a jovem Azraa Ebrahim vem escrevendo uma história que emociona e inspira. Cega desde o nascimento, ela concluiu sua graduação com honras na Universidade de KwaZulu-Natal com a mais alta distinção acadêmica, a summa cum laude, obtendo média acima de 80% em todas as disciplinas. O feito coroa uma trajetória marcada por determinação e recusa em aceitar limites impostos de fora.

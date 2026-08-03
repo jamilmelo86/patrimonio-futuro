@@ -7,6 +7,8 @@ fonteNome: "Good News Network"
 fonteUrl: "https://www.goodnewsnetwork.org/womans-viral-video-raises-more-than-174k-for-disabled-veteran-she-spotted-working-at-airport/"
 tags: ["viral", "veterano", "aeroporto", "solidariedade digital", "redes sociais", "arrecadação de fundos"]
 draft: false
+imagem: "https://live.staticflickr.com/65535/52199093911_5776f9c19a_b.jpg"
+creditoImagem: "Foto: U.S. Department of Veterans Affairs (PDM) via Openverse"
 ---
 
 Uma mulher presenciou a luta diária de um funcionário do aeroporto de Los Angeles que, apesar de suas limitações físicas, continuava trabalhando no tarmac. Comovida ao vê-lo coxeando em direção ao avião em que estava embarcando, ela decidiu registrar a cena em vídeo para compartilhar nas redes sociais, especialmente no TikTok, onde sua conta já tinha alcance significativo.

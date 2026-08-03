@@ -7,6 +7,8 @@ fonteNome: "Zootaxa (Magnolia Press)"
 fonteUrl: "https://mapress.com/zt/article/view/zootaxa.5583.1.4"
 tags: ["biodiversidade", "conservacao", "descoberta"]
 draft: false
+imagem: "https://live.staticflickr.com/65535/10151467946_7346002e38_b.jpg"
+creditoImagem: "Foto: Matt-Zimmerman (BY) via Openverse"
 ---
 
 Poucas histórias resumem tão bem a esperança na natureza quanto a redescoberta de uma espécie dada como perdida. Foi o que aconteceu com o Channa amphibeus, um peixe conhecido como Chel snakehead, que voltou a ser documentado após mais de oito décadas sem qualquer registro confiável.

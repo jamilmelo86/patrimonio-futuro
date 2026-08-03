@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/29/tem-chuva-meteoros-esta-madrugada-veja-como-assistir"
 tags: ["astronomia", "Delta Aquáridas", "meteoros", "fenômeno celeste", "observação"]
 draft: false
+imagem: "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL2xyL3djdnNuamFkYWUtaW1hZ2UuanBn.jpg"
+creditoImagem: "Foto: autor desconhecido (CC0) via Openverse"
 ---
 
 Um espetáculo celeste aguarda os apaixonados por astronomia na madrugada de quinta-feira (30) para sexta-feira (31). A chuva de meteoros Delta Aquáridas do Sul atingirá seu pico nesse período, oferecendo uma oportunidade de presenciar um fenômeno natural impressionante sem custo algum.

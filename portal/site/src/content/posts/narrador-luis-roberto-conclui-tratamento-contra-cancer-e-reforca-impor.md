@@ -16,6 +16,8 @@ tags:
   - conscientização
 destaque: true
 draft: false
+imagem: "https://live.staticflickr.com/44/150682080_d8be4b0006_b.jpg"
+creditoImagem: "Foto: krossbow (BY) via Openverse"
 ---
 
 Luis Roberto, renomado narrador esportivo da TV Globo, compartilhou uma notícia que tocou profundamente seus admiradores e colegas de profissão: a conclusão bem-sucedida de seu tratamento contra o câncer de cabeça e pescoço. O processo terapêutico, que se estendeu desde o mês de abril, representou uma jornada desafiadora que o comunicador enfrentou com determinação.

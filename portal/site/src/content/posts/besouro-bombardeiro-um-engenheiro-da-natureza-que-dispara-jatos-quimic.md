@@ -7,6 +7,8 @@ fonteNome: "Catraca Livre"
 fonteUrl: "https://catracalivre.com.br/noticias/o-pequeno-besouro-que-aquece-substancias-a-quase-100c-e-dispara-um-jato-quimico-fervente-contra-predadores/"
 tags: ["besouro-bombardeiro", "defesa-natural", "reação-química", "biomimética", "tecnologia-inspirada-na-natureza", "insetos"]
 draft: false
+imagem: "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2ZsMjI2NDA5NDI2NjItaW1hZ2UuanBn.jpg"
+creditoImagem: "Foto: usgsbee (CC0) via Openverse"
 ---
 
 Na natureza, existem criaturas que desenvolvem estratégias de defesa absolutamente notáveis. O besouro-bombardeiro é um desses exemplos extraordinários: capaz de aquecer substâncias internas a temperaturas próximas a 100°C e lançá-las como um jato fervente contra seus agressores. Esse pequeno inseto transformou uma reação química complexa em uma arma de defesa altamente eficaz.

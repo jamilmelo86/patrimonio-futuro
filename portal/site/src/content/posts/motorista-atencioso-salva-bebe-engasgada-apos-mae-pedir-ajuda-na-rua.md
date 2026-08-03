@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/31/motorista-salva-bebe-engasgada-brinco-mae-socorro-meio-rua-video"
 tags: ["solidariedade", "salvamento", "criança", "ação rápida", "emergência"]
 draft: false
+imagem: "https://live.staticflickr.com/231/496340407_10b93e1b2b_b.jpg"
+creditoImagem: "Foto: M&R Glasgow (BY-ND) via Openverse"
 ---
 
 Uma situação de risco vivida por uma família em Botucatu, no interior de São Paulo, terminou com final feliz graças à ação imediata de um desconhecido. Uma mãe, desesperada com sua filha pequena engasgada, correu para o meio da rua pedindo socorro, ajoelhada segurando a criança de apenas 1 ano e 7 meses nos braços.

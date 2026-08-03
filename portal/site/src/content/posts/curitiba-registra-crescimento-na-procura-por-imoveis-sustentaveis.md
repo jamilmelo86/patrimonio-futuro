@@ -7,6 +7,8 @@ fonteNome: "CicloVivo"
 fonteUrl: "https://ciclovivo.com.br/arq-urb/urbanismo/busca-por-imoveis-com-certificacao-sustentavel-cresce-em-curitiba/"
 tags: ["imóveis sustentáveis", "Curitiba", "certificação ambiental", "mercado imobiliário", "responsabilidade ambiental"]
 draft: false
+imagem: "https://live.staticflickr.com/165/429831152_b7ccaf1b68_b.jpg"
+creditoImagem: "Foto: pnwra (BY) via Openverse"
 ---
 
 Curitiba está vivenciando uma transformação no mercado imobiliário: o interesse por propriedades que adotam práticas sustentáveis vem crescendo de forma significativa. Esse movimento reflete uma mudança de mentalidade entre inquilinos e compradores que priorizam o impacto ambiental na hora de escolher onde morar.

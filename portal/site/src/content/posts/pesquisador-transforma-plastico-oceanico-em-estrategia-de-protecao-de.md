@@ -7,6 +7,8 @@ fonteNome: "Optimist Daily"
 fonteUrl: "https://www.optimistdaily.com/2026/07/the-newcastle-researcher-turning-ocean-plastic-into-a-dolphin-rescue-strategy/"
 tags: ["inovação", "proteção animal", "plástico oceânico", "golfinhos", "pesca sustentável"]
 draft: false
+imagem: "https://upload.wikimedia.org/wikipedia/commons/f/f0/Count_for_each_year_for_each_ocean_surface-layer_basin_for_measuring_global_ocean_plastic_pollution.png"
+creditoImagem: "Foto: Authors of the study: Marcus Eriksen, Win Cowger, Lisa M. Erdle, Scott Coffin, Patricia Villarrubia-Gómez, Charles J. Moore, Edward J. Carpenter, Robert H. Day, Martin Thiel, Chris Wilcox (BY) via Openverse"
 ---
 
 Um pesquisador da Universidade de Newcastle, no Reino Unido, está desenvolvendo uma abordagem criativa para salvar golfinhos de um perigo invisível: as redes de pesca de emalhe, ou gillnets. Essas estruturas de nylon praticamente imperceptíveis na água causam afogamento acidental de centenas de milhares de cetáceos anualmente em todo o mundo, já que a echolocalização desses animais frequentemente não consegue detectá-las.

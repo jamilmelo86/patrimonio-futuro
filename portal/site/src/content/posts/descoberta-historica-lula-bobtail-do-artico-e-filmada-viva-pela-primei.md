@@ -7,6 +7,8 @@ fonteNome: "Catraca Livre"
 fonteUrl: "https://catracalivre.com.br/noticias/uma-lula-bobtail-do-artico-foi-filmada-viva-em-seu-habitat-pela-primeira-vez-e-as-3-massas-de-ovos-ao-redor-tornaram-o-registro-ainda-mais-raro/"
 tags: ["oceano", "Ártico", "descoberta científica", "lula-bobtail", "Groenlândia", "biodiversidade marinha"]
 draft: false
+imagem: "https://live.staticflickr.com/7064/6980427311_d54598259a_b.jpg"
+creditoImagem: "Foto: jurvetson (BY) via Openverse"
 ---
 
 Uma expedição científica que explorava as profundezas das águas geladas da Groenlândia conquistou um marco importante para a biologia marinha: o primeiro registro em vídeo de uma lula-bobtail viva em seu ambiente natural no Ártico. A descoberta não apenas documenta a presença da espécie em regiões ainda pouco estudadas, mas oferece informações preciosas sobre seu ciclo reprodutivo.

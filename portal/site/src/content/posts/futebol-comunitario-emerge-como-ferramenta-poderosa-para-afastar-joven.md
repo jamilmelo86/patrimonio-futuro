@@ -7,6 +7,8 @@ fonteNome: "Positive News"
 fonteUrl: "https://www.positive.news/society/how-community-football-is-helping-youth-stay-out-of-trouble/"
 tags: ["futebol", "juventude", "prevenção à criminalidade", "saúde mental", "comunidade"]
 draft: false
+imagem: "https://live.staticflickr.com/4021/4442584483_6e8af9328a_b.jpg"
+creditoImagem: "Foto: jiazi (BY-SA) via Openverse"
 ---
 
 Iniciativas de futebol comunitário estão ganhando força como instrumento de transformação social, oferecendo aos jovens alternativas construtivas longe das ruas e da criminalidade. Esses programas, que funcionam em nível local, vêm se mostrando especialmente eficazes na redução de comportamentos de risco e na prevenção de crimes como os cometidos com armas brancas.

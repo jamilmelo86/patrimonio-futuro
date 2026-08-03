@@ -7,6 +7,8 @@ fonteNome: "CicloVivo"
 fonteUrl: "https://ciclovivo.com.br/arq-urb/mobilidade/pedal-gratuito-percorre-maior-ciclorrota-de-sao-paulo/"
 tags: ["São Paulo", "ciclismo", "mobilidade sustentável", "Mata Atlântica", "cicloturismo"]
 draft: false
+imagem: "https://live.staticflickr.com/3116/2750714149_36a7b7bfe0_b.jpg"
+creditoImagem: "Foto: dbking (BY) via Openverse"
 ---
 
 São Paulo realizou um evento de ciclismo gratuito que percorreu a maior ciclorrota da cidade, unindo o transporte ecológico com a descoberta de espaços verdes preservados. A iniciativa buscou aproximar moradores da capital das belezas naturais ainda presentes na metrópole, particularmente trechos de Mata Atlântica que convivem com a urbanização.

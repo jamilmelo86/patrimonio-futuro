@@ -7,6 +7,8 @@ fonteNome: "Catraca Livre"
 fonteUrl: "https://catracalivre.com.br/noticias/quase-7-000-barragens-construidas-desde-1835-deslocaram-os-polos-da-terra-em-113-metro-e-armazenam-agua-suficiente-para-encher-2-vezes-o-grand-canyon/"
 tags: ["barragens", "Terra", "geofísica", "água", "impacto ambiental"]
 draft: false
+imagem: "https://live.staticflickr.com/2014/32114132024_94eb70bb87_b.jpg"
+creditoImagem: "Foto: Forest Service Pacific Northwest Region (PDM) via Openverse"
 ---
 
 Uma pesquisa científica divulgada recentemente revelou que as quase sete mil barragens construídas globalmente desde 1835 tiveram um impacto surpreendente no nosso planeta: deslocaram o eixo de rotação da Terra em aproximadamente 1,13 metro. O achado demonstra como obras humanas de grande escala podem afetar a física e a geografia do globo de maneiras inesperadas.

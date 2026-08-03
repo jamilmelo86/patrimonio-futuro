@@ -7,6 +7,8 @@ fonteNome: "Catraca Livre"
 fonteUrl: "https://catracalivre.com.br/viagem-livre/montanha-russa-do-cacau-park-faz-primeira-volta-com-passageiros/"
 tags: ["parque temático", "Cacau Park", "montanha-russa", "testes", "lazer", "Brasil"]
 draft: false
+imagem: "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmw3NjU2NDQyMzYwLWltYWdlLWt3a2RyMTd2LmpwZw.jpg"
+creditoImagem: "Foto: autor desconhecido (CC0) via Openverse"
 ---
 
 O Cacau Park, ambicioso projeto de parque temático em desenvolvimento no Brasil, alcançou um marco importante em sua construção: a montanha-russa do complexo realizou seus primeiros testes operacionais com passageiros a bordo. O equipamento, que impressiona pelos 55 metros de altura, chegou a atingir velocidades de até 120 quilômetros por hora durante os ensaios, demonstrando que está pronto para a próxima fase de validação.

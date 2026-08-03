@@ -7,6 +7,8 @@ fonteNome: "Good News Network"
 fonteUrl: "https://www.goodnewsnetwork.org/dad-turned-weekly-library-trips-with-his-daughter-into-beloved-community-event-meet-library-dads/"
 tags: ["comunidade", "paternidade", "leitura", "biblioteca", "movimento social"]
 draft: false
+imagem: "https://live.staticflickr.com/3228/3029941848_e75f4c453e_b.jpg"
+creditoImagem: "Foto: trialsanderrors (BY) via Openverse"
 ---
 
 Um pai residente em Atlanta decidiu de forma simples e despretensiosa começar a frequentar a biblioteca local com sua filha quando ela tinha apenas quatro meses de vida. O que parecia ser apenas um momento privado entre pai e filho evoluiu para algo muito maior: uma iniciativa comunitária que se tornaria conhecida como "Library Dads".

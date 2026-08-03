@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/28/hiv-mais-2-casos-cura-anunciados-medicina-comemora-13-total"
 tags: ["HIV", "remissão", "medicina", "pesquisa"]
 draft: false
+imagem: "https://live.staticflickr.com/4022/4567841462_dee2ca4370_b.jpg"
+creditoImagem: "Foto: US Army Africa (BY) via Openverse"
 ---
 
 Dois novos casos de remissão do HIV foram anunciados na 26ª Conferência Internacional sobre AIDS, no Rio de Janeiro, em julho de 2026. Com eles, sobe para 13 o número de pessoas no mundo consideradas curadas ou em remissão prolongada do vírus.

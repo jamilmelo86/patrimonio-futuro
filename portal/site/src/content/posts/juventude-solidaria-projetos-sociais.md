@@ -7,6 +7,8 @@ fonteNome: "Governo Federal (Secretaria-Geral)"
 fonteUrl: "https://www.gov.br/secretariageral/pt-br/noticias/2026/maio/juventude-solidaria-esta-com-inscricoes-abertas-para-projetos-sociais-em-todo-o-pais"
 tags: ["voluntariado", "juventude", "brasil"]
 draft: false
+imagem: "https://live.staticflickr.com/37/84280418_f36177581f_b.jpg"
+creditoImagem: "Foto: AmazonCARES (BY) via Openverse"
 ---
 
 Boa vontade não falta à juventude brasileira — o que às vezes falta é um empurrão para transformar a vontade de ajudar em ação concreta. É essa lacuna que a plataforma Juventude Solidária quer preencher, com inscrições abertas para jovens de todo o país.

@@ -7,6 +7,8 @@ fonteNome: "Mongabay"
 fonteUrl: "https://news.mongabay.com/short-article/2025/10/green-turtle-rebounds-moving-from-endangered-to-least-concern/"
 tags: ["conservação", "oceanos", "biodiversidade"]
 draft: false
+imagem: "https://live.staticflickr.com/3744/12939249094_63518371a8_b.jpg"
+creditoImagem: "Foto: allie444 (BY-SA) via Openverse"
 ---
 
 Uma das imagens mais simbólicas dos mares acaba de ganhar um capítulo feliz. A tartaruga-verde (Chelonia mydas) teve seu status global melhorado na Lista Vermelha da União Internacional para a Conservação da Natureza, a IUCN, passando da categoria "em perigo" para "pouco preocupante". O anúncio foi feito durante o Congresso Mundial de Conservação da entidade, realizado em Abu Dhabi.

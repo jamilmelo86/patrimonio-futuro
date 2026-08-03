@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/31/pix-valendo-8-paises-mais-barato-cartao-credito-veja"
 tags: ["Pix", "pagamentos", "viagens internacionais", "economia", "expansão global"]
 draft: false
+imagem: "https://live.staticflickr.com/5473/14355825950_7056c251ed_b.jpg"
+creditoImagem: "Foto: JeepersMedia (BY) via Openverse"
 ---
 
 O Pix, sistema de pagamento instantâneo criado pelo Brasil, ampliou sua atuação além das fronteiras nacionais e agora opera em oito países, facilitando transações de brasileiros que viajam ao exterior. A tecnologia, que revolucionou a forma como fazemos pagamentos domésticos, chegou à Argentina, Uruguai, Chile, Paraguai e Estados Unidos, entre outros destinos, abrindo novas possibilidades para quem precisa usar dinheiro eletrônico em viagens internacionais.

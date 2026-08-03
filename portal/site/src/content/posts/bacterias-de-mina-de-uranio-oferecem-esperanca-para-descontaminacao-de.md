@@ -8,6 +8,8 @@ fonteUrl: https://catracalivre.com.br/noticias/pesquisadores-descobrem-que-bacte
 tags: ["bactérias", "urânio", "descontaminação", "meio-ambiente", "inovação"]
 destaque: true
 draft: false
+imagem: "https://live.staticflickr.com/7061/7136294865_b74319e5f4_b.jpg"
+creditoImagem: "Foto: U.S. Army Combat Capabilities Development Command (BY) via Openverse"
 ---
 
 Um achado significativo no campo da remediação ambiental mostra que microrganismos presentes em uma antiga mina de urânio possuem uma capacidade impressionante: conseguem reter até 96% do urânio dissolvido em água. Essa descoberta abre perspectivas reais para o tratamento de ambientes contaminados por material radioativo, um desafio que afeta comunidades em diversos países ao redor do mundo.

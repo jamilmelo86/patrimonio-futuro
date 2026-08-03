@@ -7,6 +7,8 @@ fonteNome: "Positive News"
 fonteUrl: "https://www.positive.news/society/how-forensic-science-is-helping-tackle-poaching/"
 tags: ["caça ilegal", "tráfico de animais", "ciência forense", "conservação", "biodiversidade", "crime ambiental"]
 draft: false
+imagem: "https://live.staticflickr.com/4402/37140671666_37ca5c4d82_b.jpg"
+creditoImagem: "Foto: joegoauk73 (BY-SA) via Openverse"
 ---
 
 A ciência forense, historicamente associada à investigação de crimes envolvendo seres humanos, está sendo aplicada com sucesso no combate ao tráfico e à caça ilegal de animais selvagens. Técnicas sofisticadas de análise de DNA, química e microscopia permitem que pesquisadores e autoridades identifiquem espécies, rastreiem rotas de tráfico e reúnam evidências que resistem em tribunal, transformando a forma como os crimes contra a vida selvagem são investigados e punidos.

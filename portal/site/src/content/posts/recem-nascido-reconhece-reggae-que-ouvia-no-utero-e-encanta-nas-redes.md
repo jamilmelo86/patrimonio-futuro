@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/29/bebe-sorri-ouvir-reggae-escutava-barriga-mae-alegra-redes-video"
 tags: ["bebê", "conexão emocional", "música", "gravidez", "viral", "família"]
 draft: false
+imagem: "https://live.staticflickr.com/231/517148389_092fcaaf2b_b.jpg"
+creditoImagem: "Foto: tiarescott (BY) via Openverse"
 ---
 
 Um vídeo comovente circula nas redes sociais mostrando Luizinho, um recém-nascido com apenas 20 dias de vida, reagindo com um sorriso genuíno ao ouvir uma música de reggae. A faixa tocada pertence ao repertório do cantor Edson Gomes e marcou presença constante durante toda a gestação do pequeno.

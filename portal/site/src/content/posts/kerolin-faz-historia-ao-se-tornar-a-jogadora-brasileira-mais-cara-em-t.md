@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/27/vendida-barcelona-kerolin-jogadora-brasileira-mais-cara-historia"
 tags: ["futebol feminino", "Kerolin", "Barcelona", "recorde", "futebol brasileiro"]
 draft: false
+imagem: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Woman_soccer_players_of_Dorog_are_out_of_uniform.jpg"
+creditoImagem: "Foto: Dorogifc with Katalin Cseh (BY-SA) via Openverse"
 ---
 
 A atacante brasileira Kerolin alcançou um marco histórico no futebol feminino nacional ao ser vendida pelo Manchester City ao Barcelona. O clube espanhol desembolsou 1,5 milhão de euros pela transferência, quantia equivalente a aproximadamente 8,6 milhões de reais, tornando Kerolin a jogadora brasileira mais cara de todos os tempos em uma negociação internacional.

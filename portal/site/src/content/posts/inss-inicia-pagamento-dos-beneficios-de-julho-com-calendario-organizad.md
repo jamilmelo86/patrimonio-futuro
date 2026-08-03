@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/27/inss-comeca-pagamento-beneficios-julho-nesta-segunda-veja-calendario"
 tags: ["INSS", "benefícios", "julho", "pagamento", "aposentados", "pensionistas", "calendário"]
 draft: false
+imagem: "https://live.staticflickr.com/7173/6812484625_32b8378cd9_b.jpg"
+creditoImagem: "Foto: photosteve101 (BY) via Openverse"
 ---
 
 O Instituto Nacional do Seguro Social (INSS) iniciou o pagamento dos benefícios referentes a julho, começando nesta segunda-feira (27). A distribuição segue um calendário organizado e se estende até 7 de agosto, garantindo que todos os aposentados, pensionistas e demais beneficiários recebam seus valores dentro do período estabelecido.

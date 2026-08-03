@@ -7,6 +7,8 @@ fonteNome: "Good News Network"
 fonteUrl: "https://www.goodnewsnetwork.org/16-yo-rookie-lifeguard-leads-heroic-ocean-rescue-with-viral-video-of-harrowing-effort/"
 tags: ["resgate", "salva-vidas", "Califórnia", "criança", "heroísmo", "praia", "adolescente"]
 draft: false
+imagem: "https://live.staticflickr.com/5453/8916237889_7a04ee2451_b.jpg"
+creditoImagem: "Foto: TDelCoro (BY-SA) via Openverse"
 ---
 
 Um momento de coragem genuína foi capturado em vídeo na costa da Califórnia quando Ryder Williams, um salva-vidas iniciante de apenas 16 anos, agiu rapidamente para resgatar uma criança em perigo. Tudo aconteceu quando uma onda particularmente grande se chocou contra a praia e levou uma menino de 10 anos para o mar antes que qualquer um pudesse reagir.

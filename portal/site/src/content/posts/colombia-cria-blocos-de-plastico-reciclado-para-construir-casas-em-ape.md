@@ -7,6 +7,8 @@ fonteNome: "Catraca Livre"
 fonteUrl: "https://catracalivre.com.br/noticias/colombia-transforma-plastico-reciclado-em-blocos-de-encaixe-e-monta-a-estrutura-de-uma-casa-em-5-dias-sem-tijolos/"
 tags: ["plástico reciclado", "construção sustentável", "inovação", "habitação", "Colômbia", "reciclagem"]
 draft: false
+imagem: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Ga_sandpc2.png"
+creditoImagem: "Foto: Joshua M. Pearce (BY-SA) via Openverse"
 ---
 
 Um projeto inovador desenvolvido na Colômbia demonstra como a reciclagem de plástico pode ser transformada em solução prática para a crise habitacional. O sistema utiliza blocos de encaixe confeccionados a partir de resíduos plásticos, eliminando a necessidade de materiais convencionais como cimento e tijolos nas construções.

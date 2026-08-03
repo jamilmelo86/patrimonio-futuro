@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/30/vendendo-pastei-mae-feirante-paga-faculdade-2-filhas-tocantins"
 tags: ["mãe", "educação", "medicina", "superação", "trabalho", "Tocantins", "dedicação"]
 draft: false
+imagem: "https://live.staticflickr.com/5516/14465935879_2610a297c6_b.jpg"
+creditoImagem: "Foto: liverpoolhls (BY-SA) via Openverse"
 ---
 
 Marly Moreira Silvestre, aos 55 anos, é exemplo de determinação e sacrifício. Há aproximadamente 30 anos, ela trabalha como feirante vendendo pastel para garantir o sustento e investir no futuro de suas filhas. Seu esforço constante resultou em uma conquista que poucos conseguem alcançar: financiar a formação em Medicina de duas filhas em uma universidade particular no estado do Tocantins.

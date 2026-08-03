@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/29/pai-uber-divulga-trabalho-filho-passageiros-seguirem-maior-fa-video"
 tags: ["família", "apoio", "profissão", "redes sociais", "São Paulo"]
 draft: false
+imagem: "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZnJtYWtldXBfYnJ1c2hlc19icnVzaF9tYWtlLWltYWdlLWt5YmRhZXh6LmpwZw.jpg"
+creditoImagem: "Foto: autor desconhecido (CC0) via Openverse"
 ---
 
 A história de um motorista de aplicativo de São Paulo conquistou internautas ao revelar uma iniciativa tocante: usar seus trajetos diários para apresentar o trabalho profissional do filho. Durante os passeios com clientes, o pai compartilha o perfil e as redes sociais de Thiago Pioli, seu filho maquiador, pedindo que os passageiros acompanhem o trabalho artístico.

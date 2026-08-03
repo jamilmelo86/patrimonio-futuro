@@ -7,6 +7,8 @@ fonteNome: "CicloVivo"
 fonteUrl: "https://ciclovivo.com.br/planeta/energia/detroit-inaugura-estrada-com-carregamento-sem-fio/"
 tags: ["mobilidade sustentável", "veículos elétricos", "carregamento sem fio", "infraestrutura urbana", "inovação", "Detroit"]
 draft: false
+imagem: "https://live.staticflickr.com/159/359123912_3b568797d0_b.jpg"
+creditoImagem: "Foto: frankh (BY) via Openverse"
 ---
 
 Detroit deu um passo importante rumo ao futuro da mobilidade sustentável ao inaugurar uma via equipada com sistema de carregamento por indução. A infraestrutura inovadora permite que veículos elétricos recebam energia enquanto circulam pelas ruas, eliminando a necessidade de paradas frequentes em postos de carregamento tradicionais.

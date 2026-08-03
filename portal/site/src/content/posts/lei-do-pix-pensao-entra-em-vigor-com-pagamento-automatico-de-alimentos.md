@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/30/lei-pix-pensao-em-vigor-pagamento-automatico-pensao-alimenticia"
 tags: ["Pix Pensão", "pensão alimentícia", "automação", "direito de família", "lei", "políticas sociais"]
 draft: false
+imagem: "https://live.staticflickr.com/2907/14355890518_8d527e8e77_b.jpg"
+creditoImagem: "Foto: JeepersMedia (BY) via Openverse"
 ---
 
 O Brasil ganhou um avanço importante nas políticas de proteção familiar com a entrada em vigor da Lei do Pix Pensão. A legislação foi sancionada pelo presidente Luiz Inácio Lula da Silva em quarta-feira e publicada no Diário Oficial da União, começando a valer imediatamente.

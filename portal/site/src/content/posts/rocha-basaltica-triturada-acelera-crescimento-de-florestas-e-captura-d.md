@@ -7,6 +7,8 @@ fonteNome: "Good News Network"
 fonteUrl: "https://www.goodnewsnetwork.org/spreading-crushed-rock-on-newly-planted-forests-boosts-carbon-storing-and-nutrients/"
 tags: ["florestas", "carbono", "restauração ambiental", "rocha basáltica", "sustentabilidade", "mudanças climáticas"]
 draft: false
+imagem: "https://live.staticflickr.com/3376/3598029211_da12cf8911_b.jpg"
+creditoImagem: "Foto: Region 5 Photography (BY) via Openverse"
 ---
 
 Cientistas da Imperial College London conduziram um estudo inovador demonstrando que a aplicação de rocha basáltica triturada em florestas recém-plantadas potencializa significativamente seu desenvolvimento e contribui para o armazenamento de carbono. O trabalho representa a maior experiência de campo realizada até o momento sobre essa técnica conhecida como "intemperismo acelerado".

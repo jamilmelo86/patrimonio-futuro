@@ -7,6 +7,8 @@ fonteNome: "FAO Brasil"
 fonteUrl: "https://www.fao.org/brasil/noticias/detail-events/en/c/1741586/"
 tags: ["fome", "segurança alimentar", "ONU"]
 draft: false
+imagem: "https://live.staticflickr.com/3505/4003940545_225a7e18cb.jpg"
+creditoImagem: "Foto: seyed mostafa zamani (BY) via Openverse"
 ---
 
 O Brasil voltou a sair do Mapa da Fome da Organização das Nações Unidas. A informação está no relatório O Estado da Segurança Alimentar e Nutricional no Mundo 2025 (conhecido pela sigla SOFI), divulgado pela FAO durante a Segunda Cúpula de Sistemas Alimentares da ONU. Para um país deixar essa classificação, é preciso que a parcela da população em situação de subalimentação fique abaixo de 2,5%.

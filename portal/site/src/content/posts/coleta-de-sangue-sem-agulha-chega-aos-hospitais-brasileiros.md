@@ -7,6 +7,8 @@ fonteNome: "Só Notícia Boa"
 fonteUrl: "https://www.sonoticiaboa.com.br/2026/07/31/coleta-sangue-sem-picada-agulha-tecnologia-vendida-hospitais-entenda"
 tags: ["coleta de sangue", "inovação médica", "Anvisa", "hospitais", "procedimentos clínicos"]
 draft: false
+imagem: "https://upload.wikimedia.org/wikipedia/commons/f/fc/Medical_blood_test_laboratory.jpg"
+creditoImagem: "Foto: Donna Alvita (BY-SA) via Openverse"
 ---
 
 Uma inovação importante está prestes a transformar um dos procedimentos mais comuns e temidos em unidades de saúde: a coleta de sangue. Um aparelho capaz de realizar esse procedimento sem o uso da tradicional agulha recebeu aprovação da Agência Nacional de Vigilância Sanitária (Anvisa) e já está em processo de comercialização para hospitais e clínicas em todo o Brasil.

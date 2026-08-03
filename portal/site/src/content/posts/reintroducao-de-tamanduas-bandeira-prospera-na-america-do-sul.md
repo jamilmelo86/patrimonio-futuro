@@ -7,6 +7,8 @@ fonteNome: "Good News Network"
 fonteUrl: "https://www.goodnewsnetwork.org/the-worlds-first-giant-anteater-reintroduction-appears-to-be-succeeding-in-brazil/"
 tags: ["tamanduá-bandeira", "reintrodução", "conservação", "biodiversidade", "ecossistema", "América do Sul"]
 draft: false
+imagem: "https://live.staticflickr.com/3377/3557843402_21a14b85f0_b.jpg"
+creditoImagem: "Foto: Tambako the Jaguar (BY-ND) via Openverse"
 ---
 
 Um ambicioso projeto de reintrodução de tamanduás-bandeiras está colhendo frutos significativos na América do Sul. Iniciado há aproximadamente 20 anos, quando era a primeira tentativa mundial de restaurar a espécie em uma região onde havia desaparecido, o programa demonstra resultados notáveis que renovam esperanças para a conservação dessa importante espécie.

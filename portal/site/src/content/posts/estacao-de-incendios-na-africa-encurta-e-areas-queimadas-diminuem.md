@@ -7,6 +7,8 @@ fonteNome: "Good News Network"
 fonteUrl: "https://www.goodnewsnetwork.org/africas-wildfire-season-is-actually-getting-shorter-scientists-think-they-know-why/"
 tags: ["incêndios", "África", "clima", "ecossistema", "pesquisa científica"]
 draft: false
+imagem: "https://live.staticflickr.com/7046/7066988849_203cebe3ed_b.jpg"
+creditoImagem: "Foto: Wajahat Mahmood (BY-SA) via Openverse"
 ---
 
 Um estudo científico recente traz uma descoberta surpreendente sobre os incêndios florestais na África: a duração da estação seca está diminuindo, o que consequentemente reduz a extensão de terras atingidas pelo fogo a cada ano. Embora os noticiários internacionais frequentemente destaquem temporadas recorde de incêndios na Europa e na Amazônia, o continente africano permanece como o centro global de maior ocorrência de queimadas, responsável por aproximadamente 70% dos incêndios do planeta.

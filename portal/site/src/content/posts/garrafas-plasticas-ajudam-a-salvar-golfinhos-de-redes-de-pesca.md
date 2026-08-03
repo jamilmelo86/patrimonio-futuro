@@ -7,6 +7,8 @@ fonteNome: "Optimist Daily"
 fonteUrl: "https://www.optimistdaily.com/2026/07/podcast-transcript-july-31st-2026-liquid-air-batteries-dolphins-saved-by-plastic-bottles-and-an-empty-weekend-a-month/"
 tags: ["golfinhos", "conservação marinha", "inovação ambiental", "redes de pesca", "garrafas plásticas"]
 draft: false
+imagem: "https://live.staticflickr.com/93/268131917_0c0e94e6b8_b.jpg"
+creditoImagem: "Foto: pochacco20 (BY-ND) via Openverse"
 ---
 
 Golfinhos enfrentam um perigo silencioso nas águas do mundo: redes de pesca comerciais. O problema ocorre porque o nylon das redes produz muito pouco eco acústico, tornando-as praticamente invisíveis para o sistema de ecolocalização dos cetáceos. Quando os animais usam seus cliques e sons para navegar e encontrar presas, as redes passam despercebidas, resultando em colisões fatais que afetam populações inteiras.

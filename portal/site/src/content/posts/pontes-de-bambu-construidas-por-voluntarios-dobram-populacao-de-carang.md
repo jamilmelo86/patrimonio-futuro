@@ -7,6 +7,8 @@ fonteNome: "Good News Network"
 fonteUrl: "https://www.goodnewsnetwork.org/volunteers-tiny-bamboo-bridges-have-helped-double-migratory-crab-populations-on-taiwan/"
 tags: ["caranguejos", "migração", "voluntários", "bambu", "Taiwan", "conservação", "biodiversidade"]
 draft: false
+imagem: "https://live.staticflickr.com/8498/8269486049_2b9185f434_b.jpg"
+creditoImagem: "Foto: kevinpoh (BY) via Openverse"
 ---
 
 Taiwan encontrou uma solução criativa e de baixo custo para proteger seus caranguejos migratórios durante o período de deslocamento que ocorre entre julho e setembro. Voluntários locais têm construído pequenas pontes de bambu que permitem aos crustáceos atravessar áreas urbanas e estradas sem riscos, evitando atropelamentos e outras mortes causadas pela presença humana.

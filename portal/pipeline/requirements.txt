@@ -2,3 +2,4 @@ feedparser>=6.0
 requests>=2.31
 anthropic>=0.40
 pillow>=10.0
+pyyaml>=6.0
