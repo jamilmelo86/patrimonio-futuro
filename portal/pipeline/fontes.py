@@ -28,22 +28,41 @@ class Artigo:
     fonte_nome: str
     trecho: str = ""          # resumo/excerto vindo da fonte (só p/ referência)
     publicado: datetime | None = None
-    idioma: str = "pt"        # "pt" ou "en"
+    idioma: str = "português"  # idioma original (ex.: inglês, espanhol, francês)
     imagem: str | None = None
     tags_origem: list[str] = field(default_factory=list)
+    pais: str = ""            # país de origem da fonte (só para variar/registrar)
 
 
 # --------------------------------------------------------------------------
 # Fontes RSS (gratuitas) — Brasil + internacionais de boas notícias
 # --------------------------------------------------------------------------
-# Fontes INTERNACIONAIS de boas notícias (em inglês). O robô traduz e adapta
-# para o português do Brasil. Foco no exterior — sem portais brasileiros.
+# Fontes INTERNACIONAIS de vários países e idiomas. O robô traduz e adapta cada
+# notícia para o português do Brasil. Misturamos portais dedicados a boas notícias
+# com grandes jornais (destes, o filtro + a IA selecionam só o que é positivo).
+# O coletor ALTERNA as fontes (round-robin), para o site nunca ficar dominado por
+# um único portal ou país.
 FEEDS_RSS: list[dict] = [
-    {"nome": "Positive News", "url": "https://www.positive.news/feed/", "idioma": "en"},
-    {"nome": "Good News Network", "url": "https://www.goodnewsnetwork.org/feed/", "idioma": "en"},
-    {"nome": "Reasons to be Cheerful", "url": "https://reasonstobecheerful.world/feed/", "idioma": "en"},
-    {"nome": "The Guardian (The Upside)", "url": "https://www.theguardian.com/world/series/the-upside/rss", "idioma": "en"},
-    {"nome": "Optimist Daily", "url": "https://www.optimistdaily.com/feed/", "idioma": "en"},
+    # --- Inglês -----------------------------------------------------------
+    {"nome": "Positive News", "url": "https://www.positive.news/feed/", "idioma": "inglês", "pais": "Reino Unido"},
+    {"nome": "Good News Network", "url": "https://www.goodnewsnetwork.org/feed/", "idioma": "inglês", "pais": "EUA"},
+    {"nome": "Reasons to be Cheerful", "url": "https://reasonstobecheerful.world/feed/", "idioma": "inglês", "pais": "EUA"},
+    {"nome": "Optimist Daily", "url": "https://www.optimistdaily.com/feed/", "idioma": "inglês", "pais": "EUA"},
+    # --- Espanhol ---------------------------------------------------------
+    {"nome": "Noticias Positivas", "url": "https://www.noticiaspositivas.org/feed/", "idioma": "espanhol", "pais": "Argentina"},
+    {"nome": "La Vanguardia", "url": "https://www.lavanguardia.com/rss/home.xml", "idioma": "espanhol", "pais": "Espanha"},
+    {"nome": "El País", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada", "idioma": "espanhol", "pais": "Espanha"},
+    # --- Francês ----------------------------------------------------------
+    {"nome": "Positivr", "url": "https://positivr.fr/feed/", "idioma": "francês", "pais": "França"},
+    {"nome": "Le Monde", "url": "https://www.lemonde.fr/rss/une.xml", "idioma": "francês", "pais": "França"},
+    # --- Alemão -----------------------------------------------------------
+    {"nome": "Good News", "url": "https://www.goodnews.eu/feed/", "idioma": "alemão", "pais": "Alemanha"},
+    {"nome": "Tagesschau", "url": "https://www.tagesschau.de/index~rss2.xml", "idioma": "alemão", "pais": "Alemanha"},
+    # --- Italiano ---------------------------------------------------------
+    {"nome": "ANSA", "url": "https://www.ansa.it/sito/ansait_rss.xml", "idioma": "italiano", "pais": "Itália"},
+    {"nome": "Rai News", "url": "https://www.rainews.it/rss/tutti", "idioma": "italiano", "pais": "Itália"},
+    # --- Holandês ---------------------------------------------------------
+    {"nome": "NOS", "url": "https://feeds.nos.nl/nosnieuwsalgemeen", "idioma": "holandês", "pais": "Holanda"},
 ]
 
 # Não trazer notícia velha (dias). Ajustável via MAX_IDADE_DIAS.
@@ -105,9 +124,10 @@ def coletar_rss(limite_por_feed: int = 15) -> list[Artigo]:
                     fonte_nome=feed["nome"],
                     trecho=resumo,
                     publicado=pub,
-                    idioma=feed["idioma"],
+                    idioma=feed.get("idioma", "português"),
                     imagem=_imagem_do_entry(entry),
                     tags_origem=[t.get("term", "") for t in getattr(entry, "tags", []) or []],
+                    pais=feed.get("pais", ""),
                 )
             )
         print(f"[fontes] {feed['nome']}: {len(data.entries[:limite_por_feed])} itens")
@@ -150,7 +170,7 @@ def coletar_guardian(limite: int = 20) -> list[Artigo]:
                 fonte_nome="The Guardian (The Upside)",
                 trecho=campos.get("trailText", ""),
                 publicado=None,
-                idioma="en",
+                idioma="inglês",
                 imagem=campos.get("thumbnail"),
             )
         )
@@ -189,7 +209,7 @@ def coletar_newsdata(limite: int = 10) -> list[Artigo]:
                 url=r.get("link", ""),
                 fonte_nome=r.get("source_id", "NewsData"),
                 trecho=r.get("description") or "",
-                idioma="en",
+                idioma="inglês",
                 imagem=r.get("image_url"),
             )
         )

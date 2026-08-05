@@ -9,12 +9,14 @@ from __future__ import annotations
 
 import json
 import re
+from datetime import date
 from pathlib import Path
 
 from fontes import Artigo
 
-# Termos que indicam boa notícia (PT + EN).
+# Termos que indicam boa notícia (multilíngue: PT, EN, ES, FR, DE, IT, NL).
 POSITIVAS = {
+    # português
     "cura", "curou", "salv", "resgat", "doaç", "doou", "adoç", "adotad", "record",
     "conquist", "premiad", "prêmio", "premio", "descobert", "avanç", "solidar",
     "recuper", "reflorest", "voluntári", "esperança", "inspir", "supera", "vitória",
@@ -24,10 +26,27 @@ POSITIVAS = {
     "rescue", "cure", "cured", "record", "breakthrough", "restor", "donate",
     "volunteer", "hope", "inspir", "success", "recover", "award", "wildlife",
     "reforest", "kindness", "hero", "saved", "milestone",
+    # espanhol
+    "rescat", "cura", "salv", "donaci", "donó", "récord", "logr", "premi",
+    "descubr", "avance", "solidari", "esperanz", "éxito", "recuper", "héroe",
+    "ayuda", "voluntari", "histórico", "inspira",
+    # francês
+    "sauv", "guéri", "sauvet", "record", "don ", "solidar", "espoir", "réussi",
+    "succès", "avancée", "découvert", "bénévol", "héros", "restaur", "inspir",
+    # alemão
+    "rettung", "gerettet", "heil", "spende", "rekord", "erfolg", "durchbruch",
+    "hoffnung", "hilfe", "freiwillig", "held", "entdeck", "wiederher",
+    # italiano
+    "salv", "guarit", "soccorso", "donaz", "record", "successo", "svolta",
+    "speranza", "aiuto", "volontari", "eroe", "scopert", "recuper", "traguardo",
+    # holandês
+    "gered", "redding", "genez", "donatie", "record", "succes", "doorbraak",
+    "hoop", "hulp", "vrijwillig", "held", "ontdekk", "herstel",
 }
 
 # Termos que quase sempre indicam notícia ruim — descartam o item.
 NEGATIVAS = {
+    # português
     "morte", "morto", "morre", "assassin", "homicíd", "estupro", "feminicíd",
     "tragéd", "acidente", "tiroteio", "atentad", "guerra", "massacre", "abuso",
     "tortura", "sequestr", "roubo", "assalto", "golpe", "fraude", "corrupç",
@@ -35,6 +54,21 @@ NEGATIVAS = {
     # inglês
     "death", "dead", "kill", "murder", "rape", "war", "attack", "shooting",
     "disaster", "scandal", "fraud", "abuse",
+    # espanhol
+    "muert", "asesin", "violaci", "guerra", "atentad", "tiroteo", "masacre",
+    "secuestr", "catástrofe", "tragedia", "fraude", "corrupci", "incendi",
+    # francês
+    "mort", "tué", "meurtre", "viol", "guerre", "attentat", "fusillade",
+    "catastrophe", "tragéd", "fraude", "corruption", "enlèvement",
+    # alemão
+    "tote", "getötet", "mord", "krieg", "anschlag", "vergewalt", "katastrophe",
+    "betrug", "skandal", "entführ",
+    # italiano
+    "mort", "uccis", "omicidio", "stupro", "guerra", "attentato", "strage",
+    "sequestr", "catastrofe", "tragedia", "frode", "corruzione", "incendio",
+    # holandês
+    "dood", "gedood", "moord", "verkracht", "oorlog", "aanslag", "ramp",
+    "fraude", "ontvoer",
 }
 
 
@@ -53,7 +87,16 @@ def provavelmente_positiva(artigo: Artigo) -> bool:
 
 def _tem_negativa_forte(artigo: Artigo) -> bool:
     titulo = artigo.titulo.lower()
-    return any(t in titulo for t in ("morte", "morto", "morre", "assassin", "estupro", "guerra"))
+    fortes = (
+        "morte", "morto", "morre", "assassin", "estupro", "guerra",  # pt
+        "death", "dead", "kill", "murder", "war", "rape",            # en
+        "muert", "asesin", "guerra", "violaci",                       # es
+        "mort", "tué", "meurtre", "guerre", "viol",                   # fr
+        "tote", "getötet", "mord", "krieg",                           # de
+        "mort", "uccis", "omicidio", "guerra",                        # it
+        "dood", "moord", "oorlog",                                    # nl
+    )
+    return any(t in titulo for t in fortes)
 
 
 # --------------------------------------------------------------------------
@@ -131,6 +174,37 @@ def _titulo_repetido(titulo: str, publicados: list[set[str]], limiar: float = 0.
     return any(p and len(t & p) / len(t) >= limiar for p in publicados)
 
 
+def _intercalar_por_fonte(artigos: list[Artigo]) -> list[Artigo]:
+    """Alterna as notícias entre as fontes (round-robin), do mais positivo ao menos.
+
+    Dentro de cada fonte, ordena por positividade; depois vai pegando uma de cada
+    fonte por vez. Assim o site nunca fica dominado por um único portal ou país. A
+    ordem de partida gira a cada dia, para variar quem "abre" a rodada."""
+    grupos: dict[str, list[Artigo]] = {}
+    for a in artigos:
+        grupos.setdefault(a.fonte_nome, []).append(a)
+    for lista in grupos.values():
+        lista.sort(key=pontuar, reverse=True)
+
+    fontes_ordenadas = sorted(grupos)
+    if fontes_ordenadas:  # rotação diária do ponto de partida
+        giro = date.today().toordinal() % len(fontes_ordenadas)
+        fontes_ordenadas = fontes_ordenadas[giro:] + fontes_ordenadas[:giro]
+
+    saida: list[Artigo] = []
+    i = 0
+    while True:
+        avancou = False
+        for nome in fontes_ordenadas:
+            if i < len(grupos[nome]):
+                saida.append(grupos[nome][i])
+                avancou = True
+        if not avancou:
+            break
+        i += 1
+    return saida
+
+
 def filtrar_novos(
     artigos: list[Artigo],
     ja_vistos: set[str],
@@ -152,5 +226,4 @@ def filtrar_novos(
             continue
         vistos_agora.add(chave)
         novos.append(a)
-    novos.sort(key=pontuar, reverse=True)
-    return novos
+    return _intercalar_por_fonte(novos)
