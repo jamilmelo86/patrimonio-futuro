@@ -97,7 +97,9 @@ def montar_markdown(
         linhas.append(f"imagem: {_yaml_str(artigo.imagem)}")
         linhas.append(f"creditoImagem: {_yaml_str('Imagem: ' + artigo.fonte_nome)}")
     linhas.append(f"tags: {tags_yaml}")
-    linhas.append("draft: false" if PUBLICAR_AUTOMATICO else "draft: true")
+    # Esqueleto sem IA nunca vai ao ar publicado (rede de segurança dupla).
+    publica = PUBLICAR_AUTOMATICO and not dados.get("_fallback")
+    linhas.append("draft: false" if publica else "draft: true")
     linhas.append("---")
     linhas.append("")
     linhas.append(dados["corpo"].strip())
@@ -149,6 +151,13 @@ def main() -> None:
         if dados is None:
             ja_vistos.add(chave)  # vetado pela IA: não reprocessar
             print(f"[pipeline]  ✗ vetado (não é boa notícia): {artigo.titulo[:60]}")
+            continue
+
+        if dados.get("_fallback"):
+            # IA indisponível (sem chave / erro transitório): é só um esqueleto,
+            # sem tradução nem resumo. NUNCA publicar automaticamente. Não marca
+            # como visto → tenta de novo quando a IA voltar.
+            print(f"[pipeline]  ⏭ IA indisponível — adiado (não publica esqueleto): {artigo.titulo[:50]}")
             continue
 
         cat = dados.get("categoria", "mundo")

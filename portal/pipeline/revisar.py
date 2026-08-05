@@ -190,6 +190,16 @@ def main() -> None:
         if campos.get("draft") is True:
             continue  # só revisa o que está publicado
 
+        # Rede de segurança determinística: esqueleto sem IA jamais fica no ar.
+        # (título não traduzido, resumo/corpo placeholder). Despublica na hora,
+        # sem gastar chamada de IA.
+        if "RASCUNHO" in corpo or "RASCUNHO" in _valor_str(campos, "resumo"):
+            campos["draft"] = True
+            escrever_post(md, campos, corpo)
+            despublicados += 1
+            print(f"[revisor]  ⊘ despublicado (esqueleto sem IA): {md.name}")
+            continue
+
         assinatura = _hash(_valor_str(campos, "titulo"), corpo)
         if ledger.get(md.name) == assinatura:
             continue  # já revisado e sem mudança
