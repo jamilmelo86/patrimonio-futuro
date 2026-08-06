@@ -68,6 +68,13 @@ FEEDS_RSS: list[dict] = [
 # Não trazer notícia velha (dias). Ajustável via MAX_IDADE_DIAS.
 MAX_IDADE_DIAS = int(os.getenv("MAX_IDADE_DIAS", "45"))
 
+# Timeout de rede para baixar cada feed. IMPORTANTE: o feedparser.parse(url) NÃO
+# tem timeout próprio — se um servidor de RSS travar, ele bloqueia para sempre e
+# derruba a execução. Por isso baixamos o feed com requests (com timeout) e só
+# então entregamos os bytes ao feedparser.
+FEED_TIMEOUT = int(os.getenv("FEED_TIMEOUT", "15"))
+_UA = {"User-Agent": "Mozilla/5.0 (compatible; OLadoBom/1.0; +https://oladobom.com.br)"}
+
 
 def _muito_antigo(pub: datetime) -> bool:
     try:
@@ -108,8 +115,10 @@ def coletar_rss(limite_por_feed: int = 15) -> list[Artigo]:
     artigos: list[Artigo] = []
     for feed in FEEDS_RSS:
         try:
-            data = feedparser.parse(feed["url"])
-        except Exception as exc:  # rede instável não deve derrubar o pipeline
+            resp = requests.get(feed["url"], timeout=FEED_TIMEOUT, headers=_UA)
+            resp.raise_for_status()
+            data = feedparser.parse(resp.content)
+        except Exception as exc:  # feed lento/fora do ar não pode travar o pipeline
             print(f"[fontes] erro ao ler {feed['nome']}: {exc}")
             continue
         for entry in data.entries[:limite_por_feed]:
