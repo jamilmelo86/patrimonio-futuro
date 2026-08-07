@@ -1,12 +1,20 @@
 ---
-titulo: "Fóssil raro revela cadeia alimentar do Cretáceo em ação: pterossauro, ictiossauro e pliossauro"
-resumo: "Descoberta extraordinária mostra três répteis pré-históricos em uma única sequência de predação preservada há 100 milhões de anos."
-categoria: "ciencia"
+titulo: 'Fóssil raro revela cadeia alimentar do Cretáceo em ação: pterossauro, ictiossauro e pliossauro'
+resumo: Descoberta extraordinária mostra três répteis pré-históricos em uma única sequência de predação preservada há 100 milhões de anos.
+categoria: ciencia
 data: 2026-08-05
-fonteNome: "Good News Network"
-fonteUrl: "https://www.goodnewsnetwork.org/single-fossil-shows-a-pterosaur-eaten-by-an-ichthyosaur-eaten-by-a-pliosaur-a-3-way-chompfest/"
-tags: ["paleontologia", "fósseis", "Cretáceo", "répteis marinhos", "cadeia alimentar", "descoberta científica"]
+fonteNome: Good News Network
+fonteUrl: https://www.goodnewsnetwork.org/single-fossil-shows-a-pterosaur-eaten-by-an-ichthyosaur-eaten-by-a-pliosaur-a-3-way-chompfest/
+tags:
+- paleontologia
+- fósseis
+- Cretáceo
+- répteis marinhos
+- cadeia alimentar
+- descoberta científica
 draft: false
+imagem: https://live.staticflickr.com/4017/4687251266_3c76e82f57_b.jpg
+creditoImagem: 'Foto: subarcticmike (BY) via Openverse'
 ---
 
 Cientistas apresentaram uma das descobertas mais inusitadas da paleontologia: um único fóssil que captura um momento dramático da cadeia alimentar marinha do período Cretáceo, há aproximadamente 100 milhões de anos. O achado, que levou sete anos de estudo minucioso para ser compreendido, revela o que poderia ser chamado de um "banquete em cascata" envolvendo três répteis marinhos de diferentes níveis da hierarquia predatória.

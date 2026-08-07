@@ -1,15 +1,21 @@
 ---
-titulo: "Implantes ósseos feitos em 3D liberam medicamentos durante a cicatrização"
-resumo: "Pesquisadores tchecos desenvolvem implantes de titânio com estrutura porosa que administra medicamentos gradualmente após cirurgia."
-categoria: "saude"
+titulo: Implantes ósseos feitos em 3D liberam medicamentos durante a cicatrização
+resumo: Pesquisadores tchecos desenvolvem implantes de titânio com estrutura porosa que administra medicamentos gradualmente após cirurgia.
+categoria: saude
 data: 2026-08-05
-fonteNome: "Optimist Daily"
-fonteUrl: "https://www.optimistdaily.com/2026/08/3d-printed-bone-implants-that-release-drugs-as-they-heal/"
-tags: ["implante", "impressão 3D", "medicamento", "cirurgia", "titânio", "inovação médica"]
+fonteNome: Optimist Daily
+fonteUrl: https://www.optimistdaily.com/2026/08/3d-printed-bone-implants-that-release-drugs-as-they-heal/
+tags:
+- implantes
+- impressão 3D
+- titânio
+- medicina regenerativa
+- tecnologia médica
+- cirurgia
 draft: false
 ---
 
-Cientistas da Universidade de Química e Tecnologia de Praga estão revolucionando a recuperação pós-cirúrgica ao criar implantes articulares feitos de titânio através de impressão 3D. O diferencial está em uma estrutura interna porosa que funciona como depósito de medicamentos, liberando-os lentamente ao longo do processo de cicatrização do paciente.
+Cientistas da Universidade de Química e Tecnologia de Praga estão revolucionando a recuperação pós-cirúrgica ao criar implantes articulares de titânio através de impressão 3D. O diferencial está em uma estrutura interna porosa que funciona como depósito de medicamentos, liberando-os lentamente ao longo do processo de cicatrização do paciente.
 
 O projeto resulta de uma parceria entre pesquisadores e cirurgiões do Hospital Universitário Motol, garantindo que a inovação seja desenvolvida em colaboração direta com profissionais que vivenciam os desafios da prática médica. A técnica empregada chama-se fusão por leito de pó a laser, um método de manufatura aditiva que permite criar estruturas internas complexas com precisão milimétrica.
 
