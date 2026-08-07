@@ -13,6 +13,8 @@ tags:
 - tecnologia médica
 - cirurgia
 draft: false
+imagem: https://live.staticflickr.com/8298/7786593916_b957c7edd4_b.jpg
+creditoImagem: 'Foto: Mosman Library (BY) via Openverse'
 ---
 
 Cientistas da Universidade de Química e Tecnologia de Praga estão revolucionando a recuperação pós-cirúrgica ao criar implantes articulares de titânio através de impressão 3D. O diferencial está em uma estrutura interna porosa que funciona como depósito de medicamentos, liberando-os lentamente ao longo do processo de cicatrização do paciente.

@@ -12,6 +12,8 @@ tags:
 - Europa
 - adaptação climática
 draft: false
+imagem: https://live.staticflickr.com/65535/52012771170_da03cf1b21_b.jpg
+creditoImagem: 'Foto: Jean-Michel Priaux (BY) via Openverse'
 ---
 
 A empresa de energia francesa EDF anunciou um plano ambicioso de investimento para tornar suas usinas mais resistentes aos efeitos do aquecimento global. O projeto prevê alocar quase 9 bilhões de euros ao longo de quinze anos, focando em infraestruturas que enfrentam crescentes desafios climáticos, como ondas de calor intensas e períodos prolongados de seca.

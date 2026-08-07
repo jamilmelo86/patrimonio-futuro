@@ -1,12 +1,19 @@
 ---
-titulo: "Comunidade Local Triplica Áreas Marinhas Protegidas na Costa Turca"
-resumo: "Pescadores e conservacionistas na Turquia conseguem triplicar o tamanho de santuários marinhos ao longo de 480 quilômetros de litoral mediterrânico."
-categoria: "meio-ambiente"
+titulo: Comunidade Local Triplica Áreas Marinhas Protegidas na Costa Turca
+resumo: Pescadores e conservacionistas na Turquia conseguem triplicar o tamanho de santuários marinhos ao longo de 480 quilômetros de litoral mediterrânico.
+categoria: meio-ambiente
 data: 2026-08-06
-fonteNome: "Good News Network"
-fonteUrl: "https://www.goodnewsnetwork.org/locals-succeed-in-tripling-protected-seascapes-along-300-miles-of-turkiyes-breathtaking-coastline/"
-tags: ["conservação marinha", "Turquia", "proteção costeira", "biodiversidade", "comunidade local"]
+fonteNome: Good News Network
+fonteUrl: https://www.goodnewsnetwork.org/locals-succeed-in-tripling-protected-seascapes-along-300-miles-of-turkiyes-breathtaking-coastline/
+tags:
+- conservação marinha
+- Turquia
+- proteção costeira
+- biodiversidade
+- comunidade local
 draft: false
+imagem: https://upload.wikimedia.org/wikipedia/commons/4/41/Natural_forest_landscape_3.jpg
+creditoImagem: 'Foto: ImageGuy2288 (BY-SA) via Openverse'
 ---
 
 Um grupo de conservacionistas locais e pescadores da costa mediterrânea da Turquia alcançou uma vitória ambiental significativa ao expandir dramaticamente as áreas marinhas protegidas. Com apoio de uma organização não governamental, esses dedicados moradores transformaram aproximadamente 480 quilômetros de litoral em um refúgio para biodiversidade marinha, triplicando a extensão das zonas já oficialmente designadas como santuários.

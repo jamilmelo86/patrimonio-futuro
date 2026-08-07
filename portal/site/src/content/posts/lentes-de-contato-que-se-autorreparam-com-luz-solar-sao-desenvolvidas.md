@@ -1,12 +1,19 @@
 ---
-titulo: "Lentes de contato que se autorreparam com luz solar são desenvolvidas na Coreia do Sul"
-resumo: "Pesquisadores coreanos criam lentes de contato capazes de reparar arranhões automaticamente em menos de uma hora com exposição à luz ultravioleta."
-categoria: "tecnologia"
+titulo: Lentes de contato que se autorreparam com luz solar são desenvolvidas na Coreia do Sul
+resumo: Pesquisadores coreanos criam lentes de contato capazes de reparar arranhões automaticamente em menos de uma hora com exposição à luz ultravioleta.
+categoria: tecnologia
 data: 2026-08-04
-fonteNome: "Good News Network"
-fonteUrl: "https://www.goodnewsnetwork.org/self-healing-contact-lenses-repair-scratches-with-just-1-hour-of-uv-light-exposure/"
-tags: ["lentes de contato", "autorreparação", "inovação", "hidrogel", "saúde visual"]
+fonteNome: Good News Network
+fonteUrl: https://www.goodnewsnetwork.org/self-healing-contact-lenses-repair-scratches-with-just-1-hour-of-uv-light-exposure/
+tags:
+- lentes de contato
+- autorreparação
+- inovação
+- hidrogel
+- saúde visual
 draft: false
+imagem: https://live.staticflickr.com/71/202290560_fb40def5b7_b.jpg
+creditoImagem: 'Foto: scottbb (BY-SA) via Openverse'
 ---
 
 Cientistas sul-coreanos desenvolveram uma inovação promissora na tecnologia de visão: lentes de contato que conseguem se autorrecuperar quando expostas à luz solar. O material utilizado é um hidrogel ativado por radiação ultravioleta, capaz de eliminar pequenos danos e arranhões de forma natural e sem intervenção manual.

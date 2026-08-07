@@ -1,12 +1,20 @@
 ---
-titulo: "Singapura abre mais de 100 pontos de recarga para produtos de limpeza com desconto de 30%"
-resumo: "Empresa instala máquinas de reabastecimento de detergentes e produtos de limpeza em Singapura, oferecendo desconto de 30% e reduzindo desperdício de embalagens."
-categoria: "meio-ambiente"
+titulo: Singapura abre mais de 100 pontos de recarga para produtos de limpeza com desconto de 30%
+resumo: Empresa instala máquinas de reabastecimento de detergentes e produtos de limpeza em Singapura, oferecendo desconto de 30% e reduzindo desperdício de embalagens.
+categoria: meio-ambiente
 data: 2026-08-06
-fonteNome: "Good News Network"
-fonteUrl: "https://www.goodnewsnetwork.org/over-100-refill-stations-for-home-laundry-cleaners-to-open-across-singapore-at-30-discount/"
-tags: ["economia circular", "sustentabilidade", "produtos de limpeza", "Singapura", "reciclagem", "inovação"]
+fonteNome: Good News Network
+fonteUrl: https://www.goodnewsnetwork.org/over-100-refill-stations-for-home-laundry-cleaners-to-open-across-singapore-at-30-discount/
+tags:
+- economia circular
+- sustentabilidade
+- produtos de limpeza
+- Singapura
+- reciclagem
+- inovação
 draft: false
+imagem: https://upload.wikimedia.org/wikipedia/commons/6/6c/Natural_forest_landscape_2.jpg
+creditoImagem: 'Foto: ImageGuy2288 (BY-SA) via Openverse'
 ---
 
 Diante da constatação de que as taxas de reciclagem em Singapura estagnaram em torno de 11%, a fabricante de produtos de limpeza Lam Soon decidiu implementar uma solução inovadora: a instalação de mais de 100 estações de recarga automática espalhadas pela cidade. O objetivo é reduzir o impacto ambiental dos resíduos de embalagem ao mesmo tempo que oferece vantagens econômicas aos consumidores.

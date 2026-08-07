@@ -12,6 +12,8 @@ tags:
 - ativismo ambiental
 - Itália
 draft: false
+imagem: https://live.staticflickr.com/65535/52012771170_da03cf1b21_b.jpg
+creditoImagem: 'Foto: Jean-Michel Priaux (BY) via Openverse'
 ---
 
 Um lago italiano enfrenta uma crise hídrica severa, com o nível das águas caindo drasticamente. Diante dessa situação preocupante, nasceu uma iniciativa inovadora: a série limitada de 187 cartões-postais numerados chamada "Trasi-Meno", que retrata o estado crítico do lago Trasimeno, na região de Úmbria, no centro da Itália. Cada cartão não é apenas um souvenir bonito, mas carrega uma mensagem poderosa sobre o impacto da seca e a necessidade urgente de conscientização.

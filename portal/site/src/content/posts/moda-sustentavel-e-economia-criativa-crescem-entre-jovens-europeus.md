@@ -1,12 +1,19 @@
 ---
-titulo: "Moda sustentável e economia criativa crescem entre jovens europeus"
-resumo: "Geração Z impulsiona mercado de roupas de segunda mão na Europa, transformando hábitos de consumo e criando oportunidades econômicas."
-categoria: "tecnologia"
+titulo: Moda sustentável e economia criativa crescem entre jovens europeus
+resumo: Geração Z impulsiona mercado de roupas de segunda mão na Europa, transformando hábitos de consumo e criando oportunidades econômicas.
+categoria: tecnologia
 data: 2026-08-06
-fonteNome: "ANSA"
-fonteUrl: "https://www.ansa.it/canale_lifestyle/notizie/moda/2026/08/03/moda-e-commerce-lo-stato-del-mercato-tra-trend-genz-e-second-hand_d0c4a2a6-4025-4412-a930-8fcbabdb0f7d.html"
-tags: ["moda sustentável", "e-commerce", "economia circular", "geração Z", "segunda mão"]
+fonteNome: ANSA
+fonteUrl: https://www.ansa.it/canale_lifestyle/notizie/moda/2026/08/03/moda-e-commerce-lo-stato-del-mercato-tra-trend-genz-e-second-hand_d0c4a2a6-4025-4412-a930-8fcbabdb0f7d.html
+tags:
+- moda sustentável
+- e-commerce
+- economia circular
+- geração Z
+- segunda mão
 draft: false
+imagem: https://live.staticflickr.com/7369/9741310549_7a15fb143f_b.jpg
+creditoImagem: 'Foto: jurvetson (BY) via Openverse'
 ---
 
 Um levantamento realizado em dez países europeus revela uma mudança significativa nos padrões de compra online, com a moda e confecções representando um quinto de toda despesa em e-commerce no continente. O destaque fica por conta da ascensão do mercado de roupas de segunda mão, particularmente entre consumidores da Geração Z, que buscam alternativas mais econômicas e ambientalmente responsáveis.

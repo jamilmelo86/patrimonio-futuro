@@ -1,12 +1,19 @@
 ---
-titulo: "Patrice Talon assume presidência do Senado do Benin"
-resumo: "Ex-presidente do Benin é eleito primeiro presidente do novo Senado do país para um mandato de cinco anos."
-categoria: "mundo"
+titulo: Patrice Talon assume presidência do Senado do Benin
+resumo: Ex-presidente do Benin é eleito primeiro presidente do novo Senado do país para um mandato de cinco anos.
+categoria: mundo
 data: 2026-08-06
-fonteNome: "Le Monde"
-fonteUrl: "https://www.lemonde.fr/international/article/2026/08/06/benin-patrice-talon-ancien-chef-de-l-etat-devient-le-premier-president-du-senat_6740045_3210.html"
-tags: ["Benin", "Patrice Talon", "Senado", "política", "instituições"]
+fonteNome: Le Monde
+fonteUrl: https://www.lemonde.fr/international/article/2026/08/06/benin-patrice-talon-ancien-chef-de-l-etat-devient-le-premier-president-du-senat_6740045_3210.html
+tags:
+- Benin
+- Patrice Talon
+- Senado
+- política
+- instituições
 draft: false
+imagem: https://live.staticflickr.com/3798/12485089284_e08f6e8f8c_b.jpg
+creditoImagem: 'Foto: Bea Serendipity / Ghee (BY) via Openverse'
 ---
 
 Patrice Talon, que liderou o Benin durante dez anos como chefe de Estado, de 2016 a 2026, foi eleito no último dia 6 de agosto para presidir o recém-criado Senado do país. A eleição marca um passo importante na reestruturação institucional beninense.

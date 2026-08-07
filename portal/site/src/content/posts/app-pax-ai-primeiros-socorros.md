@@ -1,12 +1,17 @@
 ---
-titulo: "Estudantes de escola técnica criam app com IA que orienta primeiros socorros"
-resumo: "Feito por alunos de uma Etec no interior de SP, o Pax AI guia o socorro a vítimas até a ajuda profissional chegar."
-categoria: "tecnologia"
+titulo: Estudantes de escola técnica criam app com IA que orienta primeiros socorros
+resumo: Feito por alunos de uma Etec no interior de SP, o Pax AI guia o socorro a vítimas até a ajuda profissional chegar.
+categoria: tecnologia
 data: 2026-01-18
-fonteNome: "Canaltech"
-fonteUrl: "https://canaltech.com.br/apps/estudantes-brasileiros-criam-app-para-agilizar-primeiros-socorros-em-emergencias/"
-tags: ["educacao", "inteligencia-artificial", "emergencias"]
+fonteNome: Canaltech
+fonteUrl: https://canaltech.com.br/apps/estudantes-brasileiros-criam-app-para-agilizar-primeiros-socorros-em-emergencias/
+tags:
+- educacao
+- inteligencia-artificial
+- emergencias
 draft: false
+imagem: https://live.staticflickr.com/7369/9741310549_7a15fb143f_b.jpg
+creditoImagem: 'Foto: jurvetson (BY) via Openverse'
 ---
 
 Nos minutos que separam um acidente da chegada do socorro, saber o que fazer pode salvar uma vida. Pensando nisso, três estudantes de uma escola técnica do interior de São Paulo desenvolveram um aplicativo com inteligência artificial para orientar leigos durante emergências de saúde.

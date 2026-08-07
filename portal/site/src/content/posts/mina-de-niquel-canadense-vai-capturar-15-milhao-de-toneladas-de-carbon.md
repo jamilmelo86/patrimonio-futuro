@@ -1,12 +1,19 @@
 ---
-titulo: "Mina de Níquel Canadense Vai Capturar 1,5 Milhão de Toneladas de Carbono por Ano"
-resumo: "Projeto inovador no Canadá une extração de níquel com captura de carbono, recebendo aprovação final do governo de Ontário."
-categoria: "tecnologia"
+titulo: Mina de Níquel Canadense Vai Capturar 1,5 Milhão de Toneladas de Carbono por Ano
+resumo: Projeto inovador no Canadá une extração de níquel com captura de carbono, recebendo aprovação final do governo de Ontário.
+categoria: tecnologia
 data: 2026-08-03
-fonteNome: "Good News Network"
-fonteUrl: "https://www.goodnewsnetwork.org/canadas-newest-nickel-mine-will-store-1-5-millions-tons-of-carbon-every-year-during-operation/"
-tags: ["mineração sustentável", "captura de carbono", "Canadá", "níquel", "inovação ambiental"]
+fonteNome: Good News Network
+fonteUrl: https://www.goodnewsnetwork.org/canadas-newest-nickel-mine-will-store-1-5-millions-tons-of-carbon-every-year-during-operation/
+tags:
+- mineração sustentável
+- captura de carbono
+- Canadá
+- níquel
+- inovação ambiental
 draft: false
+imagem: https://live.staticflickr.com/7369/9741310549_7a15fb143f_b.jpg
+creditoImagem: 'Foto: jurvetson (BY) via Openverse'
 ---
 
 A Canada Nickel Company recebeu autorização definitiva do governo de Ontário para desenvolver um ambicioso projeto que combina mineração de níquel com captura e armazenamento de dióxido de carbono. O empreendimento representa um avanço significativo na busca por modelos econômicos que conciliem a produção industrial com a redução de emissões de gases de efeito estufa.

@@ -12,6 +12,8 @@ tags:
 - mulheres atletas
 - Canal da Mancha
 draft: false
+imagem: https://live.staticflickr.com/7279/7028514457_50e4c5c3f4_b.jpg
+creditoImagem: 'Foto: Jeff Rowley Big Wave Surfer (BY) via Openverse'
 ---
 
 Em 6 de agosto de 1926, a nadadora americana Gertrude Ederle realizou um feito extraordinário ao se tornar a primeira mulher a cruzar o Canal da Mancha a nado. Conhecida como "A Rainha das Ondas", ela enfrentou as águas desafiadoras entre a Inglaterra e a França, superando não apenas a barreira geográfica, mas também as limitações sociais impostas às mulheres na época.

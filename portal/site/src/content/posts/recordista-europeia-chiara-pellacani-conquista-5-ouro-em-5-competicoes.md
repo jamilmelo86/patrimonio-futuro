@@ -1,12 +1,20 @@
 ---
-titulo: "Recordista europeia: Chiara Pellacani conquista 5 ouro em 5 competições"
-resumo: "Mergulhadora italiana encerra participação em Paris com feito inédito na história do esporte europeu."
-categoria: "superacao"
+titulo: 'Recordista europeia: Chiara Pellacani conquista 5 ouro em 5 competições'
+resumo: Mergulhadora italiana encerra participação em Paris com feito inédito na história do esporte europeu.
+categoria: superacao
 data: 2026-08-06
-fonteNome: "Rai News"
-fonteUrl: "https://www.rainews.it/video/2026/08/parigi-europei-tuffi-chiara-pellacani-5-gare-disputate-e-5-ori-conquistati-b611dd1a-302e-4f14-a87a-7f541905b5d0.html"
-tags: ["Chiara Pellacani", "mergulho", "Jogos Olímpicos Paris 2024", "recorde europeu", "atletismo", "Itália"]
+fonteNome: Rai News
+fonteUrl: https://www.rainews.it/video/2026/08/parigi-europei-tuffi-chiara-pellacani-5-gare-disputate-e-5-ori-conquistati-b611dd1a-302e-4f14-a87a-7f541905b5d0.html
+tags:
+- Chiara Pellacani
+- mergulho
+- Jogos Olímpicos Paris 2024
+- recorde europeu
+- atletismo
+- Itália
 draft: false
+imagem: https://live.staticflickr.com/7087/7028514921_0b5dc63df9_b.jpg
+creditoImagem: 'Foto: Jeff Rowley Big Wave Surfer (BY) via Openverse'
 ---
 
 A italiana Chiara Pellacani escreveu um capítulo histórico nos Jogos Olímpicos de Paris ao disputar cinco provas de mergulho e conquistar a mesma quantidade de medalhas de ouro. O desempenho é inédito na história das competições europeias de mergulho e coloca a atleta entre os grandes nomes do esporte.

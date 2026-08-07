@@ -11,6 +11,8 @@ tags:
 - educação ambiental
 - comunidade
 draft: false
+imagem: https://upload.wikimedia.org/wikipedia/commons/6/6c/Natural_forest_landscape_2.jpg
+creditoImagem: 'Foto: ImageGuy2288 (BY-SA) via Openverse'
 ---
 
 O Festival Arte Serrinha demonstrou como a arte pode ser um instrumento poderoso para conectar pessoas e despertar consciência sobre o cuidado com o ambiente. O evento reuniu artistas de diferentes nacionalidades em um espaço de diálogo e criação, transformando uma celebração cultural em uma plataforma de transformação social e ambiental.

@@ -1,12 +1,18 @@
 ---
-titulo: "Cerrado e Pantanal ganham 148 mil hectares de novas áreas protegidas"
-resumo: "Casa da onça-pintada e da ariranha, as novas unidades de conservação foram anunciadas durante a COP15, em Campo Grande."
-categoria: "meio-ambiente"
+titulo: Cerrado e Pantanal ganham 148 mil hectares de novas áreas protegidas
+resumo: Casa da onça-pintada e da ariranha, as novas unidades de conservação foram anunciadas durante a COP15, em Campo Grande.
+categoria: meio-ambiente
 data: 2026-03-22
-fonteNome: "Agência Brasil"
-fonteUrl: "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-03/conheca-novas-areas-de-protecao-ambiental-no-cerrado-e-no-pantanal"
-tags: ["conservação", "pantanal", "cerrado", "onça-pintada"]
+fonteNome: Agência Brasil
+fonteUrl: https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-03/conheca-novas-areas-de-protecao-ambiental-no-cerrado-e-no-pantanal
+tags:
+- conservação
+- pantanal
+- cerrado
+- onça-pintada
 draft: false
+imagem: https://upload.wikimedia.org/wikipedia/commons/6/6c/Natural_forest_landscape_2.jpg
+creditoImagem: 'Foto: ImageGuy2288 (BY-SA) via Openverse'
 ---
 
 Dois dos biomas mais ricos do Brasil acabam de ganhar um reforço importante. Foram criadas e ampliadas áreas de proteção que somam cerca de 148 mil hectares no Cerrado mineiro e no Pantanal mato-grossense — um território imenso agora oficialmente dedicado à conservação da natureza.

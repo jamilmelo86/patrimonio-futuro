@@ -13,6 +13,8 @@ tags:
 - China
 - têxtil
 draft: false
+imagem: https://live.staticflickr.com/7206/6990209646_dfa2faa087_b.jpg
+creditoImagem: 'Foto: U.S. Army Combat Capabilities Development Command (BY) via Openverse'
 ---
 
 Enquanto a indústria da moda sustentável se esforça há anos para reduzir impactos ambientais — economizando água, diminuindo químicos sintéticos e aumentando o uso de materiais reciclados — uma equipe de pesquisadores do Instituto de Tecnologia Avançada de Shenzhen, na China, adotou um caminho completamente diferente e inovador.

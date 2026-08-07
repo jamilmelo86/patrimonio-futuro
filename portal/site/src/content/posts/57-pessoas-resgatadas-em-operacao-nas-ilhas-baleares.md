@@ -1,12 +1,18 @@
 ---
-titulo: "57 pessoas resgatadas em operação nas ilhas Baleares"
-resumo: "Operação de resgate salva 57 migrantes que chegaram em embarcações precárias às ilhas espanholas de Cabrera e Formentera."
-categoria: "solidariedade"
+titulo: 57 pessoas resgatadas em operação nas ilhas Baleares
+resumo: Operação de resgate salva 57 migrantes que chegaram em embarcações precárias às ilhas espanholas de Cabrera e Formentera.
+categoria: solidariedade
 data: 2026-08-07
-fonteNome: "La Vanguardia"
-fonteUrl: "https://www.lavanguardia.com/local/baleares/20260807/11609504/rescatadas-57-personas-llegadas-cuatro-pateras-cabrera-formentera.html"
-tags: ["migrantes", "resgate marítimo", "Baleares", "Espanha"]
+fonteNome: La Vanguardia
+fonteUrl: https://www.lavanguardia.com/local/baleares/20260807/11609504/rescatadas-57-personas-llegadas-cuatro-pateras-cabrera-formentera.html
+tags:
+- migrantes
+- resgate marítimo
+- Baleares
+- Espanha
 draft: false
+imagem: https://live.staticflickr.com/4492/38045809121_fb20002473_b.jpg
+creditoImagem: 'Foto: COD Newsroom (BY) via Openverse'
 ---
 
 Autoridades espanholas realizaram uma operação de resgate que salvou 57 pessoas que chegaram em quatro embarcações precárias (conhecidas como pateras) nas ilhas de Cabrera e Formentera, no arquipélago balear. A ação demonstra o trabalho contínuo de vigilância e intervenção nas rotas marítimas para garantir a segurança de migrantes que enfrentam travessias perigosas.

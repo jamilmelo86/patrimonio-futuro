@@ -11,6 +11,8 @@ tags:
 - cuidados animais
 - história inspiradora
 draft: false
+imagem: https://live.staticflickr.com/5339/17681482721_77e1cf97a8.jpg
+creditoImagem: 'Foto: Frontierofficial (BY) via Openverse'
 ---
 
 Uma gata britânica chamada Millie, nascida em 1995 e dona de uma pelagem tricolor característica, completou recentemente 31 anos de vida—uma idade notável para felinos domésticos, cuja expectativa de vida típica varia entre 12 e 18 anos.

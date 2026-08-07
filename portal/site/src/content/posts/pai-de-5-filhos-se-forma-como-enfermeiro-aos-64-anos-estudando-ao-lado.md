@@ -1,12 +1,19 @@
 ---
-titulo: "Pai de 5 filhos se forma como enfermeiro aos 64 anos, estudando ao lado do filho"
-resumo: "Imigrante nigeriano prova que nunca é tarde para recomeçar ao se graduar em enfermagem na mesma universidade onde seu filho estuda."
-categoria: "superacao"
+titulo: Pai de 5 filhos se forma como enfermeiro aos 64 anos, estudando ao lado do filho
+resumo: Imigrante nigeriano prova que nunca é tarde para recomeçar ao se graduar em enfermagem na mesma universidade onde seu filho estuda.
+categoria: superacao
 data: 2026-08-04
-fonteNome: "Good News Network"
-fonteUrl: "https://www.goodnewsnetwork.org/64-yo-father-of-5-graduates-as-a-nurse-after-studying-alongside-his-son/"
-tags: ["educação", "inspiração", "enfermagem", "família", "recomeço profissional"]
+fonteNome: Good News Network
+fonteUrl: https://www.goodnewsnetwork.org/64-yo-father-of-5-graduates-as-a-nurse-after-studying-alongside-his-son/
+tags:
+- educação
+- inspiração
+- enfermagem
+- família
+- recomeço profissional
 draft: false
+imagem: https://live.staticflickr.com/8546/8634722018_d539f05ca0_b.jpg
+creditoImagem: 'Foto: usembassykyiv (PDM) via Openverse'
 ---
 
 Uma história inspiradora vem do Reino Unido, onde John Adesoye, um homem de 64 anos e pai de cinco filhos, conquistou seu diploma em enfermagem. O feito é ainda mais notável porque ocorreu em um contexto familiar único: enquanto completava seus estudos, Adesoye dividiu a universidade com um de seus filhos, que também cursava a instituição no mesmo período.

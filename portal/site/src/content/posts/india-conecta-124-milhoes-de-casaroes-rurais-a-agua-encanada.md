@@ -12,6 +12,8 @@ tags:
 - desenvolvimento sustentável
 - saúde pública
 draft: false
+imagem: https://live.staticflickr.com/7146/6636001209_8b3425c483_b.jpg
+creditoImagem: 'Foto: Nicola since 1972 (BY) via Openverse'
 ---
 
 A Índia realizou uma transformação notável no acesso à água potável em áreas rurais. Há seis anos, menos de um em cada seis lares rurais indianos possuía conexão de água encanada. Atualmente, esse número saltou para mais de quatro em cada cinco domicílios, representando a conexão de 124 milhões de casas adicionais à rede de distribuição.

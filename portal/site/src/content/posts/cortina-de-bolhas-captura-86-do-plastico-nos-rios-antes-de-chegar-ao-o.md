@@ -1,12 +1,20 @@
 ---
-titulo: "Cortina de bolhas captura 86% do plástico nos rios antes de chegar ao oceano"
-resumo: "Tecnologia holandesa usa barreira de ar para interceptar plástico em rios e evitar que chegue aos oceanos."
-categoria: "meio-ambiente"
+titulo: Cortina de bolhas captura 86% do plástico nos rios antes de chegar ao oceano
+resumo: Tecnologia holandesa usa barreira de ar para interceptar plástico em rios e evitar que chegue aos oceanos.
+categoria: meio-ambiente
 data: 2026-08-03
-fonteNome: "Optimist Daily"
-fonteUrl: "https://www.optimistdaily.com/2026/08/the-great-bubble-barrier-bubble-curtains-are-intercepting-86-percent-of-river-plastic/"
-tags: ["plástico", "rios", "oceanos", "inovação", "tecnologia ambiental", "poluição"]
+fonteNome: Optimist Daily
+fonteUrl: https://www.optimistdaily.com/2026/08/the-great-bubble-barrier-bubble-curtains-are-intercepting-86-percent-of-river-plastic/
+tags:
+- plástico
+- rios
+- oceanos
+- inovação
+- tecnologia ambiental
+- poluição
 draft: false
+imagem: https://upload.wikimedia.org/wikipedia/commons/f/ff/Natural_forest_landscape_0.jpg
+creditoImagem: 'Foto: ImageGuy2288 (BY-SA) via Openverse'
 ---
 
 Uma inovação holandesa está transformando a forma como combatemos a poluição plástica nas águas. A empresa The Great Bubble Barrier desenvolveu um sistema simples mas eficaz: um tubo perfurado instalado no leito dos rios que, conectado a uma bomba de ar, cria uma cortina de bolhas em ascensão constante. Essa barreira funciona como um filtro natural, capturando o plástico que flui pelas águas antes que ele alcance o oceano.

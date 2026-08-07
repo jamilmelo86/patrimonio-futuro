@@ -1,12 +1,20 @@
 ---
-titulo: "Mergulhador belga encontra garrafa de Guinness de 1864 em navio naufragado"
-resumo: "Uma garrafa de cerveja Guinness com 162 anos foi descoberta em um navio que afundou há séculos perto da costa britânica."
-categoria: "ciencia"
+titulo: Mergulhador belga encontra garrafa de Guinness de 1864 em navio naufragado
+resumo: Uma garrafa de cerveja Guinness com 162 anos foi descoberta em um navio que afundou há séculos perto da costa britânica.
+categoria: ciencia
 data: 2026-08-07
-fonteNome: "NOS"
-fonteUrl: "https://nos.nl/l/2625862"
-tags: ["arqueologia marinha", "navio naufragado", "Guinness", "mergulho", "descoberta histórica", "pesquisa"]
+fonteNome: NOS
+fonteUrl: https://nos.nl/l/2625862
+tags:
+- arqueologia marinha
+- navio naufragado
+- Guinness
+- mergulho
+- descoberta histórica
+- pesquisa
 draft: false
+imagem: https://live.staticflickr.com/7102/7336851040_c88675f5f3_b.jpg
+creditoImagem: 'Foto: U.S. Army Combat Capabilities Development Command (BY-SA) via Openverse'
 ---
 
 Um mergulhador belga chamado Stef Panis fez uma descoberta fascinante enquanto explorava um navio naufragado nas águas próximas a Dover, na Inglaterra. Há doze anos ele encontrou os restos do Mindoro, um veleiro de madeira que naufragou após colidir com outra embarcação. Desde então, Panis vem realizando mergulhos periódicos no local para explorar os artefatos históricos preservados no fundo do mar.

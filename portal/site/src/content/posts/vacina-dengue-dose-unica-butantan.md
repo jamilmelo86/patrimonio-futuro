@@ -1,12 +1,17 @@
 ---
-titulo: "Anvisa registra vacina brasileira contra dengue em dose única, primeira do mundo"
-resumo: "Imunizante do Instituto Butantan protege contra os quatro sorotipos com uma só aplicação e será oferecido pelo SUS."
-categoria: "saude"
+titulo: Anvisa registra vacina brasileira contra dengue em dose única, primeira do mundo
+resumo: Imunizante do Instituto Butantan protege contra os quatro sorotipos com uma só aplicação e será oferecido pelo SUS.
+categoria: saude
 data: 2025-12-08
-fonteNome: "Anvisa (Gov.br)"
-fonteUrl: "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2025/anvisa-publica-registro-da-vacina-contra-a-dengue-do-butantan"
-tags: ["dengue", "vacina", "butantan"]
+fonteNome: Anvisa (Gov.br)
+fonteUrl: https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2025/anvisa-publica-registro-da-vacina-contra-a-dengue-do-butantan
+tags:
+- dengue
+- vacina
+- butantan
 draft: false
+imagem: https://live.staticflickr.com/2931/14406031184_ac3675bb19_b.jpg
+creditoImagem: 'Foto: juhansonin (BY) via Openverse'
 ---
 
 O Brasil deu um passo histórico no combate a uma das doenças que mais preocupam o país. A Agência Nacional de Vigilância Sanitária (Anvisa) publicou, em dezembro de 2025, o registro da vacina contra a dengue desenvolvida pelo Instituto Butantan, autorizando sua produção e distribuição no Sistema Único de Saúde.

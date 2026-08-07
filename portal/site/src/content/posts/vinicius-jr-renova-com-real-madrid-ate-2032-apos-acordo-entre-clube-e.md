@@ -1,12 +1,19 @@
 ---
-titulo: "Vinícius Jr. renova com Real Madrid até 2032 após acordo entre clube e jogador"
-resumo: "Após negociações, o craque brasileiro assinou novo contrato com o Real Madrid que o mantém no clube até 2032."
-categoria: "mundo"
+titulo: Vinícius Jr. renova com Real Madrid até 2032 após acordo entre clube e jogador
+resumo: Após negociações, o craque brasileiro assinou novo contrato com o Real Madrid que o mantém no clube até 2032.
+categoria: mundo
 data: 2026-08-06
-fonteNome: "La Vanguardia"
-fonteUrl: "https://www.lavanguardia.com/deportes/real-madrid/20260806/11609291/culebron-vinicius-concluye-final-feliz-real-madrid-renovado-2032.html"
-tags: ["Vinícius Jr.", "Real Madrid", "futebol", "renovação contrato", "jogador brasileiro"]
+fonteNome: La Vanguardia
+fonteUrl: https://www.lavanguardia.com/deportes/real-madrid/20260806/11609291/culebron-vinicius-concluye-final-feliz-real-madrid-renovado-2032.html
+tags:
+- Vinícius Jr.
+- Real Madrid
+- futebol
+- renovação contrato
+- jogador brasileiro
 draft: false
+imagem: https://live.staticflickr.com/3183/4553752162_92dfabf318_b.jpg
+creditoImagem: 'Foto: US Army Africa (BY) via Openverse'
 ---
 
 Vinícius Jr. e o Real Madrid chegaram a um acordo que encerra semanas de incerteza sobre o futuro do jogador. O anúncio foi confirmado após reunião realizada na quinta-feira nas instalações do clube em Valdebebas, em Madri. O ala esquerdo, um dos principais destaques do elenco merengue, renovará seu vínculo até 2032, ampliando significativamente sua permanência na instituição espanhola.

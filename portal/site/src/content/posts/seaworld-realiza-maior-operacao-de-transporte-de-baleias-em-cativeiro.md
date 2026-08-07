@@ -1,12 +1,19 @@
 ---
-titulo: "SeaWorld realiza maior operação de transporte de baleias em cativeiro da história americana"
-resumo: "SeaWorld San Antonio recebe 7 baleias beluga resgatadas em operação histórica de relocação internacional."
-categoria: "animais"
+titulo: SeaWorld realiza maior operação de transporte de baleias em cativeiro da história americana
+resumo: SeaWorld San Antonio recebe 7 baleias beluga resgatadas em operação histórica de relocação internacional.
+categoria: animais
 data: 2026-08-07
-fonteNome: "Good News Network"
-fonteUrl: "https://www.goodnewsnetwork.org/seaworld-completes-largest-captive-whale-transportation-operation-in-nations-history/"
-tags: ["baleias beluga", "resgate animal", "bem-estar animal", "conservação marinha", "cooperação internacional"]
+fonteNome: Good News Network
+fonteUrl: https://www.goodnewsnetwork.org/seaworld-completes-largest-captive-whale-transportation-operation-in-nations-history/
+tags:
+- baleias beluga
+- resgate animal
+- bem-estar animal
+- conservação marinha
+- cooperação internacional
 draft: false
+imagem: https://live.staticflickr.com/8730/17488002488_08b4543c11.jpg
+creditoImagem: 'Foto: Frontierofficial (BY) via Openverse'
 ---
 
 A SeaWorld San Antonio completou uma etapa importante de um projeto sem precedentes na história dos Estados Unidos: a relocação de 30 baleias beluga que estavam em um parque marinho canadense fechado. Sete das baleias chegaram à instalação texana após viajarem quase 3.200 quilômetros, juntando-se a dois machos beluga que haviam chegado no dia 21 de julho.

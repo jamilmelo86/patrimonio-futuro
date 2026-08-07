@@ -12,6 +12,8 @@ tags:
 - medicina
 - inovação
 draft: false
+imagem: https://live.staticflickr.com/4132/4968163345_107c1c7f64.jpg
+creditoImagem: 'Foto: U.S. Army Combat Capabilities Development Command (BY) via Openverse'
 ---
 
 A Agência Nacional de Vigilância Sanitária autorizou, no fim de novembro de 2025, o primeiro estudo clínico de uma terapia gênica conduzido em parceria com a Fundação Oswaldo Cruz. A pesquisa vai testar em pacientes um tratamento voltado à atrofia muscular espinhal tipo 1, a forma mais severa dessa doença rara.

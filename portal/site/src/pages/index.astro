@@ -10,7 +10,13 @@ const posts = (await getCollection("posts", ({ data }) => !data.draft)).sort(
   (a, b) => b.data.data.valueOf() - a.data.data.valueOf(),
 );
 
-const destaque = posts.find((p) => p.data.destaque) ?? posts[0];
+// Destaque que ALTERNA: gira diariamente entre as notícias mais recentes (com
+// imagem). Assim a capa muda a cada dia em vez de ficar fixa na mesma história.
+const recentes = posts.slice(0, 14);
+const candidatos = recentes.filter((p) => p.data.imagem);
+const pool = candidatos.length ? candidatos : recentes;
+const diaAtual = Math.floor(Date.now() / 86_400_000); // dias desde a época
+const destaque = pool.length ? pool[diaAtual % pool.length] : posts[0];
 const ultimas = posts.filter((p) => p.id !== destaque?.id).slice(0, 12);
 
 const catDestaque = destaque ? categoriaPorSlug(destaque.data.categoria) : undefined;

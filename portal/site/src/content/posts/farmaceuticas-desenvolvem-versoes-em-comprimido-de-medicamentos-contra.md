@@ -1,12 +1,19 @@
 ---
-titulo: "Farmacêuticas desenvolvem versões em comprimido de medicamentos contra obesidade"
-resumo: "Grandes laboratórios apostam em formas orais de remédios emagrecedores após sucesso das injeções, expandindo tratamento para mais países."
-categoria: "saude"
+titulo: Farmacêuticas desenvolvem versões em comprimido de medicamentos contra obesidade
+resumo: Grandes laboratórios apostam em formas orais de remédios emagrecedores após sucesso das injeções, expandindo tratamento para mais países.
+categoria: saude
 data: 2026-08-07
-fonteNome: "Le Monde"
-fonteUrl: "https://www.lemonde.fr/economie/article/2026/08/07/les-comprimes-nouveau-champ-de-bataille-des-medicaments-contre-l-obesite_6740460_3234.html"
-tags: ["farmacêutica", "obesidade", "medicamento", "inovação", "saúde"]
+fonteNome: Le Monde
+fonteUrl: https://www.lemonde.fr/economie/article/2026/08/07/les-comprimes-nouveau-champ-de-bataille-des-medicaments-contre-l-obesite_6740460_3234.html
+tags:
+- farmacêutica
+- obesidade
+- medicamento
+- inovação
+- saúde
 draft: false
+imagem: https://live.staticflickr.com/2931/14406031184_ac3675bb19_b.jpg
+creditoImagem: 'Foto: juhansonin (BY) via Openverse'
 ---
 
 As indústrias farmacêuticas Novo Nordisk e Eli Lilly estão investindo no desenvolvimento de versões em comprimido de seus medicamentos para perda de peso. A estratégia surge após o sucesso expressivo das versões injetáveis desses produtos, que conquistaram a confiança de milhares de pacientes nos últimos anos.

@@ -12,6 +12,8 @@ tags:
 - ecossistema aquático
 - Canadá
 draft: false
+imagem: https://upload.wikimedia.org/wikipedia/commons/6/6c/Natural_forest_landscape_2.jpg
+creditoImagem: 'Foto: ImageGuy2288 (BY-SA) via Openverse'
 ---
 
 Na província de Alberta, no Canadá, uma estratégia criativa e amiga do ambiente tem se mostrado eficaz contra uma ameaça silenciosa aos ecossistemas aquáticos: mexilhões-zebra e mexilhões-dourados invasores. O governo provincial recorreu a um time inusitado de especialistas em conservação — cães farejadores — para ajudar a identificar e conter a proliferação dessas espécies problemáticas que colonizam rios e lagos da região.

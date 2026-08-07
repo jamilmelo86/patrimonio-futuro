@@ -32,6 +32,34 @@ PALAVRAS_ESPACO = {
     "telescope", "telescópio", "estrela", "star", "nebula", "solar", "orbit",
 }
 
+# Consulta genérica (em inglês) por editoria — usada quando a busca específica
+# não encontra nada, antes do último recurso.
+GENERICOS_CATEGORIA = {
+    "ciencia": "laboratory science research",
+    "solidariedade": "volunteers helping community",
+    "meio-ambiente": "nature forest landscape",
+    "saude": "health medicine hospital",
+    "animais": "wildlife animals nature",
+    "superacao": "athlete achievement celebration",
+    "tecnologia": "technology innovation circuit",
+    "mundo": "world people community",
+}
+
+# ÚLTIMO RECURSO garantido: toda editoria tem uma imagem de licença livre já
+# verificada. Assim NENHUMA notícia fica sem imagem, mesmo se as buscas online
+# falharem (ex.: limite de taxa). Todas de domínio público ou Creative Commons.
+FALLBACK_CATEGORIA = {
+    "ciencia": ("https://images-assets.nasa.gov/image/KSC-20170719-PH_SWW01_0001/KSC-20170719-PH_SWW01_0001~small.jpg", "Imagem: NASA (domínio público)"),
+    "solidariedade": ("https://live.staticflickr.com/7709/16828647513_753ccddf70_b.jpg", "Foto: DFID - UK Department for International Development (BY) via Openverse"),
+    "meio-ambiente": ("https://live.staticflickr.com/2664/3825008839_2f54a6ea15_b.jpg", "Foto: davidgsteadman (PDM) via Openverse"),
+    "saude": ("https://live.staticflickr.com/7076/26383067663_2e81a945ef_b.jpg", "Foto: Ministry of Defense of Ukraine (BY-SA) via Openverse"),
+    "animais": ("https://live.staticflickr.com/394/20155235429_4feeddb06d.jpg", "Foto: Frontierofficial (BY) via Openverse"),
+    "superacao": ("https://live.staticflickr.com/4828/30881190687_f2cd0ea29c_b.jpg", "Foto: jurvetson (BY) via Openverse"),
+    "tecnologia": ("https://live.staticflickr.com/71/202290560_fb40def5b7_b.jpg", "Foto: scottbb (BY-SA) via Openverse"),
+    "mundo": ("https://live.staticflickr.com/6098/6376560841_23a50bd4b9_b.jpg", "Foto: Kevin M. Gill (BY) via Openverse"),
+}
+FALLBACK_PADRAO = FALLBACK_CATEGORIA["mundo"]
+
 
 def _https(url: str) -> str:
     return url.replace("http://", "https://", 1)
@@ -187,11 +215,12 @@ def _pexels(consulta: str) -> tuple[str | None, str | None]:
 # --------------------------------------------------------------------------
 # Openverse — Creative Commons (sem chave; filtro de uso comercial)
 # --------------------------------------------------------------------------
-def _openverse(consulta: str) -> tuple[str | None, str | None]:
+def _openverse(consulta: str, pagina: int = 1) -> tuple[str | None, str | None]:
     try:
         r = requests.get(
             "https://api.openverse.org/v1/images/",
-            params={"q": consulta, "page_size": 1, "license_type": "commercial", "mature": "false"},
+            params={"q": consulta, "page_size": 1, "page": pagina,
+                    "license_type": "commercial", "mature": "false"},
             headers={"User-Agent": "OLadoBom/1.0 (portal de boas noticias)"},
             timeout=TIMEOUT,
         )
@@ -218,31 +247,46 @@ def buscar_imagem(
 ) -> tuple[str | None, str | None]:
     """Devolve (url_https, credito) de uma imagem sem ferir direitos autorais.
 
-    Ordem de preferência:
+    NUNCA devolve (None, None): toda notícia recebe uma imagem. Ordem:
       1. A foto REAL citada na notícia — só quando a fonte é oficial/domínio
          público (ex.: NASA, OMS, IUCN, .gov, universidades). É a foto certa
          para notícias que descrevem uma imagem específica.
       2. NASA Images (domínio público) para temas de espaço/astronomia.
-      3. Pexels / Openverse — bancos de licença livre (uso comercial OK).
+      3. Pexels / Openverse com a consulta específica da notícia.
+      4. Pexels / Openverse com uma consulta genérica da editoria.
+      5. Último recurso garantido: imagem fixa de licença livre da editoria.
     """
+    cat = (categoria or "").strip().lower()
+
     # 1. foto real da fonte oficial (a "foto citada na notícia")
     url, credito = imagem_da_fonte(fonte_url, fonte_nome)
     if url:
         return url, credito
 
     consulta = (consulta or "").strip()
-    if not consulta:
-        return None, None
+    if consulta:
+        termos = set(consulta.lower().split()) | {cat}
+        if termos & PALAVRAS_ESPACO:
+            url, credito = _nasa(consulta)
+            if url:
+                return url, credito
+        for fonte in (_pexels, _openverse):
+            url, credito = fonte(consulta)
+            if url:
+                return url, credito
 
-    termos = set(consulta.lower().split()) | {categoria.lower()}
-    if termos & PALAVRAS_ESPACO:
-        url, credito = _nasa(consulta)
+    # 4. consulta genérica da editoria (quando a específica não achou nada).
+    #    Varia a página pelo hash do texto para posts da mesma editoria não
+    #    ficarem todos com a MESMA imagem genérica.
+    generico = GENERICOS_CATEGORIA.get(cat)
+    if generico:
+        pagina = 1 + (abs(hash(consulta or cat)) % 8)
+        url, credito = _pexels(generico)
+        if url:
+            return url, credito
+        url, credito = _openverse(generico, pagina=pagina)
         if url:
             return url, credito
 
-    for fonte in (_pexels, _openverse):
-        url, credito = fonte(consulta)
-        if url:
-            return url, credito
-
-    return None, None  # nada relevante e livre — fica o placeholder da categoria
+    # 5. último recurso: imagem fixa da editoria (garante que sempre há imagem)
+    return FALLBACK_CATEGORIA.get(cat, FALLBACK_PADRAO)
