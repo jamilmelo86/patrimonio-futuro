@@ -1,13 +1,18 @@
 ---
-titulo: "Festival celebra 80 anos de amizade entre EUA e Alemanha apesar de incertezas políticas"
-resumo: "Tradicional festa alemã-americana na base militar de Grafenwöhr reúne 100 mil visitantes e mostra laços comunitários fortes, mas futuro é incerto."
-categoria: "mundo"
+titulo: Festival celebra 80 anos de amizade entre EUA e Alemanha apesar de incertezas políticas
+resumo: Tradicional festa alemã-americana na base militar de Grafenwöhr reúne 100 mil visitantes e mostra laços comunitários fortes.
+categoria: mundo
 data: 2026-08-08
-fonteNome: "NOS"
-fonteUrl: "https://nos.nl/l/2625970"
-imagem: "https://live.staticflickr.com/8001/7194255576_08120ddf7e_b.jpg"
-creditoImagem: "Foto: USAG-Humphreys (BY) via Openverse"
-tags: ["Alemanha", "Estados Unidos", "relações internacionais", "comunidade", "base militar"]
+fonteNome: NOS
+fonteUrl: https://nos.nl/l/2625970
+imagem: https://live.staticflickr.com/8001/7194255576_08120ddf7e_b.jpg
+creditoImagem: 'Foto: USAG-Humphreys (BY) via Openverse'
+tags:
+- Alemanha
+- Estados Unidos
+- diplomacia
+- base militar
+- comunidade
 draft: false
 ---
 
@@ -17,6 +22,6 @@ Para os residentes da região, o festival representa muito mais que diversão. T
 
 Atualmente, cerca de 50 mil militares americanos e seus familiares vivem na Alemanha, o maior contingente militar dos EUA em qualquer país europeu. Muitos trabalham na base e geram empregos diretos para a população local. Markus Gradl, morador de Grafenwöhr e funcionário da base, reconhece que a presença americana é importante para a economia e segurança da região, apesar das tensões políticas internacionais que cercam o tema.
 
-Porém, a continuidade dessa tradição e dessa presença enfrenta ameaças. Decisões políticas recentes indicam que até 5 mil soldados podem ser retirados da Alemanha nos próximos anos, refletindo mudanças na política externa americana. A Alemanha, que vê a presença militar americana como essencial para conter possíveis ameaças de Rusland, tenta manter a relação e busca diálogos diplomáticos para preservar esse acordo histórico.
+Portanto, a continuidade dessa tradição e dessa presença enfrenta ameaças. Decisões políticas recentes indicam que até 5 mil soldados podem ser retirados da Alemanha nos próximos anos, refletindo mudanças na política externa americana. A Alemanha, que vê a presença militar americana como essencial para conter possíveis ameaças da Rússia, tenta manter a relação e busca diálogos diplomáticos para preservar esse acordo histórico.
 
 Apesar das incertezas sobre o futuro, a festa deste ano aconteceu com o mesmo espírito de comunhão e celebração. O evento simboliza uma amizade que transcende políticas momentâneas e demonstra como relações humanas, quando bem cultivadas, criam raízes profundas mesmo em contextos geopolíticos complexos.
