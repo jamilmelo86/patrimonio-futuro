@@ -1,13 +1,18 @@
 ---
-titulo: "Espanha se prepara para eclipse solar que promete fascinar milhões de pessoas"
-resumo: "Espanha vive expectativa para eclipse solar de 12 de agosto, com cidades lotadas e grandes desafios logísticos para receber visitantes."
-categoria: "ciencia"
+titulo: Espanha se prepara para eclipse solar que promete fascinar milhões de pessoas
+resumo: Espanha vive expectativa para eclipse solar de 12 de agosto, com cidades lotadas e grandes desafios logísticos para receber visitantes.
+categoria: ciencia
 data: 2026-08-09
-fonteNome: "El País"
-fonteUrl: "https://elpais.com/ciencia/2026-08-09/llega-el-dia-de-las-dos-noches-millones-de-espanoles-buscan-su-lugar-para-ver-el-eclipse.html"
-imagem: "https://images-assets.nasa.gov/image/PIA21957/PIA21957~small.jpg"
-creditoImagem: "Imagem: NASA/JPL-Caltech (domínio público)"
-tags: ["eclipse solar", "Espanha", "astronomia", "fenômeno natural", "turismo"]
+fonteNome: El País
+fonteUrl: https://elpais.com/ciencia/2026-08-09/llega-el-dia-de-las-dos-noches-millones-de-espanoles-buscan-su-lugar-para-ver-el-eclipse.html
+imagem: https://images-assets.nasa.gov/image/PIA21957/PIA21957~small.jpg
+creditoImagem: 'Imagem: NASA/JPL-Caltech (domínio público)'
+tags:
+- eclipse solar
+- Espanha
+- astronomia
+- fenômeno natural
+- turismo
 draft: false
 ---
 
