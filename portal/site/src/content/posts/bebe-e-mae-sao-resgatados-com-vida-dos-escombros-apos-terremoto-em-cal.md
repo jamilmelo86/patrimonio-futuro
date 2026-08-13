@@ -1,14 +1,20 @@
 ---
-titulo: "Bebê e mãe são resgatados com vida dos escombros após terremoto em Cali"
-resumo: "Mãe e filho pequeno são encontrados vivos sob os destroços do terremoto que atingiu a Colômbia, trazendo esperança em meio à tragédia."
-categoria: "superacao"
+titulo: Bebê e mãe são resgatados com vida dos escombros após terremoto em Cali
+resumo: Mãe e filho pequeno são encontrados vivos sob os destroços do terremoto que atingiu a Colômbia, trazendo esperança em meio à tragédia.
+categoria: superacao
 data: 2026-08-11
-fonteNome: "La Vanguardia"
-fonteUrl: "https://www.lavanguardia.com/internacional/20260811/11611766/rescatistas-sacan-vida-madre-bebe-escombros-cali-devastador-terremoto-colombia.html"
-imagem: "https://live.staticflickr.com/8256/8634721706_5effd1e3cd_b.jpg"
-creditoImagem: "Foto: usembassykyiv (PDM) via Openverse"
-tags: ["terremoto", "resgate", "Colômbia", "Cali", "sobreviventes", "esperança"]
-draft: false
+fonteNome: La Vanguardia
+fonteUrl: https://www.lavanguardia.com/internacional/20260811/11611766/rescatistas-sacan-vida-madre-bebe-escombros-cali-devastador-terremoto-colombia.html
+imagem: https://live.staticflickr.com/8256/8634721706_5effd1e3cd_b.jpg
+creditoImagem: 'Foto: usembassykyiv (PDM) via Openverse'
+tags:
+- terremoto
+- resgate
+- Colômbia
+- Cali
+- sobreviventes
+- esperança
+draft: true
 ---
 
 Um bebê e sua mãe foram resgatados com vida dos escombros em Cali, Colômbia, após um terremoto de magnitude 7,4 que devastou a região. O casal foi encontrado nos destroços de um edifício desabado, oferecendo um raio de esperança em meio a uma situação humanitária crítica. O resgate bem-sucedido mobilizou equipes de busca e salvamento que trabalham incansavelmente para localizar sobreviventes.

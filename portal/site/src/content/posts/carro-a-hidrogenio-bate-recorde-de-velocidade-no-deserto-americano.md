@@ -1,14 +1,19 @@
 ---
-titulo: "Carro a hidrogênio bate recorde de velocidade no deserto americano"
-resumo: "Piloto britânico atinge 650 km/h com veículo experimental de célula a combustível nos famosos Salares de Bonneville."
-categoria: "tecnologia"
+titulo: Carro a hidrogênio bate recorde de velocidade no deserto americano
+resumo: Piloto britânico atinge 650 km/h com veículo experimental de célula a combustível nos famosos Salares de Bonneville.
+categoria: tecnologia
 data: 2026-08-12
-fonteNome: "Rai News"
-fonteUrl: "https://www.rainews.it/video/2026/08/a-653-kmh-nel-deserto-dello-utah-nuovo-record-mondiale-di-velocita-per-unauto-a-idrogeno-6be0e3f1-92fc-42c4-b64f-b44b93e06ab7.html"
-imagem: "https://live.staticflickr.com/7369/9741310549_7a15fb143f_b.jpg"
-creditoImagem: "Foto: jurvetson (BY) via Openverse"
-tags: ["hidrogênio", "veículo elétrico", "recorde de velocidade", "combustível limpo", "inovação"]
-draft: false
+fonteNome: Rai News
+fonteUrl: https://www.rainews.it/video/2026/08/a-653-kmh-nel-deserto-dello-utah-nuovo-record-mondiale-di-velocita-per-unauto-a-idrogeno-6be0e3f1-92fc-42c4-b64f-b44b93e06ab7.html
+imagem: https://live.staticflickr.com/7369/9741310549_7a15fb143f_b.jpg
+creditoImagem: 'Foto: jurvetson (BY) via Openverse'
+tags:
+- hidrogênio
+- veículo elétrico
+- recorde de velocidade
+- combustível limpo
+- inovação
+draft: true
 ---
 
 Um feito impressionante acaba de ser registrado nos Salares de Bonneville, no deserto de Utah, nos Estados Unidos. Andy Green, ex-piloto da Real Força Aérea Britânica, conquistou um novo recorde mundial de velocidade ao dirigir um automóvel movido exclusivamente a hidrogênio. O veículo, com impressionantes 9,75 metros de comprimento e potência equivalente a 1.600 cavalos de força, alcançou a marca de 650 quilômetros por hora.

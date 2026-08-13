@@ -1,14 +1,19 @@
 ---
-titulo: "Carro a hidrogênio bate recorde mundial de velocidade"
-resumo: "Piloto Andy Green alcança velocidade próxima a 654 km/h com protótipo movido a hidrogênio, marcando novo marco para combustíveis limpos."
-categoria: "tecnologia"
+titulo: Carro a hidrogênio bate recorde mundial de velocidade
+resumo: Piloto Andy Green alcança velocidade próxima a 654 km/h com protótipo movido a hidrogênio, marcando novo marco para combustíveis limpos.
+categoria: tecnologia
 data: 2026-08-12
-fonteNome: "Rai News"
-fonteUrl: "https://www.rainews.it/articoli/2026/08/nuovo-record-di-velocita-per-unauto-a-idrogeno-andy-green-sfiora-i-654-chilometri-orari-6fd16d31-3b2f-42ed-a35e-58fde6536573.html"
-imagem: "https://live.staticflickr.com/5453/18034226966_5afa9cd4a4_b.jpg"
-creditoImagem: "Foto: aldenjewell (BY) via Openverse"
-tags: ["hidrogênio", "recorde de velocidade", "energia limpa", "inovação automotiva", "combustível sustentável"]
-draft: false
+fonteNome: Rai News
+fonteUrl: https://www.rainews.it/articoli/2026/08/nuovo-record-di-velocita-per-unauto-a-idrogeno-andy-green-sfiora-i-654-chilometri-orari-6fd16d31-3b2f-42ed-a35e-58fde6536573.html
+imagem: https://live.staticflickr.com/5453/18034226966_5afa9cd4a4_b.jpg
+creditoImagem: 'Foto: aldenjewell (BY) via Openverse'
+tags:
+- hidrogênio
+- recorde de velocidade
+- energia limpa
+- inovação automotiva
+- combustível sustentável
+draft: true
 ---
 
 O piloto britânico Andy Green acaba de estabelecer um novo recorde mundial de velocidade para veículos alimentados por hidrogênio, atingindo aproximadamente 654 quilômetros por hora. O feito representa um avanço significativo para a tecnologia automotiva movida por combustíveis limpos e renováveis.
