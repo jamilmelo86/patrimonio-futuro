@@ -28,11 +28,18 @@ from pathlib import Path
 import yaml
 
 import imagens
+import resumir
 
 RAIZ = Path(__file__).resolve().parent
 CONTENT_DIR = Path(os.getenv("CONTENT_DIR", RAIZ.parent / "site" / "src" / "content" / "posts"))
 LEDGER = RAIZ / "_estado" / "revisados.json"
 MAX_REVISAR = int(os.getenv("MAX_REVISAR", "12"))
+# Abaixo disto (palavras no corpo), o revisor tenta APROFUNDAR a matéria.
+LIMIAR_APROFUNDAR = int(os.getenv("LIMIAR_APROFUNDAR", "450"))
+
+
+def _palavras(texto: str) -> int:
+    return len(re.findall(r"\w+", texto or ""))
 MODELO = os.getenv("ANTHROPIC_MODEL", "claude-haiku-4-5-20251001")
 
 CATEGORIAS_VALIDAS = [
@@ -178,7 +185,7 @@ def main() -> None:
             ledger = {}
 
     posts = sorted(CONTENT_DIR.glob("*.md"))
-    revisados = mantidos = corrigidos = despublicados = imagens_add = 0
+    revisados = mantidos = corrigidos = despublicados = imagens_add = aprofundados = 0
 
     for md in posts:
         if revisados >= MAX_REVISAR:
@@ -203,6 +210,33 @@ def main() -> None:
         assinatura = _hash(_valor_str(campos, "titulo"), corpo)
         if ledger.get(md.name) == assinatura:
             continue  # já revisado e sem mudança
+
+        # APROFUNDAR matérias curtas: reescreve como peça densa (600-1000 palavras)
+        # a partir do texto da fonte. Só quando há material suficiente na fonte —
+        # nunca "infla" texto sem base. É o que eleva o valor do conteúdo (AdSense).
+        if _palavras(corpo) < LIMIAR_APROFUNDAR and _valor_str(campos, "fonteUrl"):
+            revisados += 1
+            fundo = resumir.gerar_de_fonte(
+                _valor_str(campos, "titulo"), _valor_str(campos, "fonteNome"),
+                _valor_str(campos, "idioma") or "português",
+                _valor_str(campos, "resumo"), _valor_str(campos, "fonteUrl"),
+            )
+            if fundo and _palavras(fundo.get("corpo", "")) > _palavras(corpo) + 100:
+                campos, corpo_final = _aplicar_correcao(campos, fundo)
+                if "imagem" not in campos:
+                    u, cr = imagens.buscar_imagem(
+                        fundo.get("busca_imagem_en") or _valor_str(campos, "titulo"),
+                        _valor_str(campos, "categoria"),
+                        fonte_url=_valor_str(campos, "fonteUrl"),
+                        fonte_nome=_valor_str(campos, "fonteNome"))
+                    if u:
+                        campos["imagem"], campos["creditoImagem"] = u, cr
+                escrever_post(md, campos, corpo_final)
+                ledger[md.name] = _hash(_valor_str(campos, "titulo"), corpo_final)
+                aprofundados += 1
+                print(f"[revisor]  ⤢ aprofundado ({_palavras(corpo)}→{_palavras(corpo_final)} pal.): {md.name}")
+                continue
+            # sem material suficiente para aprofundar: segue para a revisão normal
 
         dados = revisar_ia(campos, corpo)
         revisados += 1
@@ -255,8 +289,8 @@ def main() -> None:
     LEDGER.write_text(json.dumps(ledger, ensure_ascii=False, indent=0), encoding="utf-8")
     print(
         f"[revisor] concluído: {revisados} revisados "
-        f"({mantidos} mantidos, {corrigidos} corrigidos, {despublicados} despublicados, "
-        f"{imagens_add} imagens adicionadas)."
+        f"({aprofundados} aprofundados, {mantidos} mantidos, {corrigidos} corrigidos, "
+        f"{despublicados} despublicados, {imagens_add} imagens adicionadas)."
     )
 
 

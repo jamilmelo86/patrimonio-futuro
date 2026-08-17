@@ -7,6 +7,7 @@ publica nada — apenas devolve candidatas para o filtro e o resumo.
 from __future__ import annotations
 
 import os
+import re
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 
@@ -224,6 +225,39 @@ def coletar_newsdata(limite: int = 10) -> list[Artigo]:
         )
     print(f"[fontes] NewsData: {len(artigos)} itens")
     return artigos
+
+
+def baixar_texto_fonte(url: str, limite_chars: int = 7000) -> str:
+    """Baixa a matéria da fonte e extrai o texto principal (parágrafos).
+
+    Serve como MATERIAL DE REFERÊNCIA para a IA escrever uma matéria própria,
+    mais profunda e sem inventar fatos. Não é publicado — só alimenta o modelo.
+    Devolve "" se não conseguir (a IA usa então só o trecho do RSS)."""
+    if not url:
+        return ""
+    try:
+        r = requests.get(url, timeout=20, headers=_UA)
+        if r.status_code != 200 or "text/html" not in r.headers.get("Content-Type", ""):
+            return ""
+        html = r.text
+    except Exception:
+        return ""
+
+    # remove blocos que não são conteúdo
+    html = re.sub(r"(?is)<(script|style|nav|header|footer|aside|form)[^>]*>.*?</\1>", " ", html)
+    # extrai parágrafos
+    paras = re.findall(r"(?is)<p[^>]*>(.*?)</p>", html)
+    limpos = []
+    for p in paras:
+        txt = re.sub(r"(?is)<[^>]+>", " ", p)  # tira tags internas
+        txt = re.sub(r"\s+", " ", txt).strip()
+        txt = (txt.replace("&nbsp;", " ").replace("&amp;", "&")
+                  .replace("&#8217;", "'").replace("&#8216;", "'")
+                  .replace("&quot;", '"').replace("&#8220;", '"').replace("&#8221;", '"'))
+        if len(txt) >= 60:  # ignora legendas/menus curtos
+            limpos.append(txt)
+    texto = "\n\n".join(limpos)
+    return texto[:limite_chars]
 
 
 def coletar_tudo() -> list[Artigo]:
