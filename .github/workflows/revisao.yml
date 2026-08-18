@@ -15,7 +15,7 @@ permissions:
 jobs:
   revisar:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 50
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -33,7 +33,7 @@ jobs:
         working-directory: portal/pipeline
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          MAX_REVISAR: "12"
+          MAX_REVISAR: "45"
         run: python revisar.py
 
       - name: Commitar correções

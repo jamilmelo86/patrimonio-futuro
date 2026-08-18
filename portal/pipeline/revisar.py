@@ -33,6 +33,10 @@ import resumir
 RAIZ = Path(__file__).resolve().parent
 CONTENT_DIR = Path(os.getenv("CONTENT_DIR", RAIZ.parent / "site" / "src" / "content" / "posts"))
 LEDGER = RAIZ / "_estado" / "revisados.json"
+# Conta tentativas de aprofundar cada post (desiste após MAX_TENTATIVAS falhas —
+# fonte provavelmente morta/paywall — para não travar a fila todo dia).
+TENTATIVAS_LEDGER = RAIZ / "_estado" / "aprofundar_tentativas.json"
+MAX_TENTATIVAS = 3
 MAX_REVISAR = int(os.getenv("MAX_REVISAR", "12"))
 # Abaixo disto (palavras no corpo), o revisor tenta APROFUNDAR a matéria.
 LIMIAR_APROFUNDAR = int(os.getenv("LIMIAR_APROFUNDAR", "450"))
@@ -184,7 +188,23 @@ def main() -> None:
         except json.JSONDecodeError:
             ledger = {}
 
-    posts = sorted(CONTENT_DIR.glob("*.md"))
+    tentativas: dict[str, int] = {}
+    if TENTATIVAS_LEDGER.exists():
+        try:
+            tentativas = json.loads(TENTATIVAS_LEDGER.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            tentativas = {}
+
+    # Processa as matérias MAIS CURTAS primeiro: assim o orçamento diário de
+    # revisão é gasto aprofundando o acervo fino, não relendo o que já está bom.
+    def _tamanho(md: Path) -> int:
+        try:
+            txt = md.read_text(encoding="utf-8")
+            corpo = txt.split("---", 2)[2] if txt.startswith("---") else txt
+            return len(re.findall(r"\w+", corpo))
+        except Exception:
+            return 10_000
+    posts = sorted(CONTENT_DIR.glob("*.md"), key=_tamanho)
     revisados = mantidos = corrigidos = despublicados = imagens_add = aprofundados = 0
 
     for md in posts:
@@ -233,10 +253,15 @@ def main() -> None:
                         campos["imagem"], campos["creditoImagem"] = u, cr
                 escrever_post(md, campos, corpo_final)
                 ledger[md.name] = _hash(_valor_str(campos, "titulo"), corpo_final)
+                tentativas.pop(md.name, None)
                 aprofundados += 1
                 print(f"[revisor]  ⤢ aprofundado ({_palavras(corpo)}→{_palavras(corpo_final)} pal.): {md.name}")
                 continue
-            # sem material suficiente para aprofundar: segue para a revisão normal
+            # falhou (fonte rasa/indisponível): conta a tentativa e tenta de novo
+            # noutro dia; só desiste (segue p/ revisão normal) após MAX_TENTATIVAS.
+            tentativas[md.name] = tentativas.get(md.name, 0) + 1
+            if tentativas[md.name] < MAX_TENTATIVAS:
+                continue
 
         dados = revisar_ia(campos, corpo)
         revisados += 1
@@ -287,6 +312,7 @@ def main() -> None:
 
     LEDGER.parent.mkdir(parents=True, exist_ok=True)
     LEDGER.write_text(json.dumps(ledger, ensure_ascii=False, indent=0), encoding="utf-8")
+    TENTATIVAS_LEDGER.write_text(json.dumps(tentativas, ensure_ascii=False, indent=0), encoding="utf-8")
     print(
         f"[revisor] concluído: {revisados} revisados "
         f"({aprofundados} aprofundados, {mantidos} mantidos, {corrigidos} corrigidos, "
