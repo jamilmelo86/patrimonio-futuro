@@ -1,14 +1,21 @@
 ---
-titulo: "Cientistas recuperam mais de duas horas de sono em cérebros com Alzheimer"
-resumo: "Pesquisadores da Universidade de Kentucky descobrem que células imunológicas cerebrais causam perda de sono no Alzheimer e conseguem restaurá-lo desativando-as temporariamente."
-categoria: "saude"
+titulo: Cientistas recuperam mais de duas horas de sono em cérebros com Alzheimer
+resumo: Pesquisadores da Universidade de Kentucky descobrem que células imunológicas cerebrais causam perda de sono no Alzheimer e conseguem restaurá-lo desativando-as temporariamente.
+categoria: saude
 data: 2026-08-16
-fonteNome: "Good News Network"
-fonteUrl: "https://www.goodnewsnetwork.org/two-hours-of-sleep-restored-in-alzheimers-brains-in-research-breakthrough/"
-imagem: "https://live.staticflickr.com/65535/54134732282_8669358664_b.jpg"
-creditoImagem: "Foto: ACRM-Rehabilitation (BY-SA) via Openverse"
-tags: ["Alzheimer", "sono", "pesquisa científica", "cérebro", "Universidade de Kentucky", "micróglia", "inflamação cerebral"]
-draft: false
+fonteNome: Good News Network
+fonteUrl: https://www.goodnewsnetwork.org/two-hours-of-sleep-restored-in-alzheimers-brains-in-research-breakthrough/
+imagem: https://live.staticflickr.com/65535/54134732282_8669358664_b.jpg
+creditoImagem: 'Foto: ACRM-Rehabilitation (BY-SA) via Openverse'
+tags:
+- Alzheimer
+- sono
+- pesquisa científica
+- cérebro
+- Universidade de Kentucky
+- micróglia
+- inflamação cerebral
+draft: true
 ---
 
 Um avanço promissor no tratamento do Alzheimer acaba de emergir de laboratórios norte-americanos. Cientistas da Universidade de Kentucky identificaram pela primeira vez o mecanismo responsável pela perda de sono em pacientes com Alzheimer — e, mais importante, conseguiram reverter o problema. A descoberta foi publicada na revista científica Alzheimer's & Dementia e abre novos caminhos para melhorar a qualidade de vida de milhões de pessoas no mundo todo que vivem com a doença.
