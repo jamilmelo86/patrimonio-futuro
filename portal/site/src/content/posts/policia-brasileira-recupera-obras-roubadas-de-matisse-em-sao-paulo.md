@@ -1,13 +1,18 @@
 ---
-titulo: "Polícia brasileira recupera obras roubadas de Matisse em São Paulo"
-resumo: "Quadros do artista francês Henri Matisse, furtados em 2025, são localizados pela polícia paulista após operação contra receptador armado."
-categoria: "mundo"
+titulo: Polícia brasileira recupera obras roubadas de Matisse em São Paulo
+resumo: Quadros do artista francês Henri Matisse, furtados em 2025, são localizados pela polícia paulista após operação contra receptador armado.
+categoria: solidariedade
 data: 2026-08-14
-fonteNome: "ANSA"
-fonteUrl: "https://www.ansa.it/sito/videogallery/mondo/2026/08/14/brasile-la-polizia-recupera-opere-di-matisse-rubate-nel-2025-a-san-paolo_ac9b6cfd-c89b-4650-b1e4-e102c12f15cc.html"
-imagem: "https://live.staticflickr.com/8325/8130788144_15483b89c9_b.jpg"
-creditoImagem: "Foto: Monica Arellano-Ongpin (BY) via Openverse"
-tags: ["arte", "polícia", "roubo", "patrimônio cultural", "Brasil", "Matisse"]
+fonteNome: ANSA
+fonteUrl: https://www.ansa.it/sito/videogallery/mondo/2026/08/14/brasile-la-polizia-recupera-opere-di-matisse-rubate-nel-2025-a-san-paolo_ac9b6cfd-c89b-4650-b1e4-e102c12f15cc.html
+imagem: https://live.staticflickr.com/8325/8130788144_15483b89c9_b.jpg
+creditoImagem: 'Foto: Monica Arellano-Ongpin (BY) via Openverse'
+tags:
+- patrimônio artístico
+- roubo de arte
+- Matisse
+- polícia
+- recuperação cultural
 draft: false
 ---
 

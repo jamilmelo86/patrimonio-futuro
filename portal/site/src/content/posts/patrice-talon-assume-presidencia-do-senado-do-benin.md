@@ -11,7 +11,7 @@ tags:
 - Senado
 - política
 - instituições
-draft: false
+draft: true
 imagem: https://live.staticflickr.com/3798/12485089284_e08f6e8f8c_b.jpg
 creditoImagem: 'Foto: Bea Serendipity / Ghee (BY) via Openverse'
 ---

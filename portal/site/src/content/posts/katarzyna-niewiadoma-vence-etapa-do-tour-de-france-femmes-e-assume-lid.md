@@ -1,14 +1,18 @@
 ---
-titulo: "Katarzyna Niewiadoma vence etapa do Tour de France Femmes e assume liderança"
-resumo: "Ciclista polonesa conquista primeira vitória na Grande Boucle e sai na frente da competição com estratégia impecável."
-categoria: "superacao"
+titulo: Katarzyna Niewiadoma vence etapa do Tour de France Femmes e assume liderança
+resumo: Ciclista polonesa conquista primeira vitória na Grande Boucle e sai na frente da competição com estratégia impecável.
+categoria: superacao
 data: 2026-08-07
-fonteNome: "Le Monde"
-fonteUrl: "https://www.lemonde.fr/sport/article/2026/08/07/tour-de-france-femmes-2026-katarzyna-niewiadoma-se-pare-de-jaune-sur-le-mont-ventoux_6740537_3242.html"
-imagem: "https://live.staticflickr.com/7087/7028514729_aa81607ea9_b.jpg"
-creditoImagem: "Foto: Jeff Rowley Big Wave Surfer (BY) via Openverse"
-tags: ["ciclismo", "Tour de France Femmes", "Katarzyna Niewiadoma", "Mont Ventoux"]
-draft: false
+fonteNome: Le Monde
+fonteUrl: https://www.lemonde.fr/sport/article/2026/08/07/tour-de-france-femmes-2026-katarzyna-niewiadoma-se-pare-de-jaune-sur-le-mont-ventoux_6740537_3242.html
+imagem: https://live.staticflickr.com/7087/7028514729_aa81607ea9_b.jpg
+creditoImagem: 'Foto: Jeff Rowley Big Wave Surfer (BY) via Openverse'
+tags:
+- ciclismo
+- Tour de France Femmes
+- Katarzyna Niewiadoma
+- Mont Ventoux
+draft: true
 ---
 
 A polonesa Katarzyna Niewiadoma, que compete pela equipe Canyon-SRAM, viveu um momento histórico ao vencer a etapa do Mont Ventoux no Tour de France Femmes 2026. Com uma atacada controlada e precisa nas encostas do famoso "Gigante da Provence", ela conquistou seu primeiro triunfo na mais prestigiada competição de ciclismo feminino do mundo.

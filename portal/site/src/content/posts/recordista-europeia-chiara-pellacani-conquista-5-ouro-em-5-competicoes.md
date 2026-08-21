@@ -12,7 +12,7 @@ tags:
 - recorde europeu
 - atletismo
 - Itália
-draft: false
+draft: true
 imagem: https://live.staticflickr.com/7087/7028514921_0b5dc63df9_b.jpg
 creditoImagem: 'Foto: Jeff Rowley Big Wave Surfer (BY) via Openverse'
 ---

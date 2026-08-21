@@ -1,13 +1,19 @@
 ---
-titulo: "Nadadores italianos conquistam ouro e bronze no Campeonato Europeu de Natação"
-resumo: "Itália celebra duplo pódio nos 100 metros peito com Nicolò Martinenghi campeão europeu."
-categoria: "superacao"
+titulo: Nadadores italianos conquistam ouro e bronze no Campeonato Europeu de Natação
+resumo: Itália celebra duplo pódio nos 100 metros peito com Nicolò Martinenghi campeão europeu e Simone Cerasuolo no terceiro lugar.
+categoria: superacao
 data: 2026-08-11
-fonteNome: "Rai News"
-fonteUrl: "https://www.rainews.it/video/2026/08/european-aquatics-championship-campionati-europei-nuoto-parigi-2026-premiazione-100-rana-uomini-martinenghi-oro-cerasuolo-bronzo-video-7bd2f3c9-1c4d-4e99-8e5d-7b7c25007ad7.html"
-imagem: "https://live.staticflickr.com/8256/8634721706_5effd1e3cd_b.jpg"
-creditoImagem: "Foto: usembassykyiv (PDM) via Openverse"
-tags: ["natação", "campeonato europeu", "Itália", "Martinenghi", "100 metros peito"]
+fonteNome: Rai News
+fonteUrl: https://www.rainews.it/video/2026/08/european-aquatics-championship-campionati-europei-nuoto-parigi-2026-premiazione-100-rana-uomini-martinenghi-oro-cerasuolo-bronzo-video-7bd2f3c9-1c4d-4e99-8e5d-7b7c25007ad7.html
+imagem: https://live.staticflickr.com/8256/8634721706_5effd1e3cd_b.jpg
+creditoImagem: 'Foto: usembassykyiv (PDM) via Openverse'
+tags:
+- natação
+- Itália
+- Campeonato Europeu
+- Martinenghi
+- medalhas
+- esporte
 draft: false
 ---
 
