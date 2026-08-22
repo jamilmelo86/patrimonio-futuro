@@ -14,7 +14,7 @@ tags:
 - Martinenghi
 - medalhas
 - esporte
-draft: false
+draft: true
 ---
 
 A natação italiana viveu um momento de glória no Campeonato Europeu de Natação, com Nicolò Martinenghi conquistando a medalha de ouro nos 100 metros peito. O atleta, que já havia vencido a mesma prova no campeonato continental quatro anos atrás, repetiu seu sucesso e reforçou sua posição entre os melhores nadadores do continente.

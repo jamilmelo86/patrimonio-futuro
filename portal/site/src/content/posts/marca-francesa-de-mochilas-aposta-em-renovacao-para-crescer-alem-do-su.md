@@ -13,7 +13,7 @@ tags:
 - mochilas
 - expansão internacional
 - inovação
-draft: false
+draft: true
 ---
 
 A Cabaïa, marca francesa que conquistou milhões de seguidores nas redes sociais — especialmente no Instagram e TikTok —, está em transformação. Com faturamento anual de 120 milhões de euros, a empresa decidiu renovar sua estratégia comercial para ampliar seus horizontes além do Brasil e outros mercados já consolidados.

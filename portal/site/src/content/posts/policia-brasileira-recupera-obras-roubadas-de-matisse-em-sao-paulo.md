@@ -13,7 +13,7 @@ tags:
 - Matisse
 - polícia
 - recuperação cultural
-draft: false
+draft: true
 ---
 
 A polícia brasileira conseguiu recuperar várias obras do renomado artista francês Henri Matisse que haviam sido roubadas em São Paulo no início de 2025. Os quadros foram encontrados na posse de um homem armado que mantinha as peças sob sua guarda conforme orientação de quem teria ordenado o crime original.

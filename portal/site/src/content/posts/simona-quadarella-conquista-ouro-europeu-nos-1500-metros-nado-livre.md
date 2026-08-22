@@ -13,7 +13,7 @@ tags:
 - Itália
 - campeonato europeu
 - ouro
-draft: false
+draft: true
 ---
 
 Simona Quadarella, representante da Itália, conquistou a medalha de ouro na prova de 1500 metros nado livre do Campeonato Europeu de Natação. A atleta, que compete pelo clube Aniene, aplicou uma estratégia ofensiva desde o início, partindo com ritmo acelerado nas primeiras braçadas.

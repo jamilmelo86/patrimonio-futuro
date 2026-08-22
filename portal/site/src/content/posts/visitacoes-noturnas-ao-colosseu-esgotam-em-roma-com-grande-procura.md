@@ -12,7 +12,7 @@ tags:
 - Roma
 - turismo
 - experiência noturna
-draft: false
+draft: true
 ---
 
 O Colosseu, um dos monumentos mais icônicos do mundo, inaugurou tours guiados ao entardecer e à noite. A iniciativa tem sido um sucesso extraordinário, com as vagas se esgotando rapidamente assim que são disponibilizadas, evidenciando o grande interesse do público em explorar o antigo anfiteatro romano sob uma perspectiva diferente.

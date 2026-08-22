@@ -12,7 +12,7 @@ tags:
 - Simona Quadarella
 - Campeonato Europeu
 - recorde
-draft: false
+draft: true
 ---
 
 A nadadora italiana Simona Quadarella brilhou no Campeonato Europeu de Natação ao conquistar dois títulos na mesma edição. Após vencer a prova dos 800 metros estilo livre, ela repetiu a façanha na distância de 1500 metros, consolidando seu domínio nas provas de funda distância em piscina.

@@ -10,7 +10,7 @@ tags:
 - voluntariado
 - projetos sociais
 - cidadania ativa
-draft: false
+draft: true
 imagem: https://live.staticflickr.com/37/84280418_f36177581f_b.jpg
 creditoImagem: 'Foto: AmazonCARES (BY) via Openverse'
 ---

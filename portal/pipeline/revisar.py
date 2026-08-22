@@ -262,6 +262,16 @@ def main() -> None:
             tentativas[md.name] = tentativas.get(md.name, 0) + 1
             if tentativas[md.name] < MAX_TENTATIVAS:
                 continue
+            # Esgotou as tentativas e o texto segue muito curto (< 300 palavras):
+            # a fonte não está acessível e não há como aprofundar. Tira do ar —
+            # é o tipo de conteúdo fraco que derruba a avaliação do AdSense.
+            if _palavras(corpo) < 300:
+                campos["draft"] = True
+                escrever_post(md, campos, corpo)
+                ledger[md.name] = _hash(_valor_str(campos, "titulo"), corpo)
+                despublicados += 1
+                print(f"[revisor]  ⊘ despublicado (curto e sem fonte p/ aprofundar): {md.name}")
+                continue
 
         dados = revisar_ia(campos, corpo)
         revisados += 1

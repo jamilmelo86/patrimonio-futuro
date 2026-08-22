@@ -13,7 +13,7 @@ tags:
 - atletismo
 - história do esporte
 - superação
-draft: false
+draft: true
 ---
 
 No dia 9 de agosto de 1936, o velocista e saltador Jesse Owens alcançou um marco histórico ao conquistar sua quarta medalha de ouro nos Jogos Olímpicos de Berlim. Essa realização o tornou o primeiro atleta americano a ganhar quatro ouros em uma mesma edição dos Jogos, um feito extraordinário que consolidou sua posição como um dos maiores talentos do atletismo mundial.

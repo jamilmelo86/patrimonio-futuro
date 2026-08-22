@@ -13,7 +13,7 @@ tags:
 - Campeonato Europeu
 - recorde nacional
 - revezamento
-draft: false
+draft: true
 ---
 
 A seleção italiana de natação viveu um momento de destaque ao conquistar a medalha de bronze na prova de revezamento 4x100 metros nado livre misto do Campeonato Europeu de Natação. O quarteto composto por Carlos D'Ambrosio, Thomas Ceccon, Sara Curtis e Emma Elvira Menicucci completou a prova com o tempo de 3 minutos, 20 segundos e 80 centésimos.

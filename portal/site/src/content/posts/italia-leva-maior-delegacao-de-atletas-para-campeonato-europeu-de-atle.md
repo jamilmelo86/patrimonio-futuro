@@ -12,7 +12,7 @@ tags:
 - Itália
 - Campeonato Europeu
 - Birmingham
-draft: false
+draft: true
 ---
 
 A Itália prepara um desembarque histórico no Campeonato Europeu de Atletismo, que acontece em Birmingham, na Inglaterra. A delegação italiana reunirá 130 atletas, representando a maior quantidade de competidores já enviados pelo país para essa disputa continental.

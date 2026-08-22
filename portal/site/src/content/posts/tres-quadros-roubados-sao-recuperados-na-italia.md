@@ -13,7 +13,7 @@ tags:
 - recuperação
 - Itália
 - patrimônio cultural
-draft: false
+draft: true
 ---
 
 Três obras de arte foram recuperadas pela polícia italiana após serem roubadas da Fundação Magnani Rocca, em Parma. O roubo havia sido registrado pelos sistemas de segurança da instituição, que forneceram imagens claras dos responsáveis pelo crime e facilitaram significativamente o trabalho dos investigadores.

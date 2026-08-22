@@ -13,7 +13,7 @@ tags:
 - polícia
 - roubo
 - ironia
-draft: false
+draft: true
 ---
 
 Uma tentativa de roubo em Den Helder, na Holanda, terminou de forma bem diferente do que os dois suspeitos planejavam. Por volta das 4h30 da manhã, dois rapazes de 18 anos invadiram um shopping center da região, mas foram flagrados pela polícia ainda durante o crime.

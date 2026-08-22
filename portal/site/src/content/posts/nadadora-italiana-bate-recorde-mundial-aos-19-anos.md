@@ -12,7 +12,7 @@ tags:
 - recorde mundial
 - Itália
 - Sara Curtis
-draft: false
+draft: true
 ---
 
 A nadadora italiana Sara Curtis conquistou um feito extraordinário ao bater o recorde mundial na prova de 50 metros costas. Aos 19 anos, poucos dias antes de completar 20, a jovem atleta superou a marca anterior e inscreveu seu nome no topo das melhores performances de todos os tempos nessa modalidade.

@@ -1,14 +1,19 @@
 ---
-titulo: "Sistema de informações de trens na Holanda é restaurado após falha"
-resumo: "Problema técnico que afetou painéis digitais e avisos em estações holandesas é resolvido em poucas horas."
-categoria: "tecnologia"
+titulo: Sistema de informações de trens na Holanda é restaurado após falha
+resumo: Problema técnico que afetou painéis digitais e avisos em estações holandesas é resolvido em poucas horas.
+categoria: tecnologia
 data: 2026-08-13
-fonteNome: "NOS"
-fonteUrl: "https://nos.nl/l/2626729"
-imagem: "https://live.staticflickr.com/7372/14008584839_f7386775f6_b.jpg"
-creditoImagem: "Foto: transitpeople (BY) via Openverse"
-tags: ["transporte público", "ferrovias", "Holanda", "sistema de informações", "tecnologia"]
-draft: false
+fonteNome: NOS
+fonteUrl: https://nos.nl/l/2626729
+imagem: https://live.staticflickr.com/7372/14008584839_f7386775f6_b.jpg
+creditoImagem: 'Foto: transitpeople (BY) via Openverse'
+tags:
+- transporte público
+- ferrovias
+- Holanda
+- sistema de informações
+- tecnologia
+draft: true
 ---
 
 A companhia ferroviária holandesa NS (Nederlandse Spoorwegen) resolveu uma falha no sistema de informações ao viajante que afetou suas operações na noite de quarta-feira. Os painéis digitais nas plataformas, que exibem horários de partida e chegada dos trens, voltaram a funcionar normalmente, assim como os avisos sonoros transmitidos nas estações.

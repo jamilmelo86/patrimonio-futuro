@@ -13,7 +13,7 @@ tags:
 - patinete elétrico
 - capacete
 - mobilidade urbana
-draft: false
+draft: true
 ---
 
 Paris deu um passo importante na proteção de seus usuários de patinete elétrico ao estabelecer a obrigatoriedade do uso de capacete. A medida, implementada pela prefeitura da capital francesa, busca reduzir acidentes e lesões graves entre os pilotos, que vêm crescendo significativamente com a popularização desse meio de transporte.

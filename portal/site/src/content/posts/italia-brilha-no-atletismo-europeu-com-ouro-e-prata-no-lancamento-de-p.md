@@ -13,7 +13,7 @@ tags:
 - Campeonatos Europeus
 - lançamento de peso
 - medalhas
-draft: false
+draft: true
 ---
 
 A Itália saiu na frente nos Campeonatos Europeus de Atletismo com uma dobradinha impressionante na prova de lançamento de peso. Os atletas da delegação italiana garantiram o ouro e a prata na modalidade, trazendo para casa as duas primeiras medalhas do país na rassegna continental.

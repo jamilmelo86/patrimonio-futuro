@@ -14,7 +14,7 @@ tags:
 - Toscana
 - cultura
 - escultura
-draft: false
+draft: true
 ---
 
 Niki de Saint Phalle, renomada artista americana, realizou um sonho ambicioso ao criar um jardim extraordinário localizado na região da Toscana, na Itália. O projeto, que levou mais de duas décadas para ser completado, representa uma fusão única entre arte, imaginação e paisagismo, transformando o espaço em um verdadeiro paraíso visual.
