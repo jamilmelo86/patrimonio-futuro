@@ -11,7 +11,7 @@ tags:
 - futebol
 - renovação contrato
 - jogador brasileiro
-draft: false
+draft: true
 imagem: https://live.staticflickr.com/3183/4553752162_92dfabf318_b.jpg
 creditoImagem: 'Foto: US Army Africa (BY) via Openverse'
 ---

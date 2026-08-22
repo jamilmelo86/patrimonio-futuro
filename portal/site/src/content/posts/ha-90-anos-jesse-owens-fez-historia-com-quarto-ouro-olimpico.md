@@ -1,13 +1,18 @@
 ---
-titulo: "Há 90 anos, Jesse Owens fez história com quarto ouro olímpico"
-resumo: "Atleta norte-americano conquistou quatro medalhas de ouro em Berlim 1936, façanha inédita para um americano na época."
-categoria: "superacao"
+titulo: Em 1936, Jesse Owens conquistou quatro ouros olímpicos e fez história
+resumo: Atleta norte-americano conquistou quatro medalhas de ouro em Berlim 1936, primeira façanha desse tipo para um americano na época.
+categoria: superacao
 data: 2026-08-09
-fonteNome: "Good News Network"
-fonteUrl: "https://www.goodnewsnetwork.org/events060809/"
-imagem: "https://live.staticflickr.com/860/40653763215_37169fab7f_b.jpg"
-creditoImagem: "Foto: LBJLibraryNow (PDM) via Openverse"
-tags: ["Jesse Owens", "Olimpíadas 1936", "atletismo", "história", "Berlim"]
+fonteNome: Good News Network
+fonteUrl: https://www.goodnewsnetwork.org/events060809/
+imagem: https://live.staticflickr.com/860/40653763215_37169fab7f_b.jpg
+creditoImagem: 'Foto: LBJLibraryNow (PDM) via Openverse'
+tags:
+- Jesse Owens
+- Olimpíadas 1936
+- atletismo
+- história do esporte
+- superação
 draft: false
 ---
 
