@@ -1,14 +1,19 @@
 ---
-titulo: "TotalEnergies aposta em reciclagem química de plástico em antiga refinaria francesa"
-resumo: "Empresa inaugura primeira unidade de reciclagem química de plástico na França, transformando resíduos complexos em novos materiais."
-categoria: "meio-ambiente"
+titulo: TotalEnergies aposta em reciclagem química de plástico em antiga refinaria francesa
+resumo: Empresa inaugura primeira unidade de reciclagem química de plástico na França, transformando resíduos complexos em novos materiais.
+categoria: meio-ambiente
 data: 2026-08-12
-fonteNome: "Le Monde"
-fonteUrl: "https://www.lemonde.fr/economie/article/2026/08/12/totalenergies-fait-le-pari-conteste-du-recyclage-chimique-du-plastique-sur-son-ancienne-raffinerie-de-grandpuits_6744496_3234.html"
-imagem: "https://live.staticflickr.com/3439/3951746423_1a114331c3_b.jpg"
-creditoImagem: "Foto: Sweet One (BY-SA) via Openverse"
-tags: ["reciclagem", "plástico", "economia circular", "inovação", "sustentabilidade"]
-draft: false
+fonteNome: Le Monde
+fonteUrl: https://www.lemonde.fr/economie/article/2026/08/12/totalenergies-fait-le-pari-conteste-du-recyclage-chimique-du-plastique-sur-son-ancienne-raffinerie-de-grandpuits_6744496_3234.html
+imagem: https://live.staticflickr.com/3439/3951746423_1a114331c3_b.jpg
+creditoImagem: 'Foto: Sweet One (BY-SA) via Openverse'
+tags:
+- reciclagem
+- plástico
+- economia circular
+- inovação
+- sustentabilidade
+draft: true
 ---
 
 A TotalEnergies iniciou operações de uma unidade inovadora de reciclagem química de plástico em Grandpuits, região da Seine-et-Marne, na França. O projeto marca um passo importante no tratamento de resíduos plásticos mais complexos, que historicamente enfrentam dificuldades para serem reciclados pelos métodos convencionais. A iniciativa posiciona a França como pioneira nesta tecnologia no país.

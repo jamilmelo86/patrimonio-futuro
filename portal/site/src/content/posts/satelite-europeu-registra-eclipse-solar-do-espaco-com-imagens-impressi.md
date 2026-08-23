@@ -1,14 +1,19 @@
 ---
-titulo: "Satélite europeu registra eclipse solar do espaço com imagens impressionantes"
-resumo: "Agência Espacial Europeia divulga fotografias inéditas da sombra da Lua cobrindo a Terra durante eclipse, capturadas por satélite meteorológico de última geração."
-categoria: "ciencia"
+titulo: Satélite europeu registra eclipse solar do espaço com imagens impressionantes
+resumo: Agência Espacial Europeia divulga fotografias inéditas da sombra da Lua cobrindo a Terra durante eclipse, capturadas por satélite meteorológico de última geração.
+categoria: ciencia
 data: 2026-08-13
-fonteNome: "ANSA"
-fonteUrl: "https://www.ansa.it/sito/videogallery/mondo/2026/08/13/eclissi-dallo-spazio-le-immagini-dellombra-della-luna-sulla-terra_718e6560-1153-43c3-a19d-2bcdc469bd89.html"
-imagem: "https://images-assets.nasa.gov/image/PIA21957/PIA21957~small.jpg"
-creditoImagem: "Imagem: NASA/JPL-Caltech (domínio público)"
-tags: ["eclipse solar", "satélite", "ESA", "imagens espaciais", "astronomia"]
-draft: false
+fonteNome: ANSA
+fonteUrl: https://www.ansa.it/sito/videogallery/mondo/2026/08/13/eclissi-dallo-spazio-le-immagini-dellombra-della-luna-sulla-terra_718e6560-1153-43c3-a19d-2bcdc469bd89.html
+imagem: https://images-assets.nasa.gov/image/PIA21957/PIA21957~small.jpg
+creditoImagem: 'Imagem: NASA/JPL-Caltech (domínio público)'
+tags:
+- eclipse solar
+- satélite
+- ESA
+- imagens espaciais
+- astronomia
+draft: true
 ---
 
 A Agência Espacial Europeia (ESA) divulgou imagens extraordinárias de um eclipse solar fotografado do espaço, mostrando a sombra da Lua deslocando-se pela superfície terrestre. As fotografias foram obtidas pelo satélite Meteosat Third Generation Imager, uma das mais avançadas plataformas de observação da Terra em órbita atualmente.
