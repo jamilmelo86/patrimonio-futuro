@@ -1,12 +1,14 @@
 name: Ingestão diária de boas notícias
 
-# Roda 2x por dia — 10:00 e 22:00 UTC (07:00 e 19:00 em Brasília) — e sob demanda.
+# Roda 1x por dia — 22:00 UTC (19:00 em Brasília) — e sob demanda.
 # PUBLICA automaticamente matérias APROFUNDADAS (com critério rigoroso da IA).
-# Menos volume e mais qualidade: poucas matérias densas por dia, não muitas rasas.
+# Os commits levam "[skip ci]" para o Netlify NÃO reconstruir aqui: quem dispara
+# o build (1x/dia) é o revisor, que já publica tudo que o coletor acumulou. Isso
+# economiza o limite de builds do Netlify.
 # OBS: o GitHub só executa cron a partir da branch padrão do repositório.
 on:
   schedule:
-    - cron: "0 10,22 * * *"
+    - cron: "0 22 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -35,7 +37,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GUARDIAN_API_KEY: ${{ secrets.GUARDIAN_API_KEY }}
           NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
-          MAX_DRAFTS: "2"
+          MAX_DRAFTS: "3"
           PUBLICAR_AUTOMATICO: "1"
           LIMIAR_CONFIANCA: "0.72"
         run: python gerar_rascunhos.py
@@ -48,6 +50,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "Nada novo para publicar."
           else
-            git commit -m "Publicações automáticas de boas notícias ($(date +%F))"
+            git commit -m "Publicações automáticas de boas notícias ($(date +%F)) [skip ci]"
             git push
           fi
