@@ -1,14 +1,19 @@
 ---
-titulo: "Mulheres descobrem autismo na vida adulta e encontram alívio no diagnóstico"
-resumo: "Milhares de mulheres recebem diagnóstico de autismo após os 40 anos, trazendo clareza e alívio após décadas de incompreensão."
-categoria: "saude"
+titulo: Mulheres descobrem autismo na vida adulta e encontram alívio no diagnóstico
+resumo: Milhares de mulheres recebem diagnóstico de autismo após os 40 anos, trazendo clareza e alívio após décadas de incompreensão.
+categoria: saude
 data: 2026-08-10
-fonteNome: "Le Monde"
-fonteUrl: "https://www.lemonde.fr/societe/article/2026/08/10/ces-femmes-qui-decouvrent-leur-autisme-a-l-age-adulte-c-est-un-soulagement-je-ne-suis-pas-folle_6742974_3224.html"
-imagem: "https://live.staticflickr.com/8019/7196672562_25ca63595e_b.jpg"
-creditoImagem: "Foto: Brett Levin Photography (BY) via Openverse"
-tags: ["autismo", "diagnóstico", "mulheres", "saúde mental", "neurodiversidade"]
-draft: false
+fonteNome: Le Monde
+fonteUrl: https://www.lemonde.fr/societe/article/2026/08/10/ces-femmes-qui-decouvrent-leur-autisme-a-l-age-adulte-c-est-un-soulagement-je-ne-suis-pas-folle_6742974_3224.html
+imagem: https://live.staticflickr.com/8019/7196672562_25ca63595e_b.jpg
+creditoImagem: 'Foto: Brett Levin Photography (BY) via Openverse'
+tags:
+- autismo
+- diagnóstico
+- mulheres
+- saúde mental
+- neurodiversidade
+draft: true
 ---
 
 Um número crescente de mulheres está sendo diagnosticado com transtorno do espectro autista na vida adulta, muitas delas após os 40 anos. A jornalista francesa Maïtena Biraben descobriu aos 57 anos que era autista, uma revelação que veio acompanhada de um sentimento predominante entre essas mulheres: alívio. Após décadas de vida confusa, essa confirmação oferece uma explicação concreta para dificuldades que as acompanharam silenciosamente.
