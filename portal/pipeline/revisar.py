@@ -228,8 +228,16 @@ def main() -> None:
             continue
 
         assinatura = _hash(_valor_str(campos, "titulo"), corpo)
-        if ledger.get(md.name) == assinatura:
-            continue  # já revisado e sem mudança
+        # Uma matéria ainda curta que TEM fonte e não esgotou as tentativas de
+        # aprofundamento deve ser reprocessada mesmo já estando no ledger — senão
+        # ela ficaria presa curta para sempre depois de uma revisão comum antiga.
+        pode_aprofundar = (
+            _palavras(corpo) < LIMIAR_APROFUNDAR
+            and _valor_str(campos, "fonteUrl")
+            and tentativas.get(md.name, 0) < MAX_TENTATIVAS
+        )
+        if ledger.get(md.name) == assinatura and not pode_aprofundar:
+            continue  # já revisado, sem mudança e sem como aprofundar
 
         # APROFUNDAR matérias curtas: reescreve como peça densa (600-1000 palavras)
         # a partir do texto da fonte. Só quando há material suficiente na fonte —
