@@ -1,6 +1,6 @@
 ---
-titulo: Google substitui Assistente por Gemini em todos os dispositivos a partir de setembro
-resumo: Google inicia migração global do Assistente para Gemini em smartphones, tablets, relógios e Android Auto a partir de 4 de setembro.
+titulo: Google encerra Assistente e migra para Gemini em todos os dispositivos a partir de setembro
+resumo: Gigante de tecnologia substitui assistente de quase dez anos por inteligência artificial em smartphones, relógios e tablets.
 categoria: tecnologia
 data: 2026-08-08
 fonteNome: ANSA
@@ -10,16 +10,21 @@ creditoImagem: 'Foto: jurvetson (BY) via Openverse'
 tags:
 - Google
 - Gemini
-- assistente inteligência artificial
+- Assistente
+- inteligência artificial
 - Android
 - migração tecnológica
 draft: false
 ---
 
-A partir de 4 de setembro, o Google iniciará a substituição do Assistente Google pelo Gemini em dispositivos dos usuários em todo o mundo. A mudança abrange smartphones, tablets, relógios inteligentes e sistemas de entretenimento veicular, como o Android Auto, marcando o fim de uma era de mais de uma década do Assistente tradicional.
+Após quase uma década de operação, o Google Assistente está com os dias contados. A partir de 4 de setembro de 2026, o software será descontinuado em favor do Gemini, a nova geração de assistente inteligente desenvolvido com base em inteligência artificial. A mudança marca um ponto de virada estratégico para a empresa, que busca consolidar sua aposta em tecnologias de IA mais avançadas e capazes de oferecer experiências mais sofisticadas aos usuários.
 
-O Gemini representa a aposta mais recente do Google em inteligência artificial conversacional, oferecendo capacidades aprimoradas de compreensão e processamento de linguagem natural. A migração será gradual e abrangerá a maioria dos usuários do ecossistema Android e plataformas relacionadas.
+O Google Assistente foi apresentado pela primeira vez em 21 de setembro de 2016 pelo executivo Sundar Pichai, inicialmente através do aplicativo de mensagens Google Allo. Desde então, evoluiu para se tornar um dos assistentes de voz mais utilizados globalmente, presente em bilhões de dispositivos. A decisão de aposentá-lo em favor do Gemini representa um investimento significativo da companhia na próxima geração de tecnologia conversacional.
 
-Essa mudança reflete a intensificação da corrida tecnológica por assistentes de inteligência artificial mais sofisticados. Enquanto concorrentes como Apple (com Siri) e Amazon (com Alexa) continuam aprimorando seus sistemas, o Google reconhece a necessidade de modernizar sua oferta de IA conversacional.
+A migração não será imediata e nem forçada de uma só vez. O Google comunicou aos usuários via email que o processo de atualização ocorrerá gradualmente ao longo de várias semanas, começando em setembro de 2026. Durante esse período de transição, o Assistente original será removido dos dispositivos, e diferentemente do que ocorria anteriormente, não será possível reverter manualmente a configuração através das opções de preferências do aplicativo. Isso significa que usuários perderão a opção de alternar entre os dois assistentes.
 
-Para os usuários, a transição promete melhorias nas respostas a comandos, maior precisão em buscas e interações mais naturais com seus dispositivos. O Gemini oferece uma experiência mais moderna e eficiente em comparação ao Assistente anterior.
+A abrangência dessa mudança é ampla. O Gemini substituirá o Assistente em smartphones, tablets, relógios inteligentes com sistema operacional Wear Os, auriculares conectados e na plataforma Android Auto, que funciona através de smartphones acoplados ao carro. Por enquanto, essa alteração não afetará veículos equipados com o sistema de entretenimento Google Built-in, nos quais o Assistente Google continuará funcionando normalmente. Essas exceções indicam que a Google está sendo cuidadosa em relação a dispositivos críticos para segurança e dirigibilidade.
+
+Para outras categorias de produtos do ecossistema Google, como televisões Google TV, alto-falantes inteligentes e os displays inteligentes da linha Home, o cronograma de migração ainda será definido posteriormente. Embora a empresa não tenha divulgado datas específicas, deixou claro que a integração do Gemini nesses dispositivos também ocorrerá eventualmente, consolidando uma transição completa para a nova plataforma.
+
+Este plano de descontinuação passou por um adiamento. Inicialmente agendado para o final de 2025, foi empurrado para 2026 justamente para permitir uma transição mais cuidadosa e ordenada. Esse tipo de deliberação mostra a preocupação da Google em não deixar usuários órfãos de um serviço tão estabelecido. A partir de setembro, no entanto, a mudança será irreversível, marcando o fim de uma era e o começo de outra, centrada em assistentes alimentados por modelos de linguagem de IA mais potentes e versáteis.
