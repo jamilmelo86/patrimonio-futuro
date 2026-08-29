@@ -10,7 +10,7 @@ tags:
 - obesidade
 - medicamentos
 - acessibilidade
-draft: false
+draft: true
 imagem: https://live.staticflickr.com/2931/14406031184_ac3675bb19_b.jpg
 creditoImagem: 'Foto: juhansonin (BY) via Openverse'
 ---

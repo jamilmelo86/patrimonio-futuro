@@ -12,7 +12,7 @@ tags:
 - astronomia
 - transmissão ao vivo
 - fenômeno astronômico
-draft: false
+draft: true
 ---
 
 Um eclipse solar foi transmitido em tempo real para o mundo todo, permitindo que milhões de pessoas acompanhassem o raro fenômeno astronômico sem sair de casa. A retransmissão capturou imagens impressionantes do evento, que foi visível em diversas regiões da Europa, América do Norte e outras partes do globo.

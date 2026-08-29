@@ -1,14 +1,18 @@
 ---
-titulo: "Eclisses solar encanta turistas e moradores em Veneza"
-resumo: "Eclipses solar impressiona visitantes e residentes de Veneza, que se reúnem à beira da lagoa para presenciar o espetáculo celeste."
-categoria: "ciencia"
+titulo: Eclisses solar encanta turistas e moradores em Veneza
+resumo: Eclipses solar impressiona visitantes e residentes de Veneza, que se reúnem à beira da lagoa para presenciar o espetáculo celeste.
+categoria: ciencia
 data: 2026-08-13
-fonteNome: "ANSA"
-fonteUrl: "https://www.ansa.it/sito/videogallery/italia/2026/08/13/venezia-leclissi-solare-incanta-turisti-e-residenti_93914c3c-4ceb-44b1-8dc9-6e73b5a650ff.html"
-imagem: "https://images-assets.nasa.gov/image/PIA21957/PIA21957~small.jpg"
-creditoImagem: "Imagem: NASA/JPL-Caltech (domínio público)"
-tags: ["eclipses solar", "Veneza", "astronomia", "evento celeste"]
-draft: false
+fonteNome: ANSA
+fonteUrl: https://www.ansa.it/sito/videogallery/italia/2026/08/13/venezia-leclissi-solare-incanta-turisti-e-residenti_93914c3c-4ceb-44b1-8dc9-6e73b5a650ff.html
+imagem: https://images-assets.nasa.gov/image/PIA21957/PIA21957~small.jpg
+creditoImagem: 'Imagem: NASA/JPL-Caltech (domínio público)'
+tags:
+- eclipses solar
+- Veneza
+- astronomia
+- evento celeste
+draft: true
 ---
 
 Um eclipses solar roubou a cena em Veneza, atraindo turistas e moradores que se reuniram em pontos estratégicos da icônica cidade italiana para acompanhar o fenômeno astronômico. O local privilegiado para observação foi o lungomare de Punta della Dogana, onde a visão desobstruída do céu proporcionou vistas espetaculares do evento.

@@ -1,14 +1,19 @@
 ---
-titulo: "Cérebro mantém memória mesmo após perder conexões neurais"
-resumo: "Cientistas descobrem que o cérebro consegue preservar memórias apesar da perda de sinapses durante hibernação."
-categoria: "ciencia"
+titulo: Cérebro mantém memória mesmo após perder conexões neurais
+resumo: Cientistas descobrem que o cérebro consegue preservar memórias apesar da perda de sinapses durante hibernação.
+categoria: ciencia
 data: 2026-08-14
-fonteNome: "Le Monde"
-fonteUrl: "https://www.lemonde.fr/sciences/article/2026/08/14/des-souris-conservent-la-memoire-malgre-la-perte-de-connexions-neuronales_6746268_1650684.html"
-imagem: "https://live.staticflickr.com/7075/7315427476_aa9535ba32_b.jpg"
-creditoImagem: "Foto: jurvetson (BY) via Openverse"
-tags: ["neurociência", "memória", "sinapses", "cérebro", "hibernação"]
-draft: false
+fonteNome: Le Monde
+fonteUrl: https://www.lemonde.fr/sciences/article/2026/08/14/des-souris-conservent-la-memoire-malgre-la-perte-de-connexions-neuronales_6746268_1650684.html
+imagem: https://live.staticflickr.com/7075/7315427476_aa9535ba32_b.jpg
+creditoImagem: 'Foto: jurvetson (BY) via Openverse'
+tags:
+- neurociência
+- memória
+- sinapses
+- cérebro
+- hibernação
+draft: true
 ---
 
 Uma pesquisa recente com ratos desafia a compreensão tradicional sobre como o cérebro armazena e recupera memórias. Durante um período de hibernação forçada, os animais perderam uma quantidade significativa de conexões entre neurônios (sinapses), estruturas que até então eram consideradas essenciais para manter as recordações intactas.

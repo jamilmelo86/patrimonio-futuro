@@ -11,7 +11,7 @@ tags:
 - clima
 - defesa ambiental
 - restauração ecológica
-draft: false
+draft: true
 imagem: https://s0.geograph.org.uk/geophotos/03/00/48/3004839_9fe1a5bd.jpg
 creditoImagem: 'Foto: david glass (BY-SA) via Openverse'
 ---

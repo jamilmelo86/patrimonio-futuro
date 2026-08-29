@@ -1,14 +1,19 @@
 ---
-titulo: "Como celebra sucesso na proteção de casas durante crise"
-resumo: "Prefeito de Como elogia trabalho coordenado dos bombeiros italianos que conseguiram proteger todas as residências durante emergência."
-categoria: "solidariedade"
+titulo: Como celebra sucesso na proteção de casas durante crise
+resumo: Prefeito de Como elogia trabalho coordenado dos bombeiros italianos que conseguiram proteger todas as residências durante emergência.
+categoria: solidariedade
 data: 2026-08-14
-fonteNome: "Rai News"
-fonteUrl: "https://www.rainews.it/video/2026/08/il-sindaco-rapinese-siamo-riusciti-nellimpresa-di-salvare-tutte-le-case-ead6a0ec-c032-4f07-b13b-e7390accbe50.html"
-imagem: "https://live.staticflickr.com/3208/2718027136_15a70577b4_b.jpg"
-creditoImagem: "Foto: DVIDSHUB (BY) via Openverse"
-tags: ["Como", "bombeiros", "proteção civil", "cooperação", "emergência"]
-draft: false
+fonteNome: Rai News
+fonteUrl: https://www.rainews.it/video/2026/08/il-sindaco-rapinese-siamo-riusciti-nellimpresa-di-salvare-tutte-le-case-ead6a0ec-c032-4f07-b13b-e7390accbe50.html
+imagem: https://live.staticflickr.com/3208/2718027136_15a70577b4_b.jpg
+creditoImagem: 'Foto: DVIDSHUB (BY) via Openverse'
+tags:
+- Como
+- bombeiros
+- proteção civil
+- cooperação
+- emergência
+draft: true
 ---
 
 O prefeito de Como, na região da Lombardia no norte da Itália, comemorou um feito importante: a preservação de todas as casas da cidade durante uma situação de crise que colocava em risco as moradias dos moradores. A afirmação do primeiro cidadão reflete o alívio e a satisfação com o resultado alcançado após um período de tensão e incerteza.

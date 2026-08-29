@@ -13,7 +13,7 @@ tags:
 - H5
 - Austrália
 - saúde animal
-draft: false
+draft: true
 ---
 
 A Austrália ativou um programa estratégico de vacinação contra a gripe aviária, direcionando tanto aves em cativeiro quanto populações selvagens. A medida foi implementada após o país detectar seus primeiros casos da cepa H5 do vírus em junho deste ano, marcando a entrada da enfermidade no continente.

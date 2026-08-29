@@ -12,7 +12,7 @@ tags:
 - astronomia
 - Espanha
 - fenômeno celeste
-draft: false
+draft: true
 ---
 
 A Espanha viverá um dos espetáculos astronômicos mais impressionantes: um eclipse solar total que percorrerá grande parte do país. O fenômeno é tão raro que a Espanha peninsular não presenciava algo semelhante desde 1905, há mais de 120 anos. Especialistas destacam a raridade e a importância científica do evento.

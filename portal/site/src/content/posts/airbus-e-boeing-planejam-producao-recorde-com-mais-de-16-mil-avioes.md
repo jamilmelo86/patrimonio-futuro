@@ -13,7 +13,7 @@ tags:
 - produção
 - Airbus
 - Boeing
-draft: false
+draft: true
 ---
 
 Os dois principais fabricantes mundiais de aeronaves, Airbus e Boeing, estão implementando planos de expansão industrial ambiciosos para elevar suas capacidades de produção. Essa movimentação representa um marco importante para o setor aeronáutico global, que busca recuperar o ritmo após anos de desafios.

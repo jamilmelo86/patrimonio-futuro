@@ -11,7 +11,7 @@ tags:
 - Campeonato Europeu
 - natação
 - bronze
-draft: false
+draft: true
 imagem: https://live.staticflickr.com/8546/8634722018_d539f05ca0_b.jpg
 creditoImagem: 'Foto: usembassykyiv (PDM) via Openverse'
 ---

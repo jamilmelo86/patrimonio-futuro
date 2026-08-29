@@ -13,7 +13,7 @@ tags:
 - tecnologia ambiental
 - ISPRA
 - Itália
-draft: false
+draft: true
 ---
 
 A Itália implementou um sistema de monitoramento usando boias especializadas que coletam dados contínuos sobre a temperatura das águas marinhas. O equipamento permite visualizar em tempo real, através de um mapa interativo, as variações térmicas dos oceanos, oferecendo uma visão clara e atualizada das condições das águas do país.

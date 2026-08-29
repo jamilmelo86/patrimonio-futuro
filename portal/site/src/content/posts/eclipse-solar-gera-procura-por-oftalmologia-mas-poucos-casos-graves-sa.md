@@ -1,14 +1,18 @@
 ---
-titulo: "Eclipse solar gera procura por oftalmologia, mas poucos casos graves são registrados"
-resumo: "Emergências oftalmológicas aumentaram durante eclipse solar, mas danos à retina foram raros e não causam dor imediata."
-categoria: "saude"
+titulo: Eclipse solar gera procura por oftalmologia, mas poucos casos graves são registrados
+resumo: Emergências oftalmológicas aumentaram durante eclipse solar, mas danos à retina foram raros e não causam dor imediata.
+categoria: saude
 data: 2026-08-13
-fonteNome: "El País"
-fonteUrl: "https://elpais.com/sociedad/2026-08-13/las-consultas-en-urgencias-oftalmologicas-aumentaron-por-el-eclipse-pero-sin-apenas-casos-graves-los-danos-no-causan-dolor-o-irritacion.html"
-imagem: "https://live.staticflickr.com/8019/7196672562_25ca63595e_b.jpg"
-creditoImagem: "Foto: Brett Levin Photography (BY) via Openverse"
-tags: ["eclipse solar", "oftalmologia", "saúde ocular", "prevenção"]
-draft: false
+fonteNome: El País
+fonteUrl: https://elpais.com/sociedad/2026-08-13/las-consultas-en-urgencias-oftalmologicas-aumentaron-por-el-eclipse-pero-sin-apenas-casos-graves-los-danos-no-causan-dolor-o-irritacion.html
+imagem: https://live.staticflickr.com/8019/7196672562_25ca63595e_b.jpg
+creditoImagem: 'Foto: Brett Levin Photography (BY) via Openverse'
+tags:
+- eclipse solar
+- oftalmologia
+- saúde ocular
+- prevenção
+draft: true
 ---
 
 Durante o eclipse solar recente, houve aumento significativo na procura por atendimento oftalmológico em centros de urgência. No entanto, a boa notícia é que a maioria dos casos não evoluiu para situações graves, tranquilizando tanto profissionais de saúde quanto o público em geral.

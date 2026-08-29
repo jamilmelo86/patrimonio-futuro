@@ -13,7 +13,7 @@ tags:
 - 800m
 - Campeonato Europeu
 - Eloisa Coiro
-draft: false
+draft: true
 ---
 
 A corredora romana Eloisa Coiro conquistou um feito histórico ao quebrar o recorde italiano nos 800 metros durante as eliminatórias do Campeonato Europeu de Atletismo. Com o tempo de 1 minuto e 57 segundos e 56 centésimos, ela não apenas avançou para a próxima fase da competição, como também inscreveu seu nome na história do esporte italiano, superando uma marca que havia resistido por 46 anos.

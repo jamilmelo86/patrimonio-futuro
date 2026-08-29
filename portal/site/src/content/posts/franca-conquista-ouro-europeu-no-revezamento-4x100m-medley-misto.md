@@ -1,14 +1,19 @@
 ---
-titulo: "França conquista ouro europeu no revezamento 4x100m medley misto"
-resumo: "Equipe francesa faz história ao vencer campeonato europeu de natação em prova de revezamento misto, primeiro título do país na competição."
-categoria: "superacao"
+titulo: França conquista ouro europeu no revezamento 4x100m medley misto
+resumo: Equipe francesa faz história ao vencer campeonato europeu de natação em prova de revezamento misto, primeiro título do país na competição.
+categoria: superacao
 data: 2026-08-11
-fonteNome: "Le Monde"
-fonteUrl: "https://www.lemonde.fr/sport/article/2026/08/11/le-relais-francais-sacre-champion-d-europe-du-4-100-m-quatre-nages-mixte_6744228_3242.html"
-imagem: "https://live.staticflickr.com/7271/7519803484_7d98465c20_b.jpg"
-creditoImagem: "Foto: DVIDSHUB (BY) via Openverse"
-tags: ["natação", "revezamento", "campeonato europeu", "ouro", "França"]
-draft: false
+fonteNome: Le Monde
+fonteUrl: https://www.lemonde.fr/sport/article/2026/08/11/le-relais-francais-sacre-champion-d-europe-du-4-100-m-quatre-nages-mixte_6744228_3242.html
+imagem: https://live.staticflickr.com/7271/7519803484_7d98465c20_b.jpg
+creditoImagem: 'Foto: DVIDSHUB (BY) via Openverse'
+tags:
+- natação
+- revezamento
+- campeonato europeu
+- ouro
+- França
+draft: true
 ---
 
 A delegação francesa celebrou um momento marcante no esporte aquático ao conquistar o título europeu no revezamento 4x100 metros medley misto. A prova, disputada no Centro Aquático Olímpico de Saint-Denis, marcou um feito histórico para os Bleus, representando o primeiro ouro da França nesta modalidade específica em competições europeias.
