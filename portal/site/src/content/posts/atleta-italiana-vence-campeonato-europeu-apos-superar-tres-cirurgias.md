@@ -1,14 +1,19 @@
 ---
-titulo: "Atleta italiana vence campeonato europeu após superar três cirurgias"
-resumo: "Derkach conquista ouro no salto triplo e inspira com história de recuperação após ano difícil de operações."
-categoria: "superacao"
+titulo: Atleta italiana vence campeonato europeu após superar três cirurgias
+resumo: Derkach conquista ouro no salto triplo e inspira com história de recuperação após ano difícil de operações.
+categoria: superacao
 data: 2026-08-13
-fonteNome: "Rai News"
-fonteUrl: "https://www.rainews.it/video/2026/08/atletica-europei-2026-birmingham-salto-triplo-dariya-derkach-intervista-c9c8714a-82c9-4d7d-b661-4b2780c2b03f.html"
-imagem: "https://live.staticflickr.com/3125/2618841500_133d30a784_b.jpg"
-creditoImagem: "Foto: Robert Cutts (BY-SA) via Openverse"
-tags: ["atletismo", "Europa", "superação", "desporto", "ouro"]
-draft: false
+fonteNome: Rai News
+fonteUrl: https://www.rainews.it/video/2026/08/atletica-europei-2026-birmingham-salto-triplo-dariya-derkach-intervista-c9c8714a-82c9-4d7d-b661-4b2780c2b03f.html
+imagem: https://live.staticflickr.com/3125/2618841500_133d30a784_b.jpg
+creditoImagem: 'Foto: Robert Cutts (BY-SA) via Openverse'
+tags:
+- atletismo
+- Europa
+- superação
+- desporto
+- ouro
+draft: true
 ---
 
 A velocista italiana Dariya Derkach escreveu uma história de superação ao vencer a competição de salto triplo no Campeonato Europeu de Atletismo. O ouro continental representa muito mais do que uma medalha para a atleta: é o coroamento de um percurso marcado por desafios físicos intensos e determinação inabalável.

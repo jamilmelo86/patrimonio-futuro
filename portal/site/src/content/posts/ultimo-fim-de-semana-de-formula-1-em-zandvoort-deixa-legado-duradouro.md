@@ -1,6 +1,6 @@
 ---
-titulo: Último fim de semana de Fórmula 1 em Zandvoort deixa legado duradouro para a cidade holandesa
-resumo: 'Após seis edições, Zandvoort encerra parceria com a F1 e revela impacto transformador: turismo, infraestrutura e visibilidade global duradouros.'
+titulo: Fim da F1 em Zandvoort marca início de novo capítulo para cidade holandesa
+resumo: Após seis anos de corridas emocionantes, Zandvoort encerra parceria com a Fórmula 1, mas colhe frutos duradouros em turismo, infraestrutura e reconhecimento global.
 categoria: mundo
 data: 2026-08-21
 fonteNome: NOS
@@ -8,22 +8,26 @@ fonteUrl: https://nos.nl/l/2627778
 imagem: https://live.staticflickr.com/8327/8090956277_50ce2c3fc5_b.jpg
 creditoImagem: 'Foto: Michael Elleray (BY) via Openverse'
 tags:
-- Zandvoort
 - Fórmula 1
+- Zandvoort
+- Holanda
 - turismo
-- economia local
-- legado
+- legado econômico
+- esportes
+- transformação urbana
 draft: false
 ---
 
-A pequena cidade costeira de Zandvoort, nos Países Baixos, vive um momento de nostalgia neste fim de semana ao sediar o último Grande Prêmio de Fórmula 1 de sua parceria com a categoria. Por toda a comunidade, empresários, moradores e fãs reconhecem que o evento deixará um vazio, mas concordam que a presença do campeonato mundial transformou permanentemente a região de maneira positiva.
+A pequena cidade costeira holandesa de Zandvoort viveu seu último fim de semana como palco da Fórmula 1, encerrando uma era que transformou permanentemente a região. Embora a decisão de interromper a parceria após seis edições tenha deixado moradores com sentimentos mistos — muitos lamentam o encerramento —, a realidade é que a localidade ganhou visibilidade e dinamismo que prometem perdurar muito além das últimas voltas no circuito.
 
-A organização decidiu encerrar a parceria após seis edições (de 2021 a 2026) devido a desafios financeiros crescentes. Os custos operacionais dispararam, o apoio governamental não correspondeu às expectativas, e o público diminuiu nos últimos anos. Apesar desses números desafiadores, optou-se por encerrar "no auge", preservando a qualidade em vez de deixá-la deteriorar com o tempo.
+O evento final marca o fim de um ciclo iniciado em 2019, quando a Holanda recuperou sua presença no calendário da F1 graças à ascensão de Max Verstappen. Os organizadores decidiram encerrar a parceria em 2025 "no auge", evitando um possível desgaste econômico e reputacional. Os custos da operação cresceram significativamente, o orçamento municipal não acompanhou, e as cifras de público diminuíram nas últimas duas edições — os últimos dois eventos não esgotaram ingressos.
 
-O impacto econômico e cultural da Fórmula 1 transcendeu os fins de semana de corrida. Milhões de espectadores globais acompanharam as transmissões, colocando Zandvoort permanentemente no mapa turístico internacional. Empresários locais relatam efeito contínuo ao longo do ano: Brigitte van Eig, proprietária de um café na região, reconhece que o evento atraiu um fluxo contínuo de turistas que jamais teriam visitado sem a competição de alto perfil.
+Para o comércio local, especialmente bares e restaurantes, o impacto foi imediato. Proprietários como Brigitte van Eig, do tradicional pub 't Wapen van Zandvoort, descrevem a experiência como simultaneamente exaustiva e extraordinária: o ruído, a multidão, o caos do trânsito convivem com a adrenalina de servir centenas de milhares de visitantes. Contudo, nem todas as atividades econômicas colheram benefícios uniformes. Pequenos varejistas reclamam que dos 300 mil visitantes que chegam ao fim de semana, apenas uma fração circula pelo interior do bairro — a maioria permanece nas áreas de acesso ao circuito.
 
-Peter Tromp, presidente da associação de empresários locais, observa que a visibilidade trazida pela Fórmula 1 criou oportunidades duradouras para turismo de hospedagem. As pessoas agora planejam estadias prolongadas em Zandvoort ao longo do ano. A prefeitura e empresários trabalham juntos para expandir infraestrutura turística e atrair investimentos em hotelaria e serviços, estratégia promissora graças à reputação consolidada pelo Grande Prêmio.
+O verdadeiro legado da Fórmula 1 em Zandvoort, porém, transcende os fins de semana de corrida. Peter Tromp, presidente da associação de comerciantes locais e ex-produtor de queijo com 40 anos de experiência na região, observa que a visibilidade global conquistada com a transmissão do evento para milhões de telespectadores em todo o mundo alimentou um fluxo consistente de turismo. Visitantes que jamais teriam conhecimento de Zandvoort agora chegam durante todo o ano, atraídos pela fama conquistada com a presença internacional. A estratégia da prefeitura municipal e dos empresários agora se concentra em transformar essa curiosidade em turismo de permanência — roteiros que encorajem os visitantes a dormir na localidade, gastando mais e permanecendo por mais tempo.
 
-Há também dimensão ambiental positiva na conclusão desta fase. O circuito situa-se em áreas de proteção ecológica Natura 2000, habitats críticos para espécies ameaçadas. Com o encerramento, ambientalistas esperam que esses ecossistemas se recuperem. A organização sinalizou interesse em tecnologias sustentáveis para futuras competições, incluindo a Fórmula E, programada para começar em Zandvoort no próximo ano.
+A transformação urbana também é concreta. Infraestruturas foram modernizadas, o circuito recebeu investimentos em tecnologia e segurança, e a cidade ganhou instalações que servem ao turismo durante o ano inteiro. Novos empresários foram atraídos para investir em hospedagem, alimentação e entretenimento, criando oportunidades econômicas duráveis. Van Eig confirma que a presença internacional do evento resultou em visitação internacional frequente mesmo nos períodos sem corridas.
 
-Zandvoort não retornará ao anonimato: ganhou infraestrutura turística, visibilidade global, experiência em gestão de megaeventos e comunidade de negócios revigorada. A cidade provou que o valor de um evento dessa magnitude não se mede apenas pela receita imediata, mas pelo impulso duradouro ao desenvolvimento local.
+Nem todas as consequências foram positivas, especialmente para o meio ambiente. O circuito situa-se em zonas de proteção ambiental Natura 2000, e a construção das instalações impactou habitats de espécies protegidas como a rã-listrada e lagartos de areia. Organizações ambientais, embora tenham perdido as batalhas legais iniciais — os tribunais consideraram o benefício social e econômico superior ao impacto ambiental —, esperam que a restauração natural seja possível agora. A notícia de que a Fórmula E (versão elétrica da competição) chegará à cidade a partir do próximo ano oferece uma alternativa menos disruptiva.
+
+O encerramento em 2025 marca um ponto de inflexão, mas não um fim. Zandvoort conseguiu o que poucas cidades conseguem: usar um megaevento internacional como catalisador para transformação econômica e reconhecimento global sem criar dependência irreversível. A estratégia agora é consolidar os ganhos, atrair mais visitantes fora da época de corridas, e diversificar a economia local. Como Tromp resume, a experiência da Fórmula 1 "não desaparece da memória" — permanece como fundação sobre a qual a cidade constrói seu futuro.
