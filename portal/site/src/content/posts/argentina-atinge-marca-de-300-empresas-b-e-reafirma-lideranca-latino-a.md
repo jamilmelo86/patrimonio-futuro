@@ -1,26 +1,29 @@
 ---
-titulo: "Argentina atinge marca de 300 Empresas B e reafirma liderança latino-americana em negócios com propósito"
-resumo: "País alcança 300 certificações de empresas que priorizam impacto social e ambiental, consolidando-se como segunda maior comunidade B da América Latina e nona do mundo."
-categoria: "tecnologia"
+titulo: Argentina atinge marca de 300 Empresas B e reafirma liderança latino-americana em negócios com propósito
+resumo: País alcança 300 certificações de empresas que priorizam impacto social e ambiental, consolidando-se como segunda maior comunidade B da América Latina.
+categoria: solidariedade
 data: 2026-08-21
-fonteNome: "Noticias Positivas"
-fonteUrl: "https://noticiaspositivas.org/con-300-empresas-b-en-argentina-el-segundo-pais-de-latinoamerica-con-mas-companias-certificadas/"
-imagem: "https://live.staticflickr.com/2853/9819156864_6f3a4ae0c0_b.jpg"
-creditoImagem: "Foto: The Natural Step Canada (BY) via Openverse"
-tags: ["Empresas B", "impacto social", "sustentabilidade", "negócios com propósito", "Argentina", "América Latina", "economia responsável"]
+fonteNome: Noticias Positivas
+fonteUrl: https://noticiaspositivas.org/con-300-empresas-b-en-argentina-el-segundo-pais-de-latinoamerica-con-mas-companias-certificadas/
+imagem: https://live.staticflickr.com/2853/9819156864_6f3a4ae0c0_b.jpg
+creditoImagem: 'Foto: The Natural Step Canada (BY) via Openverse'
+tags:
+- Empresas B
+- Argentina
+- negócios com propósito
+- impacto social
+- sustentabilidade
 draft: false
 ---
 
 A Argentina acaba de atingir um marco significativo no universo dos negócios com propósito: 300 empresas certificadas como Empresas B, companhias que reformulam seus modelos de negócio para gerar valor além do lucro. Com esse feito, o país se consolida como a segunda nação latino-americana com maior número de certificações nessa categoria, ficando atrás apenas do Brasil, e ocupa a nona posição a nível global. O ano de 2026 marca um recorde histórico: até agora, foram certificadas 68 novas Empresas B no país, superando todos os anos anteriores e sinalizando uma aceleração do movimento.
 
-O crescimento é impressionante quando observado ao longo do tempo. Em 2012, as primeiras duas Empresas B argentinas foram certificadas. Passaram-se oito anos até o país chegar a 100 certificações, em 2020. Depois, o ritmo acelerou: em 2023 atingiram 200, e em 2025 já alcançavam 300. O movimento não é mais marginal; representa uma transformação real na forma como o empresariado argentino entende seu papel na sociedade. Alguns exemplos recentes de empresas que ingressaram na comunidade em 2026 incluem cooperativas de trabalho compartilhado, empresas de água mineral, marcas de cosméticos naturais e laboratórios farmacêuticos.
+O crescimento é impressionante quando observado ao longo do tempo. Em 2012, as primeiras duas Empresas B argentinas foram certificadas. Passaram-se oito anos até o país chegar a 100 certificações, em 2020. Depois, o ritmo acelerou: em 2023 atingiram 200, e em 2025 já alcançavam 300. O movimento não é mais marginal; representa uma transformação real na forma como o empresariado argentino entende seu papel na sociedade. Exemplos recentes de empresas que ingressaram na comunidade em 2026 incluem cooperativas de trabalho compartilhado, empresas de água mineral, marcas de cosméticos naturais e laboratórios farmacêuticos.
 
 Por trás desse crescimento está uma rede robusta que gera impacto concreto. As 300 Empresas B argentinas estão distribuídas em 30 setores econômicos diferentes, criam mais de 47.800 postos de trabalho e movimentam cerca de 5,9 bilhões de dólares anuais. A presença geográfica é ampla: 16 territórios argentinos possuem essas empresas, embora a concentração maior esteja em Buenos Aires (124 empresas) e na província de Buenos Aires (97). Cidades do interior como Córdoba, Mendoza e Río Negro também ganham espaço nesse movimento, evidenciando que a preocupação com impacto social e ambiental não é privilégio dos grandes centros urbanos.
 
-O que define uma Empresa B vai além de uma simples declaração de intenções. Essas companhias modificam seus estatutos legais para proteger seu propósito a longo prazo e implementam processos contínuos de medição e gestão de impacto socioambiental. A certificação envolve padrões rigorosos verificados sobre práticas sociais e ambientais, transparência e responsabilidade. Segundo Marina Arias, diretora executiva de Sistema B Argentina, esse marco representa muito mais que um número: é um sinal de liderança em um movimento global que reposiciona as empresas como ferramentas para o bem-estar humano e planetário, em vez de apenas geradoras de lucro.
+O que define uma Empresa B vai além de uma simples declaração de intenções. Essas companhias modificam seus estatutos legais para proteger seu propósito a longo prazo e implementam processos contínuos de medição e gestão de impacto socioambiental. A certificação envolve padrões rigorosos verificados sobre práticas sociais e ambientais, transparência e responsabilidade. Segundo Marina Arias, diretora executiva de Sistema B Argentina, esse marco representa um sinal de liderança em um movimento global que reposiciona as empresas como ferramentas para o bem-estar humano e planetário.
 
-O fenômeno não é isolado; reflete uma mudança profunda nas expectativas dos consumidores e investidores. Pesquisas mostram que 75% dos argentinos consideram impacto social e ambiental ao comprar alimentos, e quase 70% está disposto a pagar mais por produtos sustentáveis que devolvam valor à sociedade. A nível mundial, 90% dos investidores agora leva em conta fatores ESG (Ambiental, Social e de Governança) em suas decisões, proporção que era menor antes da pandemia. Além disso, 76% dos trabalhadores prefere desenvolver carreira em empresas comprometidas com sustentabilidade. Essa demanda de mercado impulsiona empresas a adotarem modelos mais responsáveis.
+O fenômeno reflete uma mudança profunda nas expectativas dos consumidores e investidores. Pesquisas mostram que 75% dos argentinos consideram impacto social e ambiental ao comprar alimentos, e quase 70% está disposto a pagar mais por produtos sustentáveis. A nível mundial, 90% dos investidores agora leva em conta fatores ESG (Ambiental, Social e de Governança) em suas decisões, e 76% dos trabalhadores prefere desenvolver carreira em empresas comprometidas com sustentabilidade. Essa demanda de mercado impulsiona empresas a adotarem modelos mais responsáveis, mesmo em contextos econômicos desafiadores como o argentino.
 
-O contexto argentino torna o crescimento ainda mais notável. Diferentemente de países com agendas públicas explícitas de estímulo a negócios sustentáveis, a Argentina vivencia esse movimento de forma orgânica, impulsionado pela convicção e visão de futuro do setor privado, mesmo diante de uma conjuntura econômica complexa. A ferramenta de Avaliação de Impacto B, um instrumento online gratuito, já foi adotada por 12.000 organizações argentinas, permitindo que empresas analisem seu desempenho em sete áreas de impacto. Globalmente, 320.000 organizações usam essa avaliação, e o movimento B certificado conta com 11.068 empresas em 103 países, gerando mais de 1,3 milhão de empregos.
-
-O cenário internacional também favorece essa transformação. A União Europeia, por exemplo, está aplicando diretivas que exigem prestação de contas sobre impacto socioambiental de empresas que exportam para seu território ou fazem parte de suas cadeias de valor. A Certificação de Empresa B alinha-se com esses marcos regulatórios, colocando empresas argentinas em posição competitiva em mercados globais. Para Arias, o desafio agora é transformar empresas com propósito de uma exceção em uma norma, ampliando ainda mais o movimento. O fato de terem alcançado 300 certificações prova que a mudança já está em curso, abrindo oportunidades ainda maiores para expandir essa transformação.
+O contexto argentino torna o crescimento ainda mais notável, pois o movimento é impulsionado pela convicção do setor privado, sem agendas públicas explícitas de estímulo. A ferramenta de Avaliação de Impacto B, um instrumento online gratuito, já foi adotada por 12.000 organizações argentinas. Globalmente, 320.000 organizações usam essa avaliação, e o movimento B certificado conta com 11.068 empresas em 103 países, gerando mais de 1,3 milhão de empregos. Para Arias, o desafio agora é transformar empresas com propósito de uma exceção em uma norma, ampliando ainda mais esse movimento que já prova estar em curso.

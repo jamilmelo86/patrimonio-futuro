@@ -12,7 +12,7 @@ tags:
 - astronomia
 - Europa
 - fenômeno celeste
-draft: false
+draft: true
 ---
 
 Um espetáculo astronômico marcou o céu europeu com o surgimento de um eclipse solar que capturou a atenção de observadores em vários países. Na França metropolitana, a Lua mascarou parcialmente o disco solar a partir do final da tarde, criando um fenômeno celeste que intrigou entusiastas de astronomia.

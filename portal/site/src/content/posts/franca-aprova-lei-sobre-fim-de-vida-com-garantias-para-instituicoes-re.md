@@ -1,14 +1,19 @@
 ---
-titulo: "França aprova lei sobre fim de vida com garantias para instituições religiosas"
-resumo: "Corte Constitucional francesa valida direito do paciente a encerrar a vida com dignidade, respeitando liberdade de consciência de hospitais católicos."
-categoria: "saude"
+titulo: França aprova lei sobre fim de vida com garantias para instituições religiosas
+resumo: Corte Constitucional francesa valida direito do paciente a encerrar a vida com dignidade, respeitando liberdade de consciência de hospitais católicos.
+categoria: saude
 data: 2026-08-14
-fonteNome: "Le Monde"
-fonteUrl: "https://www.lemonde.fr/societe/article/2026/08/14/le-conseil-constitutionnel-valide-la-loi-sur-la-fin-de-vie-les-etablissements-catholiques-obtiennent-leur-clause-de-conscience_6746261_3224.html"
-imagem: "https://live.staticflickr.com/8019/7196672562_25ca63595e_b.jpg"
-creditoImagem: "Foto: Brett Levin Photography (BY) via Openverse"
-tags: ["fim de vida", "direitos do paciente", "França", "liberdade de consciência", "legislação"]
-draft: false
+fonteNome: Le Monde
+fonteUrl: https://www.lemonde.fr/societe/article/2026/08/14/le-conseil-constitutionnel-valide-la-loi-sur-la-fin-de-vie-les-etablissements-catholiques-obtiennent-leur-clause-de-conscience_6746261_3224.html
+imagem: https://live.staticflickr.com/8019/7196672562_25ca63595e_b.jpg
+creditoImagem: 'Foto: Brett Levin Photography (BY) via Openverse'
+tags:
+- fim de vida
+- direitos do paciente
+- França
+- liberdade de consciência
+- legislação
+draft: true
 ---
 
 A Corte Constitucional da França aprovou, em agosto, uma lei que reconhece o direito de pessoas terminais a receberem medicação letal com consentimento médico, consolidando um avanço significativo nos direitos individuais de escolha sobre o fim da vida.

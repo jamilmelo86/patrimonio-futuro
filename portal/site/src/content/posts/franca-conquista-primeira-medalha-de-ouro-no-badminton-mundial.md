@@ -12,7 +12,7 @@ tags:
 - campeonato mundial
 - dupla mista
 - França
-draft: false
+draft: true
 ---
 
 A França conquistou sua primeira medalha de ouro nos Campeonatos Mundiais de Badminton. No domingo, a dupla mista composta por Delphine Delrue e Thom Gicquel derrotou os favoritíssimos chineses Dong Ping Huang e Yan Zhe Feng, que eram os números um do ranking mundial na categoria. A vitória marca um marco histórico para o badminton francês, que havia ficado de fora das conquistas máximas apesar da tradição do país em competições internacionais.

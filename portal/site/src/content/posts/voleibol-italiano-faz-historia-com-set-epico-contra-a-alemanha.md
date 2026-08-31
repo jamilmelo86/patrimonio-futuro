@@ -1,14 +1,20 @@
 ---
-titulo: "Voleibol italiano faz história com set épico contra a Alemanha"
-resumo: "Itália e Alemanha protagonizam o set mais longo e pontuado da história do voleibol, com placar de 66-64 em quase 1h30min."
-categoria: "mundo"
+titulo: Voleibol italiano faz história com set épico contra a Alemanha
+resumo: Itália e Alemanha protagonizam o set mais longo e pontuado da história do voleibol, com placar de 66-64 em quase 1h30min.
+categoria: mundo
 data: 2026-08-26
-fonteNome: "Rai News"
-fonteUrl: "https://www.rainews.it/video/2026/08/volley-italia-germania-64-66-nel-set-fiume-nuovo-primato-mondiale-61126927-54ef-433a-bb44-5beefcaccc00.html"
-imagem: "https://live.staticflickr.com/3150/4553118035_64e7d117ed_b.jpg"
-creditoImagem: "Foto: US Army Africa (BY) via Openverse"
-tags: ["voleibol", "Itália", "Alemanha", "recorde mundial", "FIPAV Cup", "esportes"]
-draft: false
+fonteNome: Rai News
+fonteUrl: https://www.rainews.it/video/2026/08/volley-italia-germania-64-66-nel-set-fiume-nuovo-primato-mondiale-61126927-54ef-433a-bb44-5beefcaccc00.html
+imagem: https://live.staticflickr.com/3150/4553118035_64e7d117ed_b.jpg
+creditoImagem: 'Foto: US Army Africa (BY) via Openverse'
+tags:
+- voleibol
+- Itália
+- Alemanha
+- recorde mundial
+- FIPAV Cup
+- esportes
+draft: true
 ---
 
 Um dos momentos mais memoráveis do voleibol internacional acaba de ser escrito. Na disputa pelo primeiro set entre Itália e Alemanha, pela FIPAV Cup Men Elite — torneio que acontece em Reggio Calabria, no sul italiano — os dois países protagonizaram um duelo épico que resscreve os registros da modalidade. Depois de 1 hora e 29 minutos de jogo intenso, os alemães sagraram-se vitoriosos com um placar de 66-64, um resultado que reflete a igualdade e o nível técnico elevado de ambas as equipes.

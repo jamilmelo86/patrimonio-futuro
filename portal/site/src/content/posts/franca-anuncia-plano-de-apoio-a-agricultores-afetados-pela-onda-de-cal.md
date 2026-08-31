@@ -1,14 +1,19 @@
 ---
-titulo: "França anuncia plano de apoio a agricultores afetados pela onda de calor"
-resumo: "Governo francês lança programa de emergência para ajudar produtores rurais a enfrentar os efeitos da canícula que atinge 80 departamentos."
-categoria: "mundo"
+titulo: França anuncia plano de apoio a agricultores afetados pela onda de calor
+resumo: Governo francês lança programa de emergência para ajudar produtores rurais a enfrentar os efeitos da canícula que atinge 80 departamentos.
+categoria: mundo
 data: 2026-08-13
-fonteNome: "Le Monde"
-fonteUrl: "https://www.lemonde.fr/climat/live/2026/08/13/en-direct-canicule-80-departements-en-vigilance-orange-50-presentent-un-risque-eleve-aux-incendies_6744636_1652612.html"
-imagem: "https://upload.wikimedia.org/wikipedia/commons/4/4d/2050_Production_risk_of_commodities_due_to_climate_change_-_single_stressor_version.svg"
-creditoImagem: "Foto: RCraig09 (BY-SA) via Openverse"
-tags: ["agricultura", "canícula", "França", "apoio governamental", "emergência climática"]
-draft: false
+fonteNome: Le Monde
+fonteUrl: https://www.lemonde.fr/climat/live/2026/08/13/en-direct-canicule-80-departements-en-vigilance-orange-50-presentent-un-risque-eleve-aux-incendies_6744636_1652612.html
+imagem: https://upload.wikimedia.org/wikipedia/commons/4/4d/2050_Production_risk_of_commodities_due_to_climate_change_-_single_stressor_version.svg
+creditoImagem: 'Foto: RCraig09 (BY-SA) via Openverse'
+tags:
+- agricultura
+- canícula
+- França
+- apoio governamental
+- emergência climática
+draft: true
 ---
 
 A França está colocando em prática um plano de assistência emergencial para agricultores que sofrem com as temperaturas extremamente altas que castigam o país neste período. O programa foi anunciado pela ministra da Transição Ecológica e deve ser implementado integralmente até o final do mês.

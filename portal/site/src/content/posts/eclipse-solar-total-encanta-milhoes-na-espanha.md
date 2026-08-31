@@ -1,14 +1,19 @@
 ---
-titulo: "Eclipse solar total encanta milhões na Espanha"
-resumo: "Fenômeno astronômico raro toma conta do céu espanhol e atrai multidões para acompanhar ao vivo o espetáculo da natureza."
-categoria: "ciencia"
+titulo: Eclipse solar total encanta milhões na Espanha
+resumo: Fenômeno astronômico raro toma conta do céu espanhol e atrai multidões para acompanhar ao vivo o espetáculo da natureza.
+categoria: ciencia
 data: 2026-08-12
-fonteNome: "La Vanguardia"
-fonteUrl: "https://www.lavanguardia.com/vida/20260812/11612816/eclipse-total-sol-espana-12-agosto-ultima-hora-hoy-en-directo.html"
-imagem: "https://images-assets.nasa.gov/image/PIA21957/PIA21957~small.jpg"
-creditoImagem: "Imagem: NASA/JPL-Caltech (domínio público)"
-tags: ["eclipse solar", "astronomia", "Espanha", "fenômeno astronômico", "céu"]
-draft: false
+fonteNome: La Vanguardia
+fonteUrl: https://www.lavanguardia.com/vida/20260812/11612816/eclipse-total-sol-espana-12-agosto-ultima-hora-hoy-en-directo.html
+imagem: https://images-assets.nasa.gov/image/PIA21957/PIA21957~small.jpg
+creditoImagem: 'Imagem: NASA/JPL-Caltech (domínio público)'
+tags:
+- eclipse solar
+- astronomia
+- Espanha
+- fenômeno astronômico
+- céu
+draft: true
 ---
 
 Um eclipse solar total transformou o céu da Espanha em palco de um dos fenômenos astronômicos mais impressionantes da natureza. Milhares de pessoas de todo o país interromperam suas rotinas para testemunhar o momento em que a Lua se posiciona diante do Sol, bloqueando completamente a luz solar e criando um efeito visual único e fascinante.

@@ -11,7 +11,7 @@ tags:
 - infraestrutura
 - Europa
 - adaptação climática
-draft: false
+draft: true
 imagem: https://live.staticflickr.com/65535/52012771170_da03cf1b21_b.jpg
 creditoImagem: 'Foto: Jean-Michel Priaux (BY) via Openverse'
 ---
