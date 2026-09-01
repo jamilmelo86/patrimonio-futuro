@@ -12,7 +12,7 @@ tags:
 - França
 - exploração espacial
 - mulheres na ciência
-draft: false
+draft: true
 ---
 
 A astronauta francesa Sophie Adenot está prestes a fazer história ao se tornar a primeira cidadã francesa a realizar uma caminhada espacial. O feito marca um momento significativo para a exploração espacial europeia e demonstra o avanço da participação feminina em missões de alto risco fora do planeta.

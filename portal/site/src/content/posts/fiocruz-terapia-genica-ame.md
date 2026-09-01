@@ -11,7 +11,7 @@ tags:
 - Fiocruz
 - medicina
 - inovação
-draft: false
+draft: true
 imagem: https://live.staticflickr.com/4132/4968163345_107c1c7f64.jpg
 creditoImagem: 'Foto: U.S. Army Combat Capabilities Development Command (BY) via Openverse'
 ---
