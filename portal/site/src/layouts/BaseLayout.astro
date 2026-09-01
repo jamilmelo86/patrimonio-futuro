@@ -30,6 +30,9 @@ const ogImage = image ? new URL(image, SITE.url).href : undefined;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {SITE.googleSiteVerification && (
+      <meta name="google-site-verification" content={SITE.googleSiteVerification} />
+    )}
 
     <!-- Tipografia editorial: Fraunces (títulos, serifada moderna) + Inter (texto) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />

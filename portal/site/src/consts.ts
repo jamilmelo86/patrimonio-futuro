@@ -29,6 +29,8 @@ export const SITE = {
    * aqui. Nada mais precisa mudar — o site já injeta o script quando há token.
    */
   cfAnalyticsToken: "5bea0471692748fba5036aa58f7bbe40",
+  /** Código de verificação do Google Search Console (meta tag). Vazio = nenhum. */
+  googleSiteVerification: "EVR5uLDmgkyAJuuOgOv4qfpDQFfhrRpCS-gYIZrqPnE",
 } as const;
 
 export type Categoria = {
