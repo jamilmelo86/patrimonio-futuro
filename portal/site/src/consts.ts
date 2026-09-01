@@ -28,7 +28,7 @@ export const SITE = {
    * → oladobom.com.br. Copie o valor de `data-cf-beacon` "token" (32 hex) e cole
    * aqui. Nada mais precisa mudar — o site já injeta o script quando há token.
    */
-  cfAnalyticsToken: "",
+  cfAnalyticsToken: "5bea0471692748fba5036aa58f7bbe40",
 } as const;
 
 export type Categoria = {
