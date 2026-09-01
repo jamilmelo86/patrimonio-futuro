@@ -69,6 +69,15 @@ const ogImage = image ? new URL(image, SITE.url).href : undefined;
       ></script>
     )}
 
+    {SITE.cfAnalyticsToken && (
+      <script
+        defer
+        is:inline
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon={`{"token": "${SITE.cfAnalyticsToken}"}`}
+      ></script>
+    )}
+
     <!-- Netlify Identity: necessário para o painel /admin (login e definição de senha
          via link de convite/recuperação que chega por e-mail). -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" is:inline></script>

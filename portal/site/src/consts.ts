@@ -22,6 +22,13 @@ export const SITE = {
   },
   /** ID do AdSense (ca-pub-XXXX). Vazio = anúncios desligados. */
   adsenseClient: "ca-pub-1125789866460980",
+  /**
+   * Token do Cloudflare Web Analytics (grátis, sem cookies). Vazio = desligado.
+   * Como obter: cloudflare.com → conta grátis → "Web Analytics" → "Add a site"
+   * → oladobom.com.br. Copie o valor de `data-cf-beacon` "token" (32 hex) e cole
+   * aqui. Nada mais precisa mudar — o site já injeta o script quando há token.
+   */
+  cfAnalyticsToken: "",
 } as const;
 
 export type Categoria = {
