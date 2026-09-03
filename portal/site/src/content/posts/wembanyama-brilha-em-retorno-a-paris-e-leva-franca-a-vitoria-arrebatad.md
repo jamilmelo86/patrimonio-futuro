@@ -1,7 +1,7 @@
 ---
 titulo: Wembanyama brilha em retorno a Paris e leva França à vitória arrebatadora no basquete
 resumo: Estrela do basquete francês entrega performance memorável e lidera seleção a goleada sobre Eslovênia (92-67) em qualificatória para Copa do Mundo 2027.
-categoria: superacao
+categoria: tecnologia
 data: 2026-08-28
 fonteNome: Le Monde
 fonteUrl: https://www.lemonde.fr/sport/article/2026/08/28/victor-wembanyama-reussit-ses-retrouvailles-avec-le-public-parisien-en-guidant-les-bleus-vers-un-large-succes_6758670_3242.html
@@ -12,7 +12,7 @@ tags:
 - França
 - Wembanyama
 - Copa do Mundo 2027
-- Bercy
+- qualificatória
 draft: false
 ---
 
@@ -24,4 +24,4 @@ O contexto dessa vitória é especialmente relevante para o basquete francês. A
 
 Para Wembanyama, esse desempenho em casa carrega significado particular. Atuar diante de sua gente, na arena onde cresceu como atleta, e fazer isso com a responsabilidade de capitão, representa uma maturidade conquistada ao longo de sua carreira ascendente. A atuação demonstrou que o craque não apenas carrega o peso da liderança, mas prospera sob essa pressão.
 
-O confronto reafirmou a qualidade do basquete europeu e a competitividade das qualificatórias. A vitória francesa coloca o país em trajetória favorável e oferece confiança para os próximos compromissos na busca pela vaga no mundial. O que fica dessa noite em Bercy é a confirmação de que a França possui tanto talentos individuais de nível internacional quanto a capacidade de integrá-los em um coletivo vencedor.
+O confronto reafirmou a qualidade do basquete europeu e a competitividade das qualificatórias. A vitória francesa coloca o país em trajetória favorável para os próximos compromissos na busca pela vaga no mundial. O que fica dessa noite em Bercy é a confirmação de que a França possui tanto talentos individuais de nível internacional quanto a capacidade de integrá-los em um coletivo vencedor.
