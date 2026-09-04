@@ -1,0 +1,26 @@
+---
+titulo: "Salmão ameaçado retorna aos rios da Califórnia em números recorde"
+resumo: "Após duas décadas de declínio, 30 mil salmões coho voltaram aos rios da costa central californiana em uma única estação—dez vezes acima da média dos últimos dez anos."
+categoria: "meio-ambiente"
+data: 2026-09-04
+fonteNome: "Good News Network"
+fonteUrl: "https://www.goodnewsnetwork.org/endangered-salmon-return-to-california-rivers-in-incredible-numbers-everybodys-just-ecstatic/"
+imagem: "https://live.staticflickr.com/2664/3825008839_2f54a6ea15_b.jpg"
+creditoImagem: "Foto: davidgsteadman (PDM) via Openverse"
+tags: ["salmão", "conservação", "restauração de habitat", "califórnia", "recuperação ambiental", "coho"]
+draft: false
+---
+
+Uma recuperação que parecia impossível está acontecendo nos rios da Califórnia central. Trinta mil salmões coho retornaram às águas que descem até a costa de Mendocino na última estação de desova, um número tão extraordinário que supera em dez vezes a média dos últimos dez anos e dobra o total de apenas um ano atrás. Para os cientistas que acompanham esses animais há décadas, o feito representa um milagre que muitos jamais esperaram presenciar em suas carreiras.
+
+O salmão coho da costa central da Califórnia (CCCC, em inglês) é a subespécie mais ameaçada entre os cohos, e por muitos anos sua existência naqueles rios tornou-se apenas uma lembrança distante. Antes do novo milênio, essas populações já estavam à beira do colapso, pressionadas pela destruição de habitats, pela poluição e pelas barreiras criadas pela atividade humana. Em muitos cursos d'água, o peixe havia praticamente desaparecido. O ressurgimento atual marca uma virada dramática nessa trajetória de declínio.
+
+A virada começou quando a Administração Nacional Oceânica e Atmosférica (NOAA, na sigla em inglês) reuniu uma coalizão ampla de parceiros locais, incluindo agências ambientais, comunidades indígenas, organizações de conservação como a The Nature Conservancy, empresas de madeira e grupos de pescadores, para trabalhar juntos em mais de cem pequenos projetos de melhoria nos sistemas de rios costeiros de Mendocino. Esses esforços, que se estendem por mais de duas décadas, focaram em devolver aos rios as condições ideais para que o salmão coho pudesse prosperar novamente.
+
+As intervenções foram precisas e bem pensadas. Equipes removeram e alteraram estruturas que prejudicavam os peixes, como galerias de drenagem subdimensionadas nas estradas que bloqueavam a passagem dos animais. Barreiras naturais e artificiais, como acúmulos de troncos, foram removidas dos leitos. Rios que haviam sido canalizados e endireitados por décadas foram devolvidos ao seu estado natural, com meandros e depressões que oferecem abrigo e alimento às diferentes fases da vida do salmão. O maior projeto de restauração de habitat já realizado ocorreu no verão passado na bacia do Ten Mile, uma parceria entre NOAA e The Nature Conservancy que abriu novas possibilidades para esses peixes.
+
+O que impressiona não é apenas a quantidade de salmões que retornaram, mas também a velocidade e a abrangência com que reocuparam seus antigos territórios. O Usal Creek não havia visto um salmão coho adulto vivo em dez anos; a bacia do Rio Gualala não registrava nenhum há duas décadas. Agora ambos os locais recebem migrações de adultos subindo rio acima e juveniles descendo em direção ao oceano. Em rios como o North Fork Navarro, os números preliminares apontam cerca de 400 peixes, muito acima das estimativas normais. "É incrível ver com que rapidez os cohos ocupam novos habitats. Apenas dias após os escavadeiras saírem, os peixes já começam a nadar para dentro", conta um especialista em restauração costeira.
+
+O otimismo entre os pesquisadores e gestores é palpável. Joe Pecharich, especialista em habitats marinhos da NOAA que apoiou projetos de restauração na região por vinte anos, expressou sua alegria com as descobertas recentes, reconhecendo que nunca imaginou testemunhar algo assim durante sua carreira. Para Joshua Fuller, supervisor da Divisão de Califórnia Costeira da NOAA, o sucesso demonstra uma lição fundamental: recuperar salmões é desafiador, especialmente para uma espécie que precisa navegar com sucesso tanto em ecossistemas de água doce quanto no oceano durante sua vida. Porém, quando gestão adequada, restauração de habitats, condições oceânicas favoráveis e ciclos hidrológicos se alinham, a recuperação é não apenas possível, mas notavelmente rápida.
+
+Este ressurgimento oferece esperança não apenas para o salmão coho, mas para toda a filosofia de conservação que fundamenta o projeto. Mostra que decisões tomadas há vinte anos para proteger e restaurar habitats naturais podem gerar resultados tangíveis e transformadores. As primeiras contagens da primavera sugerem que os números continuarão robustos, indicando que o que ocorreu não foi um pico isolado, mas o início de uma tendência de recuperação sustentável. Para as comunidades costeiras, as tribos indígenas e os conservacionistas que dedicaram tempo e recursos a esse esforço coletivo, a volta do salmão coho representa muito mais do que números crescentes: representa a possibilidade de reverter décadas de degradação ambiental quando há vontade política, cooperação e investimento consistente.
