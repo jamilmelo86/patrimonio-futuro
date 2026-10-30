@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://oladobom.com.br/sitemap-index.xml
